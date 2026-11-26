@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "fieldframe:ender_alloy_fluid"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "fieldframe:ender_alloy_fluid"
+      }
+    ]
+  }
+}

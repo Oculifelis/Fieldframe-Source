@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WSW",
+    "SBS",
+    "WSW"
+  ],
+  "key": {
+    "W": "#minecraft:wool",
+    "S": "minecraft:stick",
+    "B": "fieldframe:blank_module"
+  },
+  "result": {
+    "id": "fieldframe:wind_rotor"
+  }
+}

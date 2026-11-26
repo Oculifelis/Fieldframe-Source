@@ -1,0 +1,23 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:sawing",
+  "inputs": [
+    {
+      "ingredient": "#minecraft:planks",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:stick",
+      "count": 3
+    },
+    {
+      "id": "fieldframe:sawdust",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "duration": 40,
+  "energy": 8
+}

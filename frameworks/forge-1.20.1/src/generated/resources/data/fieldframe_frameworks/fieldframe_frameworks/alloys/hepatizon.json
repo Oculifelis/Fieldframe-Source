@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:infuscolium",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:steel",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:hepatizon",
+    "amount": 288
+  }
+}

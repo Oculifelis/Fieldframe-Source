@@ -1,0 +1,20 @@
+{
+  "type": "fieldframe:mixing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:redstone",
+      "count": 4
+    }
+  ],
+  "results": [],
+  "duration": 60,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  },
+  "fluid_result": {
+    "fluid": "fieldframe:liquid_redstone",
+    "amount": 500
+  }
+}

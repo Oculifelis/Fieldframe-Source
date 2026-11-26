@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GCG",
+    "CDC",
+    "GCG"
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "C": "fieldframe_frameworks:frame_casing",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "fieldframe_frameworks:frame_core"
+  }
+}

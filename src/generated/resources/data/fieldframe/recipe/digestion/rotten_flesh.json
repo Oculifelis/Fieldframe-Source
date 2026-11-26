@@ -1,0 +1,27 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:digestion",
+  "inputs": [
+    {
+      "ingredient": "minecraft:rotten_flesh",
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:compost",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "duration": 100,
+  "energy": 10,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  },
+  "fluid_result": {
+    "fluid": "fieldframe:biogas",
+    "amount": 200
+  }
+}

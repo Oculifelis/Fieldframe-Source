@@ -1,0 +1,20 @@
+{
+  "type": "fieldframe:mixing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:blaze_powder",
+      "count": 1
+    }
+  ],
+  "results": [],
+  "duration": 60,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "minecraft:lava",
+    "amount": 250
+  },
+  "fluid_result": {
+    "fluid": "fieldframe:blazing_fluid",
+    "amount": 500
+  }
+}

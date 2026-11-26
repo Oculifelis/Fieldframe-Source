@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "category": "fieldframe:routing",
+  "title": "Neighbours, Not Networks",
+  "icon": "minecraft:chest",
+  "sort": 20,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "A port only talks to the single block it touches. Two chassis side by side exchange items when one face has an **active** port and the touching face has a **passive** port: each chassis stays an independent machine with its own lanes.\n\nIf a neighbour's chunk is not loaded, the port reports **NEIGHBOR_UNLOADED** and waits. Fieldframe never loads chunks to keep a machine running."
+    },
+    {
+      "type": "fieldframe:warning",
+      "text": "Two **active** ports facing each other both work, but they compete for the same items. Prefer one active and one passive face for a predictable chain."
+    }
+  ],
+  "related": ["fieldframe:routing/lanes_and_ports"]
+}

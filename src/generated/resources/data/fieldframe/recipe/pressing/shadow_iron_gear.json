@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:pressing",
+  "inputs": [
+    {
+      "ingredient": "#c:ingots/shadow_iron",
+      "count": 4
+    },
+    {
+      "ingredient": "fieldframe:gear_die",
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:shadow_iron_gear",
+      "count": 1
+    }
+  ],
+  "duration": 120,
+  "energy": 32
+}

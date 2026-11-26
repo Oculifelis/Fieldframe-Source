@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ICI",
+    "CUC",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "U": {
+      "item": "fieldframe:storage_upgrade"
+    }
+  },
+  "result": {
+    "id": "fieldframe_frameworks:frame_vault"
+  }
+}

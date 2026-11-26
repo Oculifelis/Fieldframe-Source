@@ -1,0 +1,21 @@
+{
+  "type": "fieldframe:mixing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:gray_concrete_powder",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:gray_concrete",
+      "count": 1
+    }
+  ],
+  "duration": 40,
+  "energy": 10,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  }
+}

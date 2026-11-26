@@ -1,0 +1,39 @@
+{
+  "fuels": [
+    {
+      "engine": "fieldframe:fluid_engine",
+      "fluid": "minecraft:lava",
+      "rf_per_mb": 50
+    },
+    {
+      "engine": "fieldframe:fluid_engine",
+      "fluid": "fieldframe:creosote",
+      "rf_per_mb": 20
+    },
+    {
+      "engine": "fieldframe:fluid_engine",
+      "fluid": "fieldframe:tree_sap",
+      "rf_per_mb": 10
+    },
+    {
+      "engine": "fieldframe:fluid_engine",
+      "fluid": "fieldframe:refined_oil",
+      "rf_per_mb": 200
+    },
+    {
+      "engine": "fieldframe:fluid_engine",
+      "fluid": "fieldframe:liquid_coal",
+      "rf_per_mb": 120
+    },
+    {
+      "engine": "fieldframe:fluid_engine",
+      "fluid": "fieldframe:blazing_fluid",
+      "rf_per_mb": 120
+    },
+    {
+      "engine": "fieldframe:fluid_engine",
+      "fluid": "fieldframe:biogas",
+      "rf_per_mb": 40
+    }
+  ]
+}

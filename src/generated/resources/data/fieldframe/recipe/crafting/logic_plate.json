@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:repeater",
+    "minecraft:redstone_torch"
+  ],
+  "result": {
+    "id": "fieldframe:logic_plate"
+  }
+}

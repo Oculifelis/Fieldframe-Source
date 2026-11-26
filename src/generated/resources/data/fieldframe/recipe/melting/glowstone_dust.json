@@ -1,0 +1,17 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": "minecraft:glowstone_dust",
+      "count": 1
+    }
+  ],
+  "results": [],
+  "duration": 120,
+  "energy": 40,
+  "fluid_result": {
+    "fluid": "fieldframe:liquid_glowstone",
+    "amount": 100
+  }
+}

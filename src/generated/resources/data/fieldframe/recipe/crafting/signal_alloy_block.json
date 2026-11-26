@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/signal_alloy"
+  },
+  "result": {
+    "id": "fieldframe:signal_alloy_block"
+  }
+}

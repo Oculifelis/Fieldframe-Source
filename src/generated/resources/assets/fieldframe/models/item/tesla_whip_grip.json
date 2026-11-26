@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "fieldframe:item/tesla_whip_grip"
+  }
+}

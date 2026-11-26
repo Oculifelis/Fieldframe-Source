@@ -1,0 +1,280 @@
+{
+  "machine.install": {
+    "sounds": [
+      {
+        "name": "fieldframe:machine/install_1",
+        "volume": 0.8
+      },
+      {
+        "name": "fieldframe:machine/install_2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.machine.install"
+  },
+  "machine.remove": {
+    "sounds": [
+      {
+        "name": "fieldframe:machine/remove_1",
+        "volume": 0.8
+      },
+      {
+        "name": "fieldframe:machine/remove_2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.machine.remove"
+  },
+  "machine.upgrade": {
+    "sounds": [
+      {
+        "name": "fieldframe:machine/upgrade_1",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.machine.upgrade"
+  },
+  "machine.tier_up": {
+    "sounds": [
+      {
+        "name": "fieldframe:machine/tier_up_1",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.machine.tier_up"
+  },
+  "module.heat": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/heat_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/heat_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.heat"
+  },
+  "module.engine": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/engine_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/engine_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.engine"
+  },
+  "module.grind": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/grind_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/grind_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.grind"
+  },
+  "module.saw": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/saw_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/saw_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.saw"
+  },
+  "module.press": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/press_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/press_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.press"
+  },
+  "module.fluid": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/fluid_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/fluid_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.fluid"
+  },
+  "module.brew": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/brew_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/brew_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.brew"
+  },
+  "module.charge": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/charge_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/charge_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.charge"
+  },
+  "module.enchant": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/enchant_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/enchant_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.enchant"
+  },
+  "module.grow": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/grow_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/grow_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.grow"
+  },
+  "module.water": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/water_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/water_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.water"
+  },
+  "module.crystal": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/crystal_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/crystal_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.crystal"
+  },
+  "module.chill": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/chill_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/chill_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.chill"
+  },
+  "module.turbine": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/turbine_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/turbine_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.turbine"
+  },
+  "module.wind": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/wind_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/wind_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.wind"
+  },
+  "module.storm": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/storm_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/storm_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.storm"
+  },
+  "module.blast": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/blast_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/blast_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.blast"
+  },
+  "module.cell": {
+    "sounds": [
+      {
+        "name": "fieldframe:module/cell_1",
+        "volume": 0.5
+      },
+      {
+        "name": "fieldframe:module/cell_2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fieldframe.module.cell"
+  }
+}

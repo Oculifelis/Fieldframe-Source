@@ -1,0 +1,10 @@
+Classic textures in Fieldframe
+
+(The EnderTech textures that used to be here are not shipped any more; see shared-classic-nc/NOTICE.txt.)
+
+FLORA textures (fluid armor, Armor Infuser face, effect fluids)
+  Art by Blorph for FLORA by pixlepix (Adly Templeton); FLORA Reborn by dmf444.
+  https://github.com/dmf444/FLORA @ f06da19. The CurseForge project pages state the MIT License;
+  the repositories carry no license file. Fluid animation strips were re-laid from horizontal to vertical frames.
+
+A build without these textures: ./gradlew build -PnoClassicTextures

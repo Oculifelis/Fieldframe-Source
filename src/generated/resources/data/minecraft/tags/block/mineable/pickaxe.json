@@ -1,0 +1,19 @@
+{
+  "values": [
+    "fieldframe:chassis",
+    "fieldframe:charge_pad_redstone",
+    "fieldframe:charge_pad_resonant",
+    "fieldframe:charge_pad_creative",
+    "fieldframe:health_pad_redstone",
+    "fieldframe:health_pad_resonant",
+    "fieldframe:health_pad_creative",
+    "fieldframe:ender_tank_frame",
+    "fieldframe:ender_tank_glass",
+    "fieldframe:ender_tank_valve",
+    "fieldframe:ender_tank_energy_input",
+    "fieldframe:ender_tank_controller",
+    "fieldframe:signal_alloy_block",
+    "fieldframe:lumen_alloy_block",
+    "fieldframe:ender_alloy_block"
+  ]
+}

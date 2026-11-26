@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "fieldframe:ender_tank_controller"
+    },
+    "title": {
+      "translate": "advancements.fieldframe.ender_tank.title"
+    },
+    "description": {
+      "translate": "advancements.fieldframe.ender_tank.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fieldframe:it_works"
+}

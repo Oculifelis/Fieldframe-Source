@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/ender_alloy"
+  },
+  "result": {
+    "id": "fieldframe:ender_alloy_block"
+  }
+}

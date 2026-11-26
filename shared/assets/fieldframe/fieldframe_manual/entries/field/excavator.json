@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "category": "fieldframe:field",
+  "title": "Hydraulic Excavator",
+  "icon": "fieldframe:hydraulic_excavator",
+  "sort": 20,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "The **Hydraulic Excavator** works a square patch layer by layer, starting at its face. Mount it on the **bottom** face to dig down, or on a side to tunnel. Set the size with **radius** (0 = one block wide, 4 = nine) and **depth** (up to 32 layers)."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Needs",
+        "Per block (default)"
+      ],
+      "rows": [
+        [
+          "RF from the chassis buffer",
+          "240 RF"
+        ],
+        [
+          "Working fluid (water) in its fluid binding",
+          "100 mB (lost as spray)"
+        ],
+        [
+          "A tool in its tool lane",
+          "takes normal durability"
+        ],
+        [
+          "Room in its output lane",
+          "drops wait as OUTPUT_PENDING"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "With **preview** on, green sparks mark the corners of the first and last layer. The work position is saved with the world, so a reload never digs a block twice or loses its drops. Air, fluids and block entities are skipped. At a protected or unbreakable block the excavator **stops** with a fault on its **fault** channel (ch 8) and waits for you. When the area is finished it drives **done** (ch 7). Change the **job** number to start the same area again."
+    },
+    {
+      "type": "fieldframe:module_spec",
+      "module": "fieldframe:hydraulic_excavator"
+    }
+  ],
+  "related": [
+    "fieldframe:field/world_modules",
+    "fieldframe:fluids/reservoirs"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:ingots/lumen_alloy"
+  ],
+  "result": {
+    "id": "fieldframe:lumen_alloy_nugget",
+    "count": 9
+  }
+}

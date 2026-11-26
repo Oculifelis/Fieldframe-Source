@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:clock"
+  ],
+  "result": {
+    "id": "fieldframe:timer_counter_plate"
+  }
+}

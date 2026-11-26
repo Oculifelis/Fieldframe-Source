@@ -1,0 +1,26 @@
+{
+  "effects": [
+    {
+      "fluid": "minecraft:water",
+      "effect": "minecraft:water_breathing"
+    },
+    {
+      "fluid": "minecraft:water",
+      "effect": "minecraft:dolphins_grace",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "minecraft:lava",
+      "effect": "minecraft:fire_resistance"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "effect": "minecraft:strength",
+      "min_mb": 16000
+    },
+    {
+      "fluid": "neoforge:milk",
+      "effect": "fieldframe:cleanse"
+    }
+  ]
+}

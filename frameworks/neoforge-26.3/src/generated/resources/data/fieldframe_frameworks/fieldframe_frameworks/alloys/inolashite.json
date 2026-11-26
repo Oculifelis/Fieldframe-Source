@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:alduorite",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:ceruclase",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:inolashite",
+    "amount": 288
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "item": "#c:ingots/infuscolium",
+      "count": 1
+    },
+    {
+      "item": "#c:ingots/iron",
+      "count": 1
+    },
+    {
+      "item": "#minecraft:coals",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "metallurgy:hepatizon_ingot",
+    "count": 2
+  }
+}

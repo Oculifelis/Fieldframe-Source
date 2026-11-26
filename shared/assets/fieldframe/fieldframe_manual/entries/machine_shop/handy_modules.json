@@ -1,0 +1,23 @@
+{
+  "format": 1,
+  "category": "fieldframe:machine_shop",
+  "title": "Handy Modules",
+  "icon": "fieldframe:storage_sorter",
+  "sort": 60,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Storage Sorter.** Moves items that match its filter from one of the machine's storages to another, up to 8 a tick: coke from Green to Purple so an engine burns what the Pyrolyzer made, or ore from Green back to Orange. It never moves anything out of the machine.\n\n**Tag Unifier.** Ingots, nuggets, dusts, plates, gears and gems from different mods become the one your pack prefers: Metallurgy's first, then vanilla's, then Fieldframe's. Set its \"preferred\" text to change the order for that module (\"thermal, minecraft\"); items that are not in such a tag pass through unless you switch that off. 20 RF per item."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Tool Repairer.** Mends damaged tools and armour from **Orange storage** with liquid experience from the **Orange tank**: one point of experience (20 mB) repairs 2 durability, like Mending. Finished items go to **Green storage**. An Experience Collector on the same machine keeps it supplied.\n\n**Mob Grinder.** Attacks up to three mobs in front of it every second with the weapon in **Purple storage**: Sharpness, Looting and Fire Aspect work and the weapon wears. Drops are picked up into **Green storage** and experience into a tank you choose. It never attacks players or tamed animals, and named mobs only when you allow it. 60 RF a swing."
+    }
+  ],
+  "related": [
+    "fieldframe:modules/storage_sorter",
+    "fieldframe:modules/tag_unifier",
+    "fieldframe:modules/tool_repairer",
+    "fieldframe:modules/mob_grinder"
+  ]
+}

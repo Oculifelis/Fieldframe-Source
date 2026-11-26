@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "EHE",
+    " C ",
+    " K "
+  ],
+  "key": {
+    "E": "fieldframe:ender_alloy_ingot",
+    "H": "minecraft:tripwire_hook",
+    "C": "fieldframe:cell_upgrade",
+    "K": "minecraft:iron_chain"
+  },
+  "result": {
+    "id": "fieldframe:graviton_hook"
+  }
+}

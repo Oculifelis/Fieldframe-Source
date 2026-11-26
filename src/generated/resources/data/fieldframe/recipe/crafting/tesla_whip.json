@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "equipment",
+  "input": "fieldframe:arc_whip",
+  "material": "fieldframe:reinforced_upgrade_kit",
+  "result": {
+    "id": "fieldframe:tesla_whip"
+  }
+}

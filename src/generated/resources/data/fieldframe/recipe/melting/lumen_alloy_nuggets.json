@@ -1,0 +1,16 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": "#c:nuggets/lumen_alloy",
+      "count": 1
+    }
+  ],
+  "fluid_result": {
+    "fluid": "fieldframe:molten_lumen_alloy",
+    "amount": 16
+  },
+  "duration": 40,
+  "energy": 32
+}

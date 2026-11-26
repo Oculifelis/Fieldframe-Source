@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "category": "fieldframe:control",
+  "title": "The Controller Plate",
+  "icon": "fieldframe:controller_plate",
+  "sort": 20,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "The **Controller Plate** runs a short rule program once per tick. Each rule reads the machine and acts on control channels, registers or its own state. You never need it for ordinary machines: ports, sensors and logic plates cover most needs. Use the configurator's **Edit program** button to write rules."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": ["You can test", "Example"],
+      "rows": [
+        ["items in a lane", "item b >= 16   or   item a < 50%"],
+        ["fluid in a reservoir", "fluid a < 1000"],
+        ["stored RF", "power >= 25%   or   power > 5000"],
+        ["a channel", "ch 3 > 0   rise ch 3   fall ch 3"],
+        ["a register", "batch >= 8"],
+        ["the state", "state == drain"],
+        ["combinations", "a and b or c   not ch 1 > 0   always"]
+      ]
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": ["You can do", "Example"],
+      "rows": [
+        ["drive a channel", "set ch 5 = 15   pulse ch 6"],
+        ["change a register", "inc batch   dec batch   reset batch   batch = 3"],
+        ["change state", "goto drain"]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**How a tick works.** All rules read the same snapshot taken when the tick starts, every matching rule fires in order, and the results apply together afterwards. If two rules set the same register or state, the **higher rule wins**. If two rules drive a channel, the **highest value** wins. Channels you drive are seen by other modules next tick. Registers stop at about plus or minus two billion instead of wrapping.\n\n**Limits:** 32 rules, 8 registers, 16 states, 256 operations per tick. A program that breaks a limit or has a typo shows **PARSE_ERROR** with the line number and does nothing."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Example: batch filling.**\nstates fill, drain\nreg batches\nin fill: when fluid a < 1000 then set ch 1 = 15\nin fill: when rise ch 3 then inc batches\nin fill: when batches >= 8 then goto drain, reset batches\nin drain: when fluid a == 0 then goto fill\nin drain: when always then set ch 4 = 15\n\n**Pause and step:** set **paused** on to stop the program (only this plate stops); each click on **step** runs exactly one tick. The trace view (T) shows which lines fired and state changes."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Program Cards** carry a program from one machine to another. Sneak-use a card on a Controller Plate to copy its program, then use it on another Controller Plate to paste it (only the machine's owner or an op can paste). Sneak-use the card in the air to wipe it. Craft two from paper, redstone and a copper ingot."
+    },
+    {
+      "type": "fieldframe:test_bench",
+      "text": "**Live demo.** The default program keeps the RF buffer between 25% and 75% by driving channel 5, which enables the Fuel Engine. Watch the RF graph saw between the limits.",
+      "speed": 10,
+      "scenario": {
+        "energy": 0,
+        "modules": {
+          "front": {"module": "fieldframe:controller_plate"},
+          "bottom": {"module": "fieldframe:fuel_engine", "bindings": {"enable": 4}},
+          "top": {"module": "fieldframe:heater"}
+        },
+        "lanes": {"A": [["minecraft:coal", 8], ["minecraft:raw_iron", 64]]},
+        "fuels": {"minecraft:coal": 1600},
+        "recipes": [{"family": "fieldframe:heating", "input": "minecraft:raw_iron", "output": "minecraft:iron_ingot", "duration": 100, "energy": 20}]
+      }
+    }
+  ],
+  "related": ["fieldframe:control/channels", "fieldframe:modules/controller_plate"]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CLC",
+    "GBG",
+    "CLC"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "L": "minecraft:lightning_rod",
+    "G": "minecraft:gold_ingot",
+    "B": "fieldframe:blank_module"
+  },
+  "result": {
+    "id": "fieldframe:storm_coil"
+  }
+}

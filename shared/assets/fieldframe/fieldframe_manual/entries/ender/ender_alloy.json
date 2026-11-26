@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "category": "fieldframe:ender",
+  "title": "Ender Alloy and Tools",
+  "icon": "fieldframe:ender_alloy_ingot",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Ender Alloy** is made in a **Mixer**: 1 gold ingot + 2 ender pearls with 250 mB of lava. It is the shared late-game material of Ender Engineering and Fluid Armor."
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:mixing"
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "The **Exchanger** swaps blocks without breaking a whole area by hand. Sneak-use a block to choose the replacement, then use a block of the kind you want to replace. Matching, exposed blocks are swapped ring by ring on the clicked face, one ring every half second, out to the radius (**=** and **-** keys, sneak for max/min, 1 to 8).\n\nEach swap costs 2,048 to 16,384 RF from the tool, depending on ring and hardness. It uses one replacement block from your inventory and puts the old block (silk-touched when possible) into it. It stops when RF, blocks or inventory space run out. Protected blocks are skipped."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Exchanger",
+        "RF stored",
+        "Charge rate"
+      ],
+      "rows": [
+        [
+          "Redstone",
+          "2,000,000",
+          "2,000 RF/t"
+        ],
+        [
+          "Resonant",
+          "10,000,000",
+          "20,000 RF/t"
+        ],
+        [
+          "Creative",
+          "infinite",
+          "-"
+        ]
+      ]
+    }
+  ],
+  "related": [
+    "fieldframe:ender/pads",
+    "fieldframe:ender/tank"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LPW",
+    "IBI",
+    "CCC"
+  ],
+  "key": {
+    "L": "minecraft:lava_bucket",
+    "P": "minecraft:piston",
+    "W": "minecraft:water_bucket",
+    "I": "minecraft:iron_ingot",
+    "B": "fieldframe:blank_module",
+    "C": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "fieldframe:stone_extruder"
+  }
+}

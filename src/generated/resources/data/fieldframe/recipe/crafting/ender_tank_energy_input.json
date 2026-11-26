@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ICI",
+    "EFE",
+    "IPI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "C": "fieldframe:cell_upgrade",
+    "E": "minecraft:ender_pearl",
+    "F": "fieldframe:ender_tank_frame",
+    "P": "fieldframe:power_terminal"
+  },
+  "result": {
+    "id": "fieldframe:ender_tank_energy_input"
+  }
+}

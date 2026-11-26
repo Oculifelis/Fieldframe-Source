@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:hopper"
+  ],
+  "result": {
+    "id": "fieldframe:item_port"
+  }
+}

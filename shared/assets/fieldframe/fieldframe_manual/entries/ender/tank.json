@@ -1,0 +1,20 @@
+{
+  "format": 1,
+  "category": "fieldframe:ender",
+  "title": "Ender Tank",
+  "icon": "fieldframe:ender_tank_controller",
+  "sort": 30,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "The **Ender Tank** is a hollow box from 3×3×3 up to 8 wide, 10 tall and 8 deep. All edges must be **frames**. The walls may be frames, **glass**, **valves**, **energy inputs** and exactly one **controller**. It needs at least one valve and one energy input, and the inside must be empty."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "Each interior block stores **512 buckets**. Moving fluid through a valve costs **1 RF per mB**, paid from the tank's own buffer (up to 10,000,000 RF, filled at up to 20,000 RF/t through energy inputs). Use the controller (or a valve) to see its state and why it is not formed. A Fluid Port on a chassis next to a valve fills and drains it. If the structure breaks, the contents stay in the controller. A broken controller keeps them in its item."
+    }
+  ],
+  "related": [
+    "fieldframe:fluids/reservoirs"
+  ]
+}

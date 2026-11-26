@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " Q ",
+    "EBE",
+    " C "
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "E": {
+      "item": "fieldframe:ender_alloy_ingot"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "fieldframe_frameworks:plasma_probe"
+  }
+}

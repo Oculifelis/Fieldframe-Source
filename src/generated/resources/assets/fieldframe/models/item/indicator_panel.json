@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fieldframe:block/module/indicator_panel_item"
+  }
+}

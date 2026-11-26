@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:furnace",
+    "minecraft:bricks"
+  ],
+  "result": {
+    "id": "fieldframe_example:kiln",
+    "count": 1
+  }
+}

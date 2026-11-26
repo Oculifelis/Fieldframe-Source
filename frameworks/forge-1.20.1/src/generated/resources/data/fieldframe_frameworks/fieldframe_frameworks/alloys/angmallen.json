@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:gold",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:iron",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:angmallen",
+    "amount": 288
+  }
+}

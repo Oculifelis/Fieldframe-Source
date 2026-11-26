@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GLG",
+    "DBD",
+    "CWC"
+  ],
+  "key": {
+    "G": "minecraft:glass",
+    "L": "minecraft:glowstone",
+    "D": "minecraft:dirt",
+    "B": "fieldframe:blank_module",
+    "C": "minecraft:copper_ingot",
+    "W": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "fieldframe:insolator"
+  }
+}
