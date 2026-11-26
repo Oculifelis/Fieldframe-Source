@@ -1,0 +1,76 @@
+{
+  "temperatures": [
+    {
+      "block": "minecraft:magma_block",
+      "kelvin": 1000
+    },
+    {
+      "block": "minecraft:fire",
+      "kelvin": 900
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "kelvin": 800
+    },
+    {
+      "block": "minecraft:furnace",
+      "lit": true,
+      "kelvin": 700
+    },
+    {
+      "block": "minecraft:blast_furnace",
+      "lit": true,
+      "kelvin": 900
+    },
+    {
+      "block": "minecraft:smoker",
+      "lit": true,
+      "kelvin": 600
+    },
+    {
+      "block": "#minecraft:campfires",
+      "lit": true,
+      "kelvin": 600
+    },
+    {
+      "block": "minecraft:snow_block",
+      "kelvin": 265
+    },
+    {
+      "block": "minecraft:snow",
+      "kelvin": 268
+    },
+    {
+      "block": "minecraft:powder_snow",
+      "kelvin": 260
+    },
+    {
+      "block": "minecraft:ice",
+      "kelvin": 255
+    },
+    {
+      "block": "minecraft:frosted_ice",
+      "kelvin": 255
+    },
+    {
+      "block": "minecraft:packed_ice",
+      "kelvin": 220
+    },
+    {
+      "block": "minecraft:blue_ice",
+      "kelvin": 180
+    },
+    {
+      "fluid": "minecraft:water",
+      "kelvin": 285
+    },
+    {
+      "fluid": "minecraft:lava",
+      "kelvin": 1300
+    },
+    {
+      "fluid": "fieldframe:steam",
+      "kelvin": 400
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IEI",
+    "CFC",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "F": {
+      "item": "fieldframe:ender_tank_frame"
+    }
+  },
+  "result": {
+    "item": "fieldframe:ender_tank_controller"
+  }
+}

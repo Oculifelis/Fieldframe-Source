@@ -1,0 +1,7 @@
+{
+  "ingredient": "metallurgy:sanguinite_block",
+  "count": 3,
+  "effect": "minecraft:saturation",
+  "duration": 19200,
+  "amplifier": 0
+}

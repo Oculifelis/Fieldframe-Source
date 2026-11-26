@@ -1,0 +1,12 @@
+{
+  "module.kubejs.smasher": "Smasher",
+  "module.kubejs.smasher.desc": "Smashes cobblestone into sand (pack-defined).",
+  "module.kubejs.pulse_divider": "Pulse Divider",
+  "module.kubejs.pulse_divider.desc": "Toggles its output every N input pulses (scripted).",
+  "module.kubejs.coal_gauge": "Coal Gauge",
+  "module.kubejs.coal_gauge.desc": "Analog signal from the coal in a lane (scripted).",
+  "item.kubejs.mythic_upgrade_kit": "Mythic Upgrade Kit",
+  "tier.kubejs.mythic": "Mythic",
+  "item.kubejs.overclock_card": "Overclock Card",
+  "upgrade.kubejs.overclock_card": "Overclock Card"
+}

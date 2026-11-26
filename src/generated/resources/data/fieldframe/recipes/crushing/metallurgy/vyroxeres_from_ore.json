@@ -1,0 +1,32 @@
+{
+  "type": "fieldframe:crushing",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "metallurgy:processing/crusher_ores/vyroxeres"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "metallurgy:vyroxeres_dust",
+      "count": 2
+    }
+  ],
+  "duration": 120,
+  "energy": 24,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:vyroxeres_dust"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/crusher_ores/vyroxeres"
+      }
+    }
+  ]
+}

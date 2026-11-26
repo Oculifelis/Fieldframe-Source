@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:dusts/ender_alloy",
+    "#forge:dusts/lumen_alloy",
+    "#forge:dusts/signal_alloy"
+  ]
+}

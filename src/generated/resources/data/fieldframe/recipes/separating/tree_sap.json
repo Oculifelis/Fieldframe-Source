@@ -1,0 +1,17 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:separating",
+  "inputs": [],
+  "results": [
+    {
+      "item": "fieldframe:rosin",
+      "count": 1
+    }
+  ],
+  "duration": 80,
+  "energy": 16,
+  "fluid_input": {
+    "fluid": "fieldframe:tree_sap",
+    "amount": 250
+  }
+}

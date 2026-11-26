@@ -1,0 +1,19 @@
+{
+  "type": "fieldframe:crushing",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/lumen_alloy"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "fieldframe:lumen_alloy_dust",
+      "count": 1
+    }
+  ],
+  "duration": 80,
+  "energy": 16
+}

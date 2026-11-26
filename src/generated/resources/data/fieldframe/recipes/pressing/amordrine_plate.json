@@ -1,0 +1,26 @@
+{
+  "type": "fieldframe:pressing",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/amordrine"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "fieldframe:plate_die"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "item": "fieldframe:amordrine_plate",
+      "count": 1
+    }
+  ],
+  "duration": 60,
+  "energy": 24
+}

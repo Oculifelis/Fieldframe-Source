@@ -1,0 +1,32 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:alloying",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "metallurgy:angmallen_ingot",
+      "count": 2
+    }
+  ],
+  "duration": 160,
+  "energy": 32,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:angmallen_ingot"
+    }
+  ]
+}

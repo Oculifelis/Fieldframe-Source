@@ -1,0 +1,15 @@
+{
+  "type": "fieldframe:keeping_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "fieldframe:arc_whip"
+    },
+    {
+      "item": "fieldframe:reinforced_upgrade_kit"
+    }
+  ],
+  "result": {
+    "item": "fieldframe:tesla_whip"
+  }
+}

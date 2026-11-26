@@ -1,0 +1,25 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "fieldframe:ingot_cast"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "fluid_input": {
+    "fluid": "fieldframe:molten_lumen_alloy",
+    "amount": 144
+  },
+  "results": [
+    {
+      "item": "fieldframe:lumen_alloy_ingot",
+      "count": 1
+    }
+  ],
+  "duration": 80,
+  "energy": 24
+}

@@ -1,0 +1,31 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "fieldframe:ingot_cast"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "fluid_input": {
+    "fluid": "metallurgy:adamantine",
+    "amount": 144
+  },
+  "results": [
+    {
+      "item": "metallurgy:adamantine_ingot",
+      "count": 1
+    }
+  ],
+  "duration": 80,
+  "energy": 24,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:adamantine_ingot"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "fieldframe:signal_terminal"
+    },
+    "title": {
+      "translate": "advancements.fieldframe.signals.title"
+    },
+    "description": {
+      "translate": "advancements.fieldframe.signals.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fieldframe:first_module"
+}

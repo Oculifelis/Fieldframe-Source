@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RPR",
+    "PGP",
+    "RPR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "P": {
+      "tag": "forge:plates/signal_alloy"
+    },
+    "G": {
+      "tag": "forge:gears/electrum"
+    }
+  },
+  "result": {
+    "item": "fieldframe:signalum_upgrade_kit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " K ",
+    "KIK",
+    " K "
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:brick"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "fieldframe:ingot_cast"
+  }
+}

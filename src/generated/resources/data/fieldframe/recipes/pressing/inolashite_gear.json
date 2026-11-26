@@ -1,0 +1,26 @@
+{
+  "type": "fieldframe:pressing",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/inolashite"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "fieldframe:gear_die"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "item": "fieldframe:inolashite_gear",
+      "count": 1
+    }
+  ],
+  "duration": 120,
+  "energy": 32
+}

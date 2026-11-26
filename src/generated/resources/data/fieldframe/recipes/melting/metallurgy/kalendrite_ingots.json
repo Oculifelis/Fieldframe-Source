@@ -1,0 +1,24 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/kalendrite"
+      },
+      "count": 1
+    }
+  ],
+  "fluid_result": {
+    "fluid": "metallurgy:kalendrite",
+    "amount": 144
+  },
+  "duration": 160,
+  "energy": 32,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:kalendrite_ingot"
+    }
+  ]
+}

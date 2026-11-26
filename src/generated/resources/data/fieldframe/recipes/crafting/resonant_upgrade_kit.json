@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EPE",
+    "PGP",
+    "EPE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "P": {
+      "tag": "forge:plates/ender_alloy"
+    },
+    "G": {
+      "tag": "forge:gears/signal_alloy"
+    }
+  },
+  "result": {
+    "item": "fieldframe:resonant_upgrade_kit"
+  }
+}

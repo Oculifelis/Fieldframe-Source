@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "category": "fieldframe:machine_shop",
+  "title": "Bolted Chassis",
+  "icon": "fieldframe:frame_bolt",
+  "sort": 40,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**More sides for one machine.** Use a **Frame Bolt** on the side of a chassis that touches another chassis: the two become one machine. Keep bolting to add more, up to **8 chassis**.\n\nThe whole machine has **one** Orange, Green and Purple storage, one set of tanks, one RF buffer and one set of signals. Their sizes add up: two Basic chassis give 8 slots per storage, 8,000 mB tanks and 32,000 RF. Every side that does not touch another part keeps working, so a 2 by 2 by 2 cube has 24 sides for modules."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Rules.**\n- The two touching sides must be empty, and they stay empty.\n- Upgrade kits and service bays on any part make the whole machine bigger.\n- Each part keeps its own per-tick allowances, so a bigger machine also moves more.\n- Modules that work as a pair (Hot and Cold Junction, Turbine and Condenser) still need to be on the same chassis.\n- If part of the machine is in an unloaded chunk, the whole machine waits until it is back."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Taking it apart.** Sneak-use a Frame Bolt on a part to take it out; the bolt comes back. If what is stored would no longer fit the smaller machine, it tells you which storage to empty first. Used on the **first** chassis of the machine, it splits the whole machine up and gives every bolt back.\n\n**Breaking a part** shrinks the machine: items that no longer fit drop where the part was. Breaking the first chassis drops everything stored, like breaking a single chassis."
+    }
+  ],
+  "related": [
+    "fieldframe:machine_shop/tiers",
+    "fieldframe:basics/configurator",
+    "fieldframe:routing/lanes_and_ports"
+  ]
+}

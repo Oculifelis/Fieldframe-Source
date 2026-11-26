@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:tin",
+      "amount": 432
+    },
+    {
+      "fluid": "metallurgy:silver",
+      "amount": 144
+    },
+    {
+      "fluid": "fieldframe:liquid_glowstone",
+      "amount": 400
+    }
+  ],
+  "result": {
+    "fluid": "fieldframe:molten_lumen_alloy",
+    "amount": 576
+  }
+}

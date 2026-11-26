@@ -1,0 +1,249 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'net.neoforged.moddev.legacyforge' version '2.0.148'
+}
+
+version = "${mod_version}+${minecraft_version}-forge"
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+// Minecraft 1.20.1 ships Java 17.
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+// The loader-independent domain model and logical API are shared source with every edition.
+sourceSets.main.java.srcDir 'common/src/main/java'
+
+legacyForge {
+    version = "${minecraft_version}-${forge_version}"
+    parchment {
+        minecraftVersion = parchment_minecraft_version
+        mappingsVersion = parchment_mappings_version
+    }
+    runs {
+        configureEach {
+            // Mixins of remapped dependencies (Metallurgy) carry production-name refmaps; remap them to dev names.
+            systemProperty 'mixin.env.remapRefMap', 'true'
+            systemProperty 'mixin.env.refMapRemappingFile', file('build/moddev/artifacts/intermediateToNamed.srg').absolutePath
+        }
+        client {
+            client()
+            // ./gradlew runClient -PclientSmoke : renders all manual entries and the configurator, saves screenshots, exits.
+            systemProperty 'fieldframe.clientSmoke', project.hasProperty('clientSmoke') ? 'true' : 'false'
+            systemProperty 'forge.enabledGameTestNamespaces', mod_id
+            // ./gradlew runClient -PmpSmoke : joins the local mpSmoke server, runs the client checks, quits.
+            systemProperty 'fieldframe.mpSmoke', project.hasProperty('mpSmoke') ? 'client' : ''
+            // ./gradlew runClient -PwithPonder -PponderSmoke : new flat single-player world, opens a Ponder scene, screenshots, quits.
+            systemProperty 'fieldframe.ponderSmoke', project.hasProperty('ponderSmoke') ? 'true' : 'false'
+            systemProperty 'fieldframe.fluidSmoke', project.hasProperty('fluidSmoke') ? 'true' : 'false'
+            if (project.hasProperty('mpSmoke')) {
+                programArguments.addAll '--quickPlayMultiplayer', 'localhost:25570', '--width', '1280', '--height', '720'
+                if (project.hasProperty('mpUser')) {
+                    programArguments.addAll '--username', project.property('mpUser')
+                }
+            }
+        }
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'forge.enabledGameTestNamespaces', mod_id
+            // ./gradlew runServer -PmpSmoke : dedicated server half of the two-process multiplayer smoke test.
+            systemProperty 'fieldframe.mpSmoke', project.hasProperty('mpSmoke') ? 'server' : ''
+            gameDirectory = project.file('run-server')
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+            systemProperty 'forge.enabledGameTestNamespaces', mod_id
+        }
+        data {
+            data()
+            programArguments.addAll '--mod', mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+        configureEach {
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+    // Textures, language and manual content shared by all editions.
+    srcDir 'shared'
+}
+
+// Classic EnderTech/FLORA textures (shared-classic/, see its NOTICE.txt) replace the generated ones of the same name.
+// -PnoClassicTextures builds without them.
+def classicDir = file('shared-classic')
+def useClassic = !project.hasProperty('noClassicTextures') && classicDir.isDirectory()
+if (useClassic) {
+    sourceSets.main.resources.srcDir classicDir
+    def overridden = fileTree(classicDir).files.collect { classicDir.toPath().relativize(it.toPath()).toString().replace(File.separator, '/') } as Set
+    tasks.matching { it.name == 'processResources' || it.name == 'sourcesJar' }.configureEach {
+        inputs.dir classicDir
+        eachFile { d ->
+            def rel = d.relativePath.pathString
+            if (overridden.contains(rel) && !d.file.toPath().startsWith(classicDir.toPath())) {
+                d.exclude()
+            }
+        }
+    }
+}
+
+repositories {
+    // JEI and Jade (optional integrations; compiled against, never bundled).
+    maven { url = 'https://maven.blamejared.com'; content { includeGroup 'mezz.jei'; includeGroup 'net.mezzdev.config' } }
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+    flatDir { dirs project.property("metallurgy_dir") }
+    // -PwithFrameworks: the Frameworks addon jar from frameworks/forge-1.20.1/build/libs (build it first).
+    flatDir { dirs 'frameworks/forge-1.20.1/build/libs' }
+    maven { url = 'https://maven.latvian.dev/releases'; content { includeGroup 'dev.latvian.mods' } }
+    maven { url = 'https://maven.architectury.dev/'; content { includeGroup 'dev.architectury' } }
+    // Ponder (optional; compiled against, never bundled) with its Flywheel library.
+    maven { url = 'https://maven.createmod.net'; content { includeGroup 'net.createmod.ponder'; includeGroup 'dev.engine-room.flywheel' } }
+    maven { url = 'https://maven.theillusivec4.top/'; content { includeGroup 'top.theillusivec4.curios' } }
+    // Fundamentum (the shared core mod, local repo): optional, for the electric whips and the Graviton Hook.
+    maven { url = 'file:///H:/AI_MC_Modding/Fundamentum/repo'; content { includeGroup 'com.fundamentum' } }
+}
+
+configurations {
+    localRuntime
+    runtimeClasspath.extendsFrom localRuntime
+}
+
+dependencies {
+    // JEI and Jade: optional, isolated in compat.jei / compat.jade. -PwithViewers loads both in dev runs.
+    modCompileOnly "mezz.jei:jei-1.20.1-common-api:${jei_version}"
+    modCompileOnly "mezz.jei:jei-1.20.1-forge-api:${jei_version}"
+    modCompileOnly "maven.modrinth:jade:${jade_version}"
+    if (project.hasProperty('withViewers')) {
+        modRuntimeOnly "mezz.jei:jei-1.20.1-forge:${jei_version}"
+        modRuntimeOnly "maven.modrinth:jade:${jade_version}"
+    }
+    // Curios supplies the Field Kit slot and Fundamentum gear slots.
+    modCompileOnly "top.theillusivec4.curios:curios-forge:${curios_version}:api"
+    modRuntimeOnly "top.theillusivec4.curios:curios-forge:${curios_version}"
+
+    // Fundamentum is required at compile time and runtime.
+    modImplementation "com.fundamentum:fundamentum-forge:${fundamentum_version}"
+    // Ponder: optional, isolated in compat.ponder (scenes are resource files). -PwithPonder loads it in client runs.
+    modCompileOnly("net.createmod.ponder:Ponder-Forge-${minecraft_version}:${ponder_version}") { transitive = false }
+    if (project.hasProperty('withPonder') && !gradle.startParameter.taskNames.any { it.toLowerCase().contains('server') }) {
+        modRuntimeOnly "net.createmod.ponder:Ponder-Forge-${minecraft_version}:${ponder_version}"
+    }
+    // Metallurgy 4: Reforged is a required dependency (metals, ores, dusts). Dev runs need its jar.
+    // Through a flat-dir repository so legacyforge remaps the production (SRG) jar for dev runs.
+    def metallurgyJar = file("${metallurgy_dir}/metallurgy-recast-${minecraft_version}-forge-${metallurgy_version}.jar")
+    if (metallurgyJar.exists()) {
+        modRuntimeOnly "local.metallurgy:metallurgy-recast-${minecraft_version}-forge:${metallurgy_version}"
+    } else {
+        logger.warn("Fieldframe: Metallurgy jar not found at ${metallurgyJar}; dev runs will stop at the missing dependency")
+    }
+    // -PwithFrameworks: dev runs also load the Frameworks addon jar (build it first in frameworks/forge-1.20.1).
+    if (project.hasProperty('withFrameworks')) {
+        def fwJar = file("frameworks/forge-1.20.1/build/libs/fieldframe-frameworks-${frameworks_version}.jar")
+        if (!fwJar.exists()) {
+            throw new GradleException("-PwithFrameworks: ${fwJar} missing (run the Frameworks build first)")
+        }
+        modRuntimeOnly "local.frameworks:fieldframe-frameworks:${frameworks_version}"
+    }
+    // KubeJS is optional: compiled against, isolated in dev.fieldframe.forge.compat.kubejs, never required.
+    modCompileOnly "dev.latvian.mods:kubejs-forge:${kubejs_version}"
+    modCompileOnly "dev.latvian.mods:rhino-forge:${rhino_version}"
+    modCompileOnly "dev.architectury:architectury-forge:${architectury_version}"
+    if (project.hasProperty('withKubeJS')) {
+        modRuntimeOnly "dev.latvian.mods:kubejs-forge:${kubejs_version}"
+        modRuntimeOnly "dev.latvian.mods:rhino-forge:${rhino_version}"
+        modRuntimeOnly "dev.architectury:architectury-forge:${architectury_version}"
+    }
+
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            metallurgy_version     : metallurgy_version,
+            forge_version          : forge_version,
+            forge_version_range    : forge_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+sourceSets.main.resources.srcDir generateModMetadata
+legacyForge.ideSyncTask generateModMetadata
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs << '-Xlint:-removal'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+// Copies the example KubeJS pack into the dev run directory when running with -PwithKubeJS.
+tasks.register('syncExampleKubeJS', Copy) {
+    from 'examples/kubejs-1.20.1/kubejs'
+    into 'run/kubejs'
+}
+if (project.hasProperty('withKubeJS')) {
+    tasks.matching { it.name.startsWith('prepare') && it.name.endsWith('Run') }.configureEach { dependsOn 'syncExampleKubeJS' }
+}
+
+java {
+    withSourcesJar()
+}
+
+// Separate API artifact: only the public logical API and the public Forge platform API.
+tasks.register('apiJar', Jar) {
+    archiveClassifier = 'api'
+    from(sourceSets.main.output) {
+        include 'dev/fieldframe/api/**'
+        include 'dev/fieldframe/forge/api/**'
+    }
+}
+assemble.dependsOn 'apiJar'
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            artifactId = 'fieldframe-forge-1.20.1'
+            from components.java
+        }
+    }
+    repositories {
+        maven { url = file('../repo') }
+    }
+}
+
+// Dev test clients only: DevNoGrab never ships.
+tasks.named('jar') { exclude 'dev/fieldframe/forge/client/DevNoGrab*' }
+tasks.named('sourcesJar') { exclude 'dev/fieldframe/forge/client/DevNoGrab*' }
+
+// LGPL-3.0-or-later code: the licence texts and credits ship in the jar's META-INF
+tasks.named('jar') {
+    from([file('LICENSE'), file('COPYING'), file('CREDITS.md')]) {
+        into 'META-INF'
+    }
+}

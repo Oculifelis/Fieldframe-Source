@@ -1,0 +1,24 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:ice"
+      },
+      "count": 9
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:packed_ice",
+      "count": 1
+    }
+  ],
+  "duration": 120,
+  "energy": 30,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  }
+}

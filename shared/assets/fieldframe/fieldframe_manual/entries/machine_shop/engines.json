@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "category": "fieldframe:machine_shop",
+  "title": "Engines and Fuels",
+  "icon": "fieldframe:fluid_engine",
+  "sort": 30,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "Engines burn one unit of fuel at a time into the chassis RF buffer and pause (keeping the rest) while the buffer is full."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Engine",
+        "Burns",
+        "RF"
+      ],
+      "rows": [
+        [
+          "Fluid Engine",
+          "lava, creosote, sap, refined oil, liquid coal, blazing resin",
+          "per mB, from fuels data"
+        ],
+        [
+          "Gem Engine",
+          "diamond, emerald, lapis, quartz, amethyst, prismarine",
+          "per item, from fuels data"
+        ],
+        [
+          "Redstone Engine",
+          "redstone, redstone blocks, signal alloy dust",
+          "per item, from fuels data"
+        ],
+        [
+          "Food Engine",
+          "any food",
+          "hunger points x 1,600"
+        ],
+        [
+          "Arcane Engine",
+          "enchanted items (destroyed)",
+          "levels x 4,000"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Fuels are data.** Each file in *data/<pack>/fieldframe/fuels/* lists entries such as engine *fieldframe:fluid_engine*, fluid *minecraft:lava*, rf_per_mb 50; or engine *fieldframe:gem_engine*, item *#c:gems/diamond*, rf 400000. Later packs override earlier ones; a broken file is skipped and named in the server log."
+    }
+  ],
+  "related": [
+    "fieldframe:modules/fluid_engine",
+    "fieldframe:modules/gem_engine",
+    "fieldframe:modules/redstone_engine",
+    "fieldframe:modules/food_engine",
+    "fieldframe:modules/arcane_engine",
+    "fieldframe:modules/fuel_engine"
+  ]
+}

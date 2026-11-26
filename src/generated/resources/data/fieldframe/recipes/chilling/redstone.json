@@ -1,0 +1,17 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "count": 8
+    }
+  ],
+  "duration": 100,
+  "energy": 30,
+  "fluid_input": {
+    "fluid": "fieldframe:liquid_redstone",
+    "amount": 1000
+  }
+}

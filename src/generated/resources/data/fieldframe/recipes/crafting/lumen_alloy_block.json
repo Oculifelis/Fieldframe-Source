@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/lumen_alloy"
+    }
+  },
+  "result": {
+    "item": "fieldframe:lumen_alloy_block"
+  }
+}

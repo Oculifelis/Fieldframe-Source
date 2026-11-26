@@ -1,0 +1,46 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:alloying",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "metallurgy:processing/alloyer/iron"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "metallurgy:processing/alloyer/manganese"
+      },
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "item": "metallurgy:steel_ingot",
+      "count": 2
+    }
+  ],
+  "duration": 160,
+  "energy": 32,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:steel_ingot"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/iron"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/manganese"
+      }
+    }
+  ]
+}

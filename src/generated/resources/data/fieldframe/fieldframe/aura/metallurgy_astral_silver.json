@@ -1,0 +1,7 @@
+{
+  "ingredient": "metallurgy:astral_silver_block",
+  "count": 3,
+  "effect": "minecraft:night_vision",
+  "duration": 18000,
+  "amplifier": 0
+}

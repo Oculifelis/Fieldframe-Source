@@ -1,0 +1,30 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:growing",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:wheat_seeds"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:wheat",
+      "count": 2
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "duration": 300,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 500
+  }
+}

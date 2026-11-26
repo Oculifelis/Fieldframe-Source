@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CBC",
+    "SMS",
+    "CBC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "M": {
+      "item": "fieldframe:blank_module"
+    }
+  },
+  "result": {
+    "item": "fieldframe:alloy_smelter"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "fieldframe:pressing",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/midasium"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "fieldframe:gear_die"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "item": "fieldframe:midasium_gear",
+      "count": 1
+    }
+  ],
+  "duration": 120,
+  "energy": 32
+}

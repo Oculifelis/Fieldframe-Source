@@ -1,0 +1,7 @@
+{
+  "ingredient": "metallurgy:black_steel_block",
+  "count": 3,
+  "effect": "minecraft:resistance",
+  "duration": 18000,
+  "amplifier": 0
+}

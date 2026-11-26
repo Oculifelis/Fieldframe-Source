@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/ender_alloy"
+    }
+  },
+  "result": {
+    "item": "fieldframe:ender_alloy_ingot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "MPM",
+    " T "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "fieldframe:iron_fluid_chestplate"
+    },
+    "T": {
+      "item": "fieldframe:tank_upgrade"
+    }
+  },
+  "result": {
+    "item": "fieldframe:gold_fluid_chestplate"
+  }
+}

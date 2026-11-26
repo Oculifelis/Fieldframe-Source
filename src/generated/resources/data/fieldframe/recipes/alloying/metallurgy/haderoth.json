@@ -1,0 +1,46 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:alloying",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "metallurgy:processing/alloyer/mithril"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "metallurgy:processing/alloyer/rubracium"
+      },
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "item": "metallurgy:haderoth_ingot",
+      "count": 3
+    }
+  ],
+  "duration": 160,
+  "energy": 32,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:haderoth_ingot"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/mithril"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/rubracium"
+      }
+    }
+  ]
+}

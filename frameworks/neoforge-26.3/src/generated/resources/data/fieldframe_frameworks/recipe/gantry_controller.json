@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RYR",
+    "YCY",
+    "RPR"
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "Y": "fieldframe_frameworks:gantry_rail",
+    "C": "fieldframe:chassis",
+    "P": "minecraft:piston"
+  },
+  "result": {
+    "id": "fieldframe_frameworks:gantry_controller"
+  }
+}

@@ -1,0 +1,49 @@
+fieldframe_texture,source,note
+item/copper_fluid_helmet.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorLeadstoneHelm.png,copied unchanged
+item/copper_fluid_chestplate.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorLeadstoneChestplate.png,copied unchanged
+item/copper_fluid_leggings.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorLeadstoneLeggings.png,copied unchanged
+item/copper_fluid_boots.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorLeadstoneBoots.png,copied unchanged
+models/armor/copper_fluid_layer_1.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Leadstone.png,copied unchanged
+models/armor/copper_fluid_layer_2.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Leadstone_1.png,copied unchanged
+entity/equipment/humanoid/copper_fluid.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Leadstone.png,copied unchanged
+entity/equipment/humanoid_leggings/copper_fluid.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Leadstone_1.png,copied unchanged
+item/iron_fluid_helmet.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorHardenedHelm.png,copied unchanged
+item/iron_fluid_chestplate.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorHardenedChestplate.png,copied unchanged
+item/iron_fluid_leggings.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorHardenedLeggings.png,copied unchanged
+item/iron_fluid_boots.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorHardenedBoots.png,copied unchanged
+models/armor/iron_fluid_layer_1.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Hardened.png,copied unchanged
+models/armor/iron_fluid_layer_2.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Hardened_1.png,copied unchanged
+entity/equipment/humanoid/iron_fluid.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Hardened.png,copied unchanged
+entity/equipment/humanoid_leggings/iron_fluid.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Hardened_1.png,copied unchanged
+item/gold_fluid_helmet.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorRedstoneHelm.png,copied unchanged
+item/gold_fluid_chestplate.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorRedstoneChestplate.png,copied unchanged
+item/gold_fluid_leggings.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorRedstoneLeggings.png,copied unchanged
+item/gold_fluid_boots.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorRedstoneBoots.png,copied unchanged
+models/armor/gold_fluid_layer_1.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Redstone.png,copied unchanged
+models/armor/gold_fluid_layer_2.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Redstone_1.png,copied unchanged
+entity/equipment/humanoid/gold_fluid.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Redstone.png,copied unchanged
+entity/equipment/humanoid_leggings/gold_fluid.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Redstone_1.png,copied unchanged
+item/ender_alloy_fluid_helmet.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorResonantHelm.png,copied unchanged
+item/ender_alloy_fluid_chestplate.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorResonantChestplate.png,copied unchanged
+item/ender_alloy_fluid_leggings.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorResonantLeggings.png,copied unchanged
+item/ender_alloy_fluid_boots.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/items/ArmorResonantBoots.png,copied unchanged
+models/armor/ender_alloy_fluid_layer_1.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Resonant.png,copied unchanged
+models/armor/ender_alloy_fluid_layer_2.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Resonant_1.png,copied unchanged
+entity/equipment/humanoid/ender_alloy_fluid.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Resonant.png,copied unchanged
+entity/equipment/humanoid_leggings/ender_alloy_fluid.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/armor/Resonant_1.png,copied unchanged
+block/module/armor_infuser.png,FLORA:flora-reborn/src/main/resources/assets/flora/textures/blocks/Machine_Face.png,copied unchanged
+block/module/armor_infuser.png.mcmeta,FLORA:flora-reborn/src/main/resources/assets/flora/textures/blocks/Machine_Face.png.mcmeta,copied unchanged
+block/fluid/liquid_coal_still.png,FLORA:flora-reborn/.../fluid/coal.png,32 horizontal frames re-laid vertically + .mcmeta
+block/fluid/liquid_coal_flow.png,FLORA:flora-reborn/.../fluid/coal.png,32 horizontal frames re-laid vertically + .mcmeta
+block/fluid/blazing_fluid_still.png,FLORA:flora-reborn/.../fluid/pyrotheum.png,20 horizontal frames re-laid vertically + .mcmeta
+block/fluid/blazing_fluid_flow.png,FLORA:flora-reborn/.../fluid/pyrotheum.png,20 horizontal frames re-laid vertically + .mcmeta
+block/fluid/gelid_fluid_still.png,FLORA:flora-reborn/.../fluid/cryotheum.png,32 horizontal frames re-laid vertically + .mcmeta
+block/fluid/gelid_fluid_flow.png,FLORA:flora-reborn/.../fluid/cryotheum.png,32 horizontal frames re-laid vertically + .mcmeta
+block/fluid/arcane_fluid_still.png,FLORA:flora-reborn/.../fluid/mana.png,32 horizontal frames re-laid vertically + .mcmeta
+block/fluid/arcane_fluid_flow.png,FLORA:flora-reborn/.../fluid/mana.png,32 horizontal frames re-laid vertically + .mcmeta
+block/fluid/resonant_ender_still.png,FLORA:flora-reborn/.../fluid/ender.png,32 horizontal frames re-laid vertically + .mcmeta
+block/fluid/resonant_ender_flow.png,FLORA:flora-reborn/.../fluid/ender.png,32 horizontal frames re-laid vertically + .mcmeta
+block/fluid/liquid_redstone_still.png,FLORA:flora-reborn/.../fluid/redstone.png,32 horizontal frames re-laid vertically + .mcmeta
+block/fluid/liquid_redstone_flow.png,FLORA:flora-reborn/.../fluid/redstone.png,32 horizontal frames re-laid vertically + .mcmeta
+block/fluid/liquid_glowstone_still.png,FLORA:flora-reborn/.../fluid/glowstone.png,20 horizontal frames re-laid vertically + .mcmeta
+block/fluid/liquid_glowstone_flow.png,FLORA:flora-reborn/.../fluid/glowstone.png,20 horizontal frames re-laid vertically + .mcmeta

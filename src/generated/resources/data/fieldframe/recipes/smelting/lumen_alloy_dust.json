@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "fieldframe:lumen_alloy_dust"
+  },
+  "experience": 0.5,
+  "cookingtime": 200,
+  "result": "fieldframe:lumen_alloy_ingot"
+}

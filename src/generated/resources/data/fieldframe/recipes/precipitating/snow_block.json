@@ -1,0 +1,17 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:precipitating",
+  "inputs": [],
+  "results": [
+    {
+      "item": "minecraft:snow_block",
+      "count": 1
+    }
+  ],
+  "duration": 80,
+  "energy": 16,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 500
+  }
+}

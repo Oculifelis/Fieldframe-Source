@@ -1,0 +1,31 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "fieldframe:block_cast"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "fluid_input": {
+    "fluid": "metallurgy:sanguinite",
+    "amount": 1296
+  },
+  "results": [
+    {
+      "item": "metallurgy:sanguinite_block",
+      "count": 1
+    }
+  ],
+  "duration": 400,
+  "energy": 24,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:sanguinite_ingot"
+    }
+  ]
+}

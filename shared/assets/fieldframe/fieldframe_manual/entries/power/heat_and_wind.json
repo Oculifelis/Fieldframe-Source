@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "category": "fieldframe:power",
+  "title": "Heat and Wind",
+  "icon": "fieldframe:steam_turbine",
+  "sort": 20,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "These generators ask you to build something around the machine instead of feeding it a fuel item.\n\n**Steam Loop.** A **Boiler** turns water from the **Orange tank** into steam in the **Green tank**. It burns furnace fuel from **Purple storage**, or boils slowly with no fuel at all (a quarter of the speed, 20 RF/t at the turbine) when something hot (lava, magma, a lit furnace) touches its side. A **Steam Turbine** burns the steam: its rotor takes about 15 seconds to reach full speed and slows down gently when the steam stops. At full speed one Boiler gives 80 RF/t, twice what a Fuel Engine gets from the same coal."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "A **Condenser** on the same machine turns the turbine's spent steam back into water in the Orange tank: most of it when the Condenser's side touches water, ice or snow, half of it in open air. With a cold Condenser the loop only needs a trickle of new water, which a Water Collector can supply.\n\nNo settings are needed: Boiler, Turbine and Condenser find each other on the machine and use the default tanks."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Thermocouple.** Put a **Hot Junction** against something hot and a **Cold Junction** on another side against something cold. Power grows with the difference: magma (1000 K) against blue ice (180 K) gives 16 RF/t, lava against blue ice 22 RF/t, and it never runs out.\n\nA Hot Junction with nothing hot in front still uses the waste heat of a working Heater, Magma Crucible, Pyrolyzer, Alloy Smelter or Boiler on the same machine, a little at a time (up to 5 RF/t).\n\n**Grades.** Put two different metals into the Hot Junction's **Purple storage** as thermoelements: the further apart they are as electrodes (see the Galvanic Cell), the stronger the junction, up to twice the output and twice the cap. Copper and iron are the plain grade; zinc and gold, or Metallurgy's fiery and starry metals, the best. They are never used up."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Against the side",
+        "Kelvin"
+      ],
+      "rows": [
+        [
+          "Lava",
+          "1300"
+        ],
+        [
+          "Magma block",
+          "1000"
+        ],
+        [
+          "Fire / lit blast furnace",
+          "900"
+        ],
+        [
+          "Lit furnace",
+          "700"
+        ],
+        [
+          "Lit campfire or smoker",
+          "600"
+        ],
+        [
+          "Water",
+          "285"
+        ],
+        [
+          "Snow / ice",
+          "255 - 268"
+        ],
+        [
+          "Packed ice",
+          "220"
+        ],
+        [
+          "Blue ice",
+          "180"
+        ],
+        [
+          "Open air",
+          "the biome: about 289 in plains, colder in snow"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Wind Rotor.** Mount it on a side of a machine built high up. Below height 64 there is no wind; it gets stronger up to height 192. The 5 by 5 area in front of the rotor must be open air, and storms help (rain x1.0 and thunder x1.4 against x0.6 in clear weather). Up to 32 RF/t clear, 45 in a thunderstorm.\n\nRotors within 4 blocks of each other share the wind, so spread them out on tall towers. The Nether has no wind; the End has half."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**For pack makers.** Temperatures come from data: `data/<ns>/fieldframe/temperatures/*.json` with entries like `{\"block\": \"minecraft:magma_block\", \"kelvin\": 1000}`, `{\"block\": \"#minecraft:campfires\", \"lit\": true, \"kelvin\": 600}` or `{\"fluid\": \"minecraft:water\", \"kelvin\": 285}`. KubeJS: `FieldframeEvents.temperatures(e => e.block('minecraft:magma_block', 1100))`. Every number above is a module setting packs can change."
+    }
+  ],
+  "related": [
+    "fieldframe:modules/boiler",
+    "fieldframe:modules/steam_turbine",
+    "fieldframe:modules/condenser",
+    "fieldframe:modules/hot_junction",
+    "fieldframe:modules/cold_junction",
+    "fieldframe:modules/wind_rotor",
+    "fieldframe:power/rf"
+  ]
+}

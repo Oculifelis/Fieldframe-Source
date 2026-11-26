@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:mixing",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "count": 4
+    }
+  ],
+  "results": [],
+  "duration": 60,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  },
+  "fluid_result": {
+    "fluid": "fieldframe:liquid_glowstone",
+    "amount": 500
+  }
+}

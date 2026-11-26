@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CSC",
+    "IBI",
+    "CFC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "minecraft:smoker"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    },
+    "F": {
+      "item": "fieldframe:fuel_engine"
+    }
+  },
+  "result": {
+    "item": "fieldframe:food_engine"
+  }
+}

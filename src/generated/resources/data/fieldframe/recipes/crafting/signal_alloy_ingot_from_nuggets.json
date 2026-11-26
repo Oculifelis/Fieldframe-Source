@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/signal_alloy"
+    }
+  },
+  "result": {
+    "item": "fieldframe:signal_alloy_ingot"
+  }
+}

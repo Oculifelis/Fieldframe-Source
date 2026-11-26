@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "fieldframe:item_port"
+    },
+    "title": {
+      "translate": "advancements.fieldframe.hands_off.title"
+    },
+    "description": {
+      "translate": "advancements.fieldframe.hands_off.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fieldframe:it_works"
+}

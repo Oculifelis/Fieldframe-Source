@@ -1,0 +1,208 @@
+{
+  "electrodes": [
+    {
+      "item": "minecraft:iron_ingot",
+      "volts": -0.44
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "volts": 0.34
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "volts": 1.5
+    },
+    {
+      "item": "#forge:ingots/adamantine",
+      "volts": 1.9
+    },
+    {
+      "item": "#forge:ingots/alduorite",
+      "volts": 0.3
+    },
+    {
+      "item": "#forge:ingots/amordrine",
+      "volts": 1.1
+    },
+    {
+      "item": "#forge:ingots/angmallen",
+      "volts": 1.2
+    },
+    {
+      "item": "#forge:ingots/astral_silver",
+      "volts": 1.3
+    },
+    {
+      "item": "#forge:ingots/atlarus",
+      "volts": 1.8
+    },
+    {
+      "item": "#forge:ingots/black_steel",
+      "volts": -0.3
+    },
+    {
+      "item": "#forge:ingots/brass",
+      "volts": 0.1
+    },
+    {
+      "item": "#forge:ingots/bronze",
+      "volts": 0.2
+    },
+    {
+      "item": "#forge:ingots/carmot",
+      "volts": 1.0
+    },
+    {
+      "item": "#forge:ingots/celenegil",
+      "volts": 1.6
+    },
+    {
+      "item": "#forge:ingots/ceruclase",
+      "volts": 0.6
+    },
+    {
+      "item": "#forge:ingots/damascus_steel",
+      "volts": -0.35
+    },
+    {
+      "item": "#forge:ingots/deep_iron",
+      "volts": -0.5
+    },
+    {
+      "item": "#forge:ingots/desichalkos",
+      "volts": 1.6
+    },
+    {
+      "item": "#forge:ingots/electrum",
+      "volts": 1.0
+    },
+    {
+      "item": "#forge:ingots/etherium",
+      "volts": 2.2
+    },
+    {
+      "item": "#forge:ingots/eximite",
+      "volts": 1.2
+    },
+    {
+      "item": "#forge:ingots/haderoth",
+      "volts": 1.5
+    },
+    {
+      "item": "#forge:ingots/hepatizon",
+      "volts": 0.3
+    },
+    {
+      "item": "#forge:ingots/ignatius",
+      "volts": -1.4
+    },
+    {
+      "item": "#forge:ingots/infuscolium",
+      "volts": -1.1
+    },
+    {
+      "item": "#forge:ingots/inolashite",
+      "volts": 0.7
+    },
+    {
+      "item": "#forge:ingots/kalendrite",
+      "volts": 0.9
+    },
+    {
+      "item": "#forge:ingots/krik",
+      "volts": -0.3
+    },
+    {
+      "item": "#forge:ingots/lemurite",
+      "volts": -0.6
+    },
+    {
+      "item": "#forge:ingots/lutetium",
+      "volts": -2.28
+    },
+    {
+      "item": "#forge:ingots/manganese",
+      "volts": -1.18
+    },
+    {
+      "item": "#forge:ingots/meutoite",
+      "volts": 1.4
+    },
+    {
+      "item": "#forge:ingots/midasium",
+      "volts": 1.6
+    },
+    {
+      "item": "#forge:ingots/mithril",
+      "volts": 1.7
+    },
+    {
+      "item": "#forge:ingots/orichalcum",
+      "volts": 1.3
+    },
+    {
+      "item": "#forge:ingots/osmium",
+      "volts": 0.84
+    },
+    {
+      "item": "#forge:ingots/oureclase",
+      "volts": 0.4
+    },
+    {
+      "item": "#forge:ingots/platinum",
+      "volts": 1.18
+    },
+    {
+      "item": "#forge:ingots/prometheum",
+      "volts": -0.7
+    },
+    {
+      "item": "#forge:ingots/quicksilver",
+      "volts": 0.85
+    },
+    {
+      "item": "#forge:ingots/rubracium",
+      "volts": 0.5
+    },
+    {
+      "item": "#forge:ingots/sanguinite",
+      "volts": -1.0
+    },
+    {
+      "item": "#forge:ingots/shadow_iron",
+      "volts": -0.9
+    },
+    {
+      "item": "#forge:ingots/shadow_steel",
+      "volts": -0.8
+    },
+    {
+      "item": "#forge:ingots/silver",
+      "volts": 0.8
+    },
+    {
+      "item": "#forge:ingots/steel",
+      "volts": -0.4
+    },
+    {
+      "item": "#forge:ingots/tartarite",
+      "volts": 2.0
+    },
+    {
+      "item": "#forge:ingots/tin",
+      "volts": -0.14
+    },
+    {
+      "item": "#forge:ingots/vulcanite",
+      "volts": -1.2
+    },
+    {
+      "item": "#forge:ingots/vyroxeres",
+      "volts": -0.5
+    },
+    {
+      "item": "#forge:ingots/zinc",
+      "volts": -0.76
+    }
+  ]
+}

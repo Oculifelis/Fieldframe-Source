@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CTC",
+    "IBI",
+    "CFC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "T": {
+      "item": "fieldframe:tank_upgrade"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    },
+    "F": {
+      "item": "fieldframe:fuel_engine"
+    }
+  },
+  "result": {
+    "item": "fieldframe:fluid_engine"
+  }
+}

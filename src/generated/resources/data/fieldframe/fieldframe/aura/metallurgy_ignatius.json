@@ -1,0 +1,7 @@
+{
+  "ingredient": "metallurgy:ignatius_block",
+  "count": 4,
+  "effect": "minecraft:fire_resistance",
+  "duration": 18000,
+  "amplifier": 0
+}

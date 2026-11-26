@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "category": "fieldframe:designs",
+  "title": "Starter Smelter (one chassis)",
+  "icon": "fieldframe:heater",
+  "sort": 5,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "The first machine most people build: a **Heater** on top, a **Fuel Engine** underneath and an **Inventory Access Panel** in front. Put ore in **Orange storage** and coal in **Purple storage** through the panel; ingots come out in **Green storage**. One coal smelts eight items, as in a furnace, and the Heater is twice as fast."
+    },
+    {
+      "type": "fieldframe:blueprint",
+      "blueprint": {
+        "format": 1,
+        "name": "Starter Smelter",
+        "chassis": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "front": "north",
+            "faces": {
+              "top": {
+                "module": "fieldframe:heater",
+                "config": {},
+                "bindings": {
+                  "input": 0,
+                  "output": 1
+                }
+              },
+              "bottom": {
+                "module": "fieldframe:fuel_engine",
+                "config": {},
+                "bindings": {
+                  "fuel": 2
+                }
+              },
+              "front": {
+                "module": "fieldframe:inventory_access_panel",
+                "config": {},
+                "bindings": {}
+              }
+            },
+            "upgrades": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Next steps.** Add an **Item Port** set to *import* on a side touching a chest to feed it ore, and one set to *export* on another side to empty Green storage into a second chest. Then it runs without you."
+    }
+  ],
+  "related": [
+    "fieldframe:basics/first_machine",
+    "fieldframe:designs/blueprints",
+    "fieldframe:designs/ore_line"
+  ]
+}

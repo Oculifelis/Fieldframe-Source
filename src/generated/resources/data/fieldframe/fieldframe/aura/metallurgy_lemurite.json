@@ -1,0 +1,7 @@
+{
+  "ingredient": "metallurgy:lemurite_block",
+  "count": 3,
+  "effect": "minecraft:invisibility",
+  "duration": 19200,
+  "amplifier": 0
+}

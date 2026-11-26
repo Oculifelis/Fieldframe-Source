@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "category": "fieldframe:power",
+  "title": "RF Power",
+  "icon": "fieldframe:power_terminal",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "Fieldframe measures electricity in **RF**. One RF is exactly one unit of the loader's standard energy (FE), so any mod's generators, batteries and cables can connect to a **Power Terminal**.\n\nEach chassis has **one** RF buffer. Internal generators (Fuel Engine, Solar Collector) fill it directly; processors draw from it every working tick."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Hand Crank.** Your first RF, before any fuel: mount it on a side or the top and right-click it with an empty hand. Each turn gives 20 RF/t for half a second, and holding the button keeps it turning (never faster). Turning costs a little hunger. It is slow on purpose: crank up enough RF to run a Heater once, then build a Fuel Engine."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Terminal mode",
+        "Behaviour"
+      ],
+      "rows": [
+        [
+          "receive",
+          "neighbours may push RF in"
+        ],
+        [
+          "provide",
+          "neighbours may pull RF out"
+        ],
+        [
+          "push",
+          "this terminal sends RF to the neighbour"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "All terminals on a chassis share one RF-in and one RF-out allowance per tick (default 512 RF/t each). The **Fuel Engine** burns furnace fuel: a piece of coal gives 16,000 RF at 40 RF/t, and the engine pauses instead of wasting fuel when the buffer is full. Heating one item costs 2,000 RF, so coal goes as far in a Heater as in a furnace."
+    }
+  ],
+  "related": [
+    "fieldframe:modules/hand_crank",
+    "fieldframe:modules/fuel_engine",
+    "fieldframe:modules/solar_collector",
+    "fieldframe:modules/power_terminal"
+  ]
+}

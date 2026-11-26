@@ -1,0 +1,31 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "fieldframe:nugget_cast"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "fluid_input": {
+    "fluid": "metallurgy:haderoth",
+    "amount": 16
+  },
+  "results": [
+    {
+      "item": "metallurgy:haderoth_nugget",
+      "count": 1
+    }
+  ],
+  "duration": 20,
+  "energy": 24,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:haderoth_ingot"
+    }
+  ]
+}

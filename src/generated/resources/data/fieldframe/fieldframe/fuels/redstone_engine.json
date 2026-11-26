@@ -1,0 +1,19 @@
+{
+  "fuels": [
+    {
+      "engine": "fieldframe:redstone_engine",
+      "item": "minecraft:redstone",
+      "rf": 20000
+    },
+    {
+      "engine": "fieldframe:redstone_engine",
+      "item": "minecraft:redstone_block",
+      "rf": 180000
+    },
+    {
+      "engine": "fieldframe:redstone_engine",
+      "item": "fieldframe:signal_alloy_dust",
+      "rf": 60000
+    }
+  ]
+}

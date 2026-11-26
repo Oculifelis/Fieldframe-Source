@@ -1,0 +1,7 @@
+{
+  "ingredient": "metallurgy:amordrine_block",
+  "count": 3,
+  "effect": "minecraft:jump_boost",
+  "duration": 18000,
+  "amplifier": 0
+}

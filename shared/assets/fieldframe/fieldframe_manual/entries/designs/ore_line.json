@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "category": "fieldframe:designs",
+  "title": "Ore Line (two chassis)",
+  "icon": "fieldframe:crusher",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "A two-stage ore line with no pipes. Chassis 1 imports raw ore from a chest on its left, crushes it into **Green storage** and exports Green storage through its right face, which touches chassis 2. Chassis 2 accepts it passively into **Orange storage**, heats it, and exports ingots to a chest on its right. Each chassis has its own Fuel Engine.\n\n**Trade-off:** one compact chassis could crush and heat, but it would spend two faces on processors and share one RF buffer and one item budget. Two simple chassis cost an extra chassis and engine but run both stages at full speed."
+    },
+    {
+      "type": "fieldframe:blueprint",
+      "blueprint": {
+        "format": 1,
+        "name": "Ore Line",
+        "chassis": [
+          {
+            "x": 0, "y": 0, "z": 0, "front": "north",
+            "faces": {
+              "left": {"module": "fieldframe:item_port", "config": {"mode": "import", "batch": 8}, "bindings": {"lane": 0}},
+              "top": {"module": "fieldframe:crusher", "config": {}, "bindings": {"input": 0, "output": 1}},
+              "bottom": {"module": "fieldframe:fuel_engine", "config": {}, "bindings": {"fuel": 2}},
+              "right": {"module": "fieldframe:item_port", "config": {"mode": "export", "batch": 8}, "bindings": {"lane": 1}},
+              "front": {"module": "fieldframe:inventory_access_panel", "config": {}, "bindings": {}}
+            },
+            "upgrades": []
+          },
+          {
+            "x": 1, "y": 0, "z": 0, "front": "north",
+            "faces": {
+              "left": {"module": "fieldframe:item_port", "config": {"mode": "passive_in", "batch": 8}, "bindings": {"lane": 0}},
+              "top": {"module": "fieldframe:heater", "config": {}, "bindings": {"input": 0, "output": 1}},
+              "bottom": {"module": "fieldframe:fuel_engine", "config": {}, "bindings": {"fuel": 2}},
+              "right": {"module": "fieldframe:item_port", "config": {"mode": "export", "batch": 8}, "bindings": {"lane": 1}},
+              "front": {"module": "fieldframe:inventory_access_panel", "config": {}, "bindings": {}}
+            },
+            "upgrades": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "Put coal in **Purple storage** of each chassis through its access panel. Watch the crusher with the configurator: if the second chassis cannot keep up, the first shows **NEIGHBOR_FULL** on its export port and the crusher then waits with **OUTPUT_FULL**, which is backpressure working as intended."
+    }
+  ],
+  "related": ["fieldframe:designs/blueprints", "fieldframe:processing/chain", "fieldframe:routing/adjacent_machines"]
+}

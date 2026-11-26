@@ -1,0 +1,21 @@
+{
+  "loader": "forge:separate_transforms",
+  "parent": "minecraft:item/handheld",
+  "base": {
+    "parent": "fieldframe:item/arc_whip_grip"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "fieldframe:item/arc_whip_coiled"
+    },
+    "ground": {
+      "parent": "fieldframe:item/arc_whip_coiled"
+    },
+    "fixed": {
+      "parent": "fieldframe:item/arc_whip_coiled"
+    }
+  },
+  "textures": {
+    "particle": "fieldframe:item/arc_whip"
+  }
+}

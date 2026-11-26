@@ -1,0 +1,7 @@
+{
+  "ingredient": "metallurgy:lutetium_block",
+  "count": 4,
+  "effect": "minecraft:levitation",
+  "duration": 24000,
+  "amplifier": 0
+}

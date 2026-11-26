@@ -1,0 +1,32 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:alloying",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "metallurgy:processing/alloyer/copper"
+      },
+      "count": 3
+    },
+    {
+      "ingredient": {
+        "tag": "metallurgy:processing/alloyer/silver"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      },
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "item": "fieldframe:signal_alloy_ingot",
+      "count": 4
+    }
+  ],
+  "duration": 200,
+  "energy": 40
+}

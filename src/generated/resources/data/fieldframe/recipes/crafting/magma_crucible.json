@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NCN",
+    "MBM",
+    "NCN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_bricks"
+    },
+    "C": {
+      "item": "minecraft:cauldron"
+    },
+    "M": {
+      "item": "minecraft:magma_block"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    }
+  },
+  "result": {
+    "item": "fieldframe:magma_crucible"
+  }
+}

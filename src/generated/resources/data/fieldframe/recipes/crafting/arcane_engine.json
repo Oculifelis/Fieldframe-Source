@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GKG",
+    "IBI",
+    "GFG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "K": {
+      "item": "minecraft:book"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    },
+    "F": {
+      "item": "fieldframe:fuel_engine"
+    }
+  },
+  "result": {
+    "item": "fieldframe:arcane_engine"
+  }
+}

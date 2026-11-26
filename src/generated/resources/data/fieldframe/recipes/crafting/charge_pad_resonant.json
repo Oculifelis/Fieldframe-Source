@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IEI",
+    "CFC",
+    "IAI"
+  ],
+  "key": {
+    "I": {
+      "item": "fieldframe:ender_alloy_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "F": {
+      "item": "fieldframe:charge_pad_redstone"
+    },
+    "A": {
+      "item": "fieldframe:cell_upgrade"
+    }
+  },
+  "result": {
+    "item": "fieldframe:charge_pad_resonant"
+  }
+}

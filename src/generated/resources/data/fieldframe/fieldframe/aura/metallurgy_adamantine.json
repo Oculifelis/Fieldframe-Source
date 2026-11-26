@@ -1,0 +1,7 @@
+{
+  "ingredient": "metallurgy:adamantine_block",
+  "count": 3,
+  "effect": "minecraft:health_boost",
+  "duration": 18000,
+  "amplifier": 3
+}

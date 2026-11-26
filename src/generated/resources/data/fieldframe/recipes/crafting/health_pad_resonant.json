@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IEI",
+    "CFC",
+    "IAI"
+  ],
+  "key": {
+    "I": {
+      "item": "fieldframe:ender_alloy_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:golden_apple"
+    },
+    "F": {
+      "item": "fieldframe:health_pad_redstone"
+    },
+    "A": {
+      "item": "fieldframe:cell_upgrade"
+    }
+  },
+  "result": {
+    "item": "fieldframe:health_pad_resonant"
+  }
+}

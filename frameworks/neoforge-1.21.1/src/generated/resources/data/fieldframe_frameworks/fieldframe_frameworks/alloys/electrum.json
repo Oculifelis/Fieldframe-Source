@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:silver",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:gold",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:electrum",
+    "amount": 288
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "MPM",
+    " T "
+  ],
+  "key": {
+    "M": {
+      "item": "fieldframe:ender_alloy_ingot"
+    },
+    "P": {
+      "item": "fieldframe:gold_fluid_helmet"
+    },
+    "T": {
+      "item": "fieldframe:tank_upgrade"
+    }
+  },
+  "result": {
+    "item": "fieldframe:ender_alloy_fluid_helmet"
+  }
+}

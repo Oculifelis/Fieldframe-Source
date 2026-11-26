@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "fieldframe:heater"
+    },
+    "title": {
+      "translate": "advancements.fieldframe.first_module.title"
+    },
+    "description": {
+      "translate": "advancements.fieldframe.first_module.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fieldframe:root"
+}

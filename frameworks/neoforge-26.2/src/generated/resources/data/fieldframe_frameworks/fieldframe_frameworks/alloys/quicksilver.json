@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:silver",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:astral_silver",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:quicksilver",
+    "amount": 288
+  }
+}

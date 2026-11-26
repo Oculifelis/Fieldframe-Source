@@ -1,0 +1,7 @@
+{
+  "ingredient": "metallurgy:carmot_block",
+  "count": 4,
+  "effect": "minecraft:haste",
+  "duration": 21600,
+  "amplifier": 0
+}

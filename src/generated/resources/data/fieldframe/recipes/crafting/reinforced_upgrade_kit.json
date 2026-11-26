@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "QPQ",
+    "PGP",
+    "QPQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "P": {
+      "tag": "forge:plates/electrum"
+    },
+    "G": {
+      "tag": "forge:gears/steel"
+    }
+  },
+  "result": {
+    "item": "fieldframe:reinforced_upgrade_kit"
+  }
+}

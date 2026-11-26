@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PDP",
+    "CBC",
+    "PFP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    },
+    "F": {
+      "item": "fieldframe:fluid_port"
+    }
+  },
+  "result": {
+    "item": "fieldframe:hydraulic_excavator"
+  }
+}

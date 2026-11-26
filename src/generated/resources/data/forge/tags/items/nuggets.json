@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:nuggets/ender_alloy",
+    "#forge:nuggets/lumen_alloy",
+    "#forge:nuggets/signal_alloy"
+  ]
+}
