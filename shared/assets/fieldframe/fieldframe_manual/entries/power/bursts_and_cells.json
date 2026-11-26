@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "category": "fieldframe:power",
+  "title": "Lightning, Blasts and Cells",
+  "icon": "fieldframe:storm_coil",
+  "sort": 30,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Storm Coil.** Install it on the top of a machine and put a vanilla **Lightning Rod** on it. During a thunderstorm the rod draws lightning, and every strike stores **200,000 RF** in the coil, which feeds the machine 512 RF a tick. The coil holds 400,000 RF (more on higher-tier machines); the rest of a strike is lost. It signals each strike and how full it is on two signal outputs. A Channeling trident calls lightning on demand in a storm."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Blast Damper.** Explosions within **6 blocks** of the machine are stopped before they happen: nothing breaks and nobody is hurt, and their energy goes into the damper. A creeper gives 31,500 RF, TNT 56,000, a charged creeper 126,000. Only the nearest damper catches an explosion.\n\nOn a **Reinforced** (or better) machine the damper also detonates **TNT** from Purple storage inside the chassis, one every 5 seconds, when it has room for the energy."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Galvanic Cell.** A battery made of two metals. The less noble one goes into **Orange storage** and is used up, one ingot every minute; the nobler one goes into **Purple storage** and stays. The **Orange tank** needs water. Power is 25 RF/t per volt of difference: iron against copper 0.78 V (20 RF/t), zinc against copper 1.10 V (28 RF/t), zinc against gold 2.26 V (57 RF/t)."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": ["Metal", "Volts"],
+      "rows": [
+        ["Lutetium", "-2.28"],
+        ["Manganese", "-1.18"],
+        ["Zinc", "-0.76"],
+        ["Iron", "-0.44"],
+        ["Tin", "-0.14"],
+        ["Copper", "+0.34"],
+        ["Silver", "+0.80"],
+        ["Platinum", "+1.18"],
+        ["Gold", "+1.50"],
+        ["Mithril / Adamantine / Etherium", "+1.70 / +1.90 / +2.20"]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "Real metals use their real electrode potentials; Metallurgy's fantasy metals have invented ones (fire and shadow metals are reactive, sky and star metals noble). Pairing the rare ones is the late-game version: lutetium against etherium is close to 4.5 V.\n\n**For pack makers.** Potentials are data: `data/<ns>/fieldframe/electrodes/*.json` with entries like `{\"item\": \"#c:ingots/zinc\", \"volts\": -0.76}`; KubeJS: `FieldframeEvents.electrodes(e => e.item('#c:ingots/nickel', -0.25))`. Lightning rods (`#fieldframe:lightning_rods`), explosives (`#fieldframe:explosives`) and extra electrolytes (`#fieldframe:electrolytes`) are tags."
+    }
+  ],
+  "related": [
+    "fieldframe:modules/storm_coil",
+    "fieldframe:modules/blast_damper",
+    "fieldframe:modules/galvanic_cell",
+    "fieldframe:power/heat_and_wind",
+    "fieldframe:power/rf"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EIE",
+    "IBI",
+    "ETE"
+  ],
+  "key": {
+    "E": "minecraft:experience_bottle",
+    "I": "minecraft:iron_ingot",
+    "B": "fieldframe:blank_module",
+    "T": "fieldframe:tank_upgrade"
+  },
+  "result": {
+    "id": "fieldframe:xp_collector"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:growing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:sweet_berries",
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:sweet_berries",
+      "count": 3
+    }
+  ],
+  "duration": 300,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 500
+  }
+}

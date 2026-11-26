@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "category": "fieldframe:machine_shop",
+  "title": "Metals and Alloys",
+  "icon": "fieldframe:signal_alloy_ingot",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "Fieldframe uses the metals of **Metallurgy 4: Reforged**, a required companion mod: its ores, ingots, dusts and alloys feed Fieldframe's machines. The **Crusher** runs every Metallurgy crusher recipe and the **Alloy Smelter** every Metallurgy alloyer recipe (bronze, brass, steel, electrum and the rest), so whatever Metallurgy enables, Fieldframe can process. On NeoForge these are read from Metallurgy's loaded recipes every time the game loads data, so changes to Metallurgy (or a pack's edits to its recipes) apply at once."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Molten metals.** The **Magma Crucible** melts any mod's ingot, dust or nugget of a Metallurgy metal into Metallurgy's molten fluid (144 mB per ingot or dust, 16 mB per nugget, 1,296 mB per block), and Fieldframe's alloys into molten signal, lumen and ender alloy. The **Blast Chiller** casts the fluid by the cast in its input lane: an **Ingot Cast** takes 144 mB, a **Nugget Cast** 16 mB and a **Block Cast** 1,296 mB. Casts are never used up."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "Fieldframe adds only its own alloys: **signal alloy** (3 copper + 1 silver + 4 redstone), **lumen alloy** (3 tin + 1 silver + 4 glowstone dust) and **ender alloy** (gold + 2 ender pearls), each as ingot, nugget, dust and block."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Plates and gears** are Fieldframe's, for every Metallurgy metal plus iron, gold, netherite and the three Fieldframe alloys. The **Press** makes them: one ingot and a **Plate Die** give a plate, four ingots and a **Gear Die** a gear. The die is a catalyst and stays in the input lane. Any mod's ingot with the right tag works."
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:alloying"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:melting"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:pressing"
+    }
+  ],
+  "related": [
+    "fieldframe:machine_shop/processing",
+    "fieldframe:machine_shop/configuration",
+    "fieldframe:machine_shop/tiers",
+    "fieldframe:modules/alloy_smelter",
+    "fieldframe:modules/crusher",
+    "fieldframe:modules/press",
+    "fieldframe:modules/magma_crucible",
+    "fieldframe:modules/blast_chiller"
+  ]
+}

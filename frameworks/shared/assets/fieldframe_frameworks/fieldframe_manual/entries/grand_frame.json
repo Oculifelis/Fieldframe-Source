@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "category": "fieldframe_frameworks:frameworks",
+  "title": "Grand Frame",
+  "icon": "fieldframe_frameworks:frame_core",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**A machine the size of a room.** Build a hollow box of **Frame Casing**, 5 to 9 blocks on each side (it does not have to be a cube), and put one **Frame Core** anywhere in its shell. Right-click the core to check it: it says what is wrong, or how big the frame is.\n\nEvery casing in a wall (not on an edge or a corner) takes a module, like the side of a chassis: a 5 by 5 by 5 frame has 54, a 9 by 9 by 9 frame 294."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**One storage for the whole frame.** All modules on the frame share one Orange, Green and Purple storage, three tanks and one RF buffer, kept in the core. On its own a frame stores as much as a Basic chassis. Blocks inside the box make it bigger:\n- **Frame Vault**: 3 more slots in each storage (up to 27).\n- **Frame Tank**: 16,000 mB more in each tank.\n- **Frame Cell**: 1,000,000 RF more.\n\nEach side keeps its own per-tick allowance, so twenty crushers on a frame really are twenty crushers."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**When it comes apart.** Breaking a casing (or the core's chunk unloading) takes the frame apart: modules stay on their casings but rest, and the contents stay in the core. Put the casing back and the frame forms again within two seconds. Removing a vault, tank or cell shrinks the storage; items that no longer fit drop at the core. Breaking the core drops everything it holds."
+    }
+  ],
+  "related": [
+    "fieldframe:machine_shop/bolted_chassis",
+    "fieldframe:basics/configurator"
+  ]
+}

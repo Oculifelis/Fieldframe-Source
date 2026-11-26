@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": "#c:dusts/rubracium",
+      "count": 1
+    }
+  ],
+  "fluid_result": {
+    "fluid": "metallurgy:rubracium",
+    "amount": 144
+  },
+  "duration": 160,
+  "energy": 32,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:rubracium_ingot"
+    }
+  ]
+}

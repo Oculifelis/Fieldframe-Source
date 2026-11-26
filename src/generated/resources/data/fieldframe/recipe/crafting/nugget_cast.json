@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " K ",
+    "KNK",
+    " K "
+  ],
+  "key": {
+    "K": "minecraft:brick",
+    "N": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "fieldframe:nugget_cast"
+  }
+}

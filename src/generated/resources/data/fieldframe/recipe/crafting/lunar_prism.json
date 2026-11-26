@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GQG",
+    "QBQ",
+    "GQG"
+  ],
+  "key": {
+    "G": "minecraft:glass",
+    "Q": "minecraft:quartz",
+    "B": "fieldframe:blank_module"
+  },
+  "result": {
+    "id": "fieldframe:lunar_prism"
+  }
+}

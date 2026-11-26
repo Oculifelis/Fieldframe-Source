@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:mithril",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:rubracium",
+      "amount": 288
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:haderoth",
+    "amount": 432
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:barrel"
+  ],
+  "result": {
+    "id": "fieldframe:inventory_access_panel"
+  }
+}

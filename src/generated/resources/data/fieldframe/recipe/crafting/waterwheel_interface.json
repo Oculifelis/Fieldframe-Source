@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "SBS",
+    "PSP"
+  ],
+  "key": {
+    "P": "#minecraft:planks",
+    "S": "minecraft:stick",
+    "B": "fieldframe:blank_module"
+  },
+  "result": {
+    "id": "fieldframe:waterwheel_interface"
+  }
+}

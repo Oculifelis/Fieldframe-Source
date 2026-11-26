@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:redstone",
+    "minecraft:copper_ingot",
+    "minecraft:glass_pane"
+  ],
+  "result": {
+    "id": "fieldframe:resource_sensor"
+  }
+}

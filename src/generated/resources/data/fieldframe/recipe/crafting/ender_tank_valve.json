@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IBI",
+    "EFE",
+    "IPI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "B": "minecraft:bucket",
+    "E": "minecraft:ender_pearl",
+    "F": "fieldframe:ender_tank_frame",
+    "P": "fieldframe:fluid_port"
+  },
+  "result": {
+    "id": "fieldframe:ender_tank_valve"
+  }
+}

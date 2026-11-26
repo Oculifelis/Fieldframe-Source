@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "category": "fieldframe:power",
+  "title": "Farm Power",
+  "icon": "fieldframe:treadmill",
+  "sort": 50,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Treadmill.** Put it on a side and lead an adult animal into the block in front of that side: it walks in place for as long as it is fed. A chicken makes 2 RF/t, a pig 4, a sheep 5, a cow 6, a goat 7, a camel 8; horses and donkeys make 40 RF/t per point of their speed, from about 4.5 for a slow horse to 13.5 for the fastest.\n\nIt eats its food (wheat, carrots for pigs, seeds for chickens, cactus for camels) from **Purple storage**, one item a minute. Unfed, it slows to a stop over two minutes. Babies don't count."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Bio-Digester.** A processor that turns farm waste and water from the **Orange tank** into **biogas** in the **Green tank** and **compost** in **Green storage**: seeds, saplings, leaves, kelp, sawdust, rotten flesh, poisonous potatoes. A Fluid Engine burns biogas at 40 RF per mB (bind its fuel to the Green tank), and the Crop Tender uses compost like bone meal.\n\nThat closes a loop on one machine: the Crop Tender farms, the digester eats the waste, the engine burns the gas and powers both."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**For pack makers.** Treadmill animals are data: `data/<ns>/fieldframe/treadmill/*.json`, entries like `{\"entity\": \"minecraft:cow\", \"rf_per_tick\": 6, \"food\": \"minecraft:wheat\"}` or `rf_per_speed` for animals that should scale with their speed; `{\"entity\": ..., \"remove\": true}` removes one. Java: `MachineData.addTreadmillContributor`; KubeJS: `FieldframeEvents.treadmill`. The digester's recipes are the `fieldframe:digestion` family."
+    }
+  ],
+  "related": [
+    "fieldframe:modules/treadmill",
+    "fieldframe:modules/bio_digester",
+    "fieldframe:modules/fluid_engine",
+    "fieldframe:modules/crop_tender"
+  ]
+}

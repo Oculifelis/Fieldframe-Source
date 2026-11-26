@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:bucket",
+    "minecraft:glass_bottle",
+    "fieldframe:fluid_port"
+  ],
+  "result": {
+    "id": "fieldframe:fluid_transposer"
+  }
+}

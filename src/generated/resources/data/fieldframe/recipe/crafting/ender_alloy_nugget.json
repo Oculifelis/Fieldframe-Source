@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:ingots/ender_alloy"
+  ],
+  "result": {
+    "id": "fieldframe:ender_alloy_nugget",
+    "count": 9
+  }
+}

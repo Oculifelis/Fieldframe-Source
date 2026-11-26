@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:lever",
+    "minecraft:repeater"
+  ],
+  "result": {
+    "id": "fieldframe:memory_plate"
+  }
+}

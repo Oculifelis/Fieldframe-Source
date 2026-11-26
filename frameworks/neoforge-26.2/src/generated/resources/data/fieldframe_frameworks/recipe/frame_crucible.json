@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BCB",
+    "BMB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:nether_bricks",
+    "C": "minecraft:cauldron",
+    "M": "fieldframe:magma_crucible"
+  },
+  "result": {
+    "id": "fieldframe_frameworks:frame_crucible"
+  }
+}

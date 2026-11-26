@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "fieldframe:block/chassis",
+    "north": "fieldframe:block/chassis_front",
+    "south": "fieldframe:block/chassis",
+    "east": "fieldframe:block/chassis",
+    "west": "fieldframe:block/chassis",
+    "up": "fieldframe:block/chassis",
+    "down": "fieldframe:block/chassis"
+  }
+}

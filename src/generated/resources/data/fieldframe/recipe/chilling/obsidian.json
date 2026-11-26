@@ -1,0 +1,17 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [],
+  "results": [
+    {
+      "id": "minecraft:obsidian",
+      "count": 1
+    }
+  ],
+  "duration": 100,
+  "energy": 30,
+  "fluid_input": {
+    "fluid": "minecraft:lava",
+    "amount": 1000
+  }
+}

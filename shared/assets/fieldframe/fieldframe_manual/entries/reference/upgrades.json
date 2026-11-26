@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "category": "fieldframe:reference",
+  "title": "Service Bay Upgrades",
+  "icon": "fieldframe:storage_upgrade",
+  "sort": 20,
+  "pages": [
+    {
+      "type": "fieldframe:table",
+      "headers": ["Upgrade", "Effect"],
+      "rows": [
+        ["Storage Bay", "+4 slots per item lane"],
+        ["Tank Bay", "+4,000 mB per reservoir"],
+        ["Cell Bay", "+32,000 RF buffer"],
+        ["Throughput Bay", "+16 items/t, +1,000 mB/t, +256 RF/t"],
+        ["Overclock Bay", "processors +50% faster (two at most: +100%), for more RF per operation, and heat"]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Overclocking.** An Overclock Bay makes every processor on the machine faster, at a price: each operation costs a quarter more RF, and each working processor heats the machine. A machine sheds a little heat by itself; cold blocks against its open sides (snow, ice, packed or blue ice) take much more. When the heat reaches 1,000 the machine **overheats** and works at normal speed until it is down to 300. Jade shows the heat.\n\nOne overclocked processor in still air overheats after about half a minute. One ice block keeps it running; blue ice keeps two."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "Use an upgrade on a chassis to fill the first free bay; remove one from the configurator. Removal is **refused** if it would no longer fit what is stored: empty the lane, reservoir or buffer first. Upgrades never add faces or functions."
+    }
+  ]
+}

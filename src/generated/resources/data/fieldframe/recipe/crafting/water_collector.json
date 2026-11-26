@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GWG",
+    "IBI",
+    "GWG"
+  ],
+  "key": {
+    "G": "minecraft:glass",
+    "W": "minecraft:water_bucket",
+    "I": "minecraft:iron_ingot",
+    "B": "fieldframe:blank_module"
+  },
+  "result": {
+    "id": "fieldframe:water_collector"
+  }
+}

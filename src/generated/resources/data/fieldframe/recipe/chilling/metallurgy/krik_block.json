@@ -1,0 +1,29 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [
+    {
+      "ingredient": "fieldframe:block_cast",
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "fluid_input": {
+    "fluid": "metallurgy:krik",
+    "amount": 1296
+  },
+  "results": [
+    {
+      "id": "metallurgy:krik_block",
+      "count": 1
+    }
+  ],
+  "duration": 400,
+  "energy": 24,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:krik_ingot"
+    }
+  ]
+}

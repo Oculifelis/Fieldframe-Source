@@ -1,0 +1,28 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:growing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:potato",
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:potato",
+      "count": 3
+    },
+    {
+      "id": "minecraft:poisonous_potato",
+      "count": 1,
+      "chance": 0.02
+    }
+  ],
+  "duration": 300,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 500
+  }
+}

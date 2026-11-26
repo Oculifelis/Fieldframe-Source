@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "category": "fieldframe:machine_shop",
+  "title": "Configuring Fieldframe",
+  "icon": "fieldframe:configurator",
+  "sort": 50,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**config/fieldframe-common.toml** has **[machines] disabled**, a list of module ids switched off server-wide. Ores and their generation belong to Metallurgy and are configured there."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "To change",
+        "Datapack path (data/<pack>/...)"
+      ],
+      "rows": [
+        [
+          "machine speed, RF use, ranges",
+          "fieldframe/tuning/*.json"
+        ],
+        [
+          "engine fuels",
+          "fieldframe/fuels/*.json"
+        ],
+        [
+          "Aura Chamber effects",
+          "fieldframe/aura/*.json"
+        ],
+        [
+          "remove any machine recipe",
+          "fieldframe/recipe_filters/*.json"
+        ],
+        [
+          "any machine recipe",
+          "recipe(s)/..., type fieldframe:process"
+        ],
+        [
+          "which Metallurgy metals the Crusher and Alloy Smelter take",
+          "Metallurgy's processing/* item tags"
+        ],
+        [
+          "what Tree Tapper, Fisher, Enchanter accept",
+          "tags tappable_logs, latex_logs, fisher_bait, experience_fluids"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Every recipe can be replaced or removed.** Ship a recipe with the same id to replace one. Metallurgy's recipes have Fieldframe ids such as *fieldframe:alloying/metallurgy/bronze* on every edition. A recipe filter removes recipes by id, by an id prefix (a pattern ending in a star), or by family, and JEI hides them too."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "KubeJS packs can do all of this from scripts too: tune and disable modules, add or replace recipes for any family, change fuels and Aura Chamber recipes, remove recipes, add chassis tiers, and veto world actions."
+    }
+  ],
+  "related": [
+    "fieldframe:machine_shop/materials",
+    "fieldframe:machine_shop/engines"
+  ]
+}

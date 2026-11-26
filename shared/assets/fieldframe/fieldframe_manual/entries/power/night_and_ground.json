@@ -1,0 +1,23 @@
+{
+  "format": 1,
+  "category": "fieldframe:power",
+  "title": "Moon and Ground",
+  "icon": "fieldframe:geothermal_probe",
+  "sort": 40,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Lunar Prism.** The Solar Collector's night twin, for the top side under open sky. It makes 16 RF/t under a full moon, 12 at a gibbous moon, 8 at a quarter, 4 at a crescent and nothing at new moon; rain halves it. A machine has one top side, so you pick the sun or the moon, or build two machines."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Geothermal Probe.** Bottom side only. It taps the heat of the ground under the machine: full strength below height 0, half up to height 40, nothing above. Plain rock gives a quarter of its 60 RF/t; lava or magma in the 5 by 5 area up to 4 blocks below raises it, to the full 60 with eight hot blocks. In the Nether it works at any height.\n\nProbes within 24 blocks of each other (about a 3 by 3 chunk area) share the heat, so spread them out. The probe's status shows how hot its spot is before you commit to it."
+    }
+  ],
+  "related": [
+    "fieldframe:modules/lunar_prism",
+    "fieldframe:modules/geothermal_probe",
+    "fieldframe:modules/solar_collector",
+    "fieldframe:power/heat_and_wind"
+  ]
+}

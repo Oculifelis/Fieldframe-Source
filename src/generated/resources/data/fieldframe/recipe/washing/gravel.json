@@ -1,0 +1,26 @@
+{
+  "type": "fieldframe:washing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:gravel",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:flint",
+      "count": 1
+    },
+    {
+      "id": "minecraft:iron_nugget",
+      "count": 1,
+      "chance": 0.1
+    }
+  ],
+  "duration": 80,
+  "energy": 12,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 100
+  }
+}

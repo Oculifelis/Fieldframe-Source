@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "category": "fieldframe_frameworks:frameworks",
+  "title": "Gantry",
+  "icon": "fieldframe_frameworks:gantry_controller",
+  "sort": 30,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**A machine that works a whole area.** Lay **Gantry Rails** in a closed rectangle on one level, 3 to 64 blocks a side, with a **Gantry Controller** as one of its blocks. The controller places the **Gantry Head** one block above the rails, and the head travels over the area inside them, row by row.\n\nThe controller is a machine of its own: every side takes a module, it has its own storage (9 slots in each, 16,000 mB tanks, 200,000 RF), and it needs power. Right-click a rail to ask what it is doing."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**The module on the controller's top picks the program.**\n- **Block Breaker: Quarry.** Breaks the area layer by layer, from the rails down to 48 blocks below, into **Green storage**, with the first tool in **Purple storage** (it wears like a held tool). Fluids and unbreakable blocks are left alone.\n- **Crop Tender: Farm.** Harvests ripe crops up to six blocks below the head, replants, and keeps going round.\n- **World Fluid Pump: Pump.** Drains fluid sources layer by layer into the **Orange tank**.\n\nEmpty columns cost nothing; moving costs 10 RF a block, and breaking 120 RF plus 60 RF per point of hardness. Speed upgrades on the controller make it work faster."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Keep the space above the ring clear**: the head stops when something is in its way. Everything is done as the controller's owner, so claims and protection mods apply. Put an Item Ejector or a Fluid Pump on another side to take the haul away. If the ring is broken the head is removed; mend it and the gantry carries on where it was."
+    }
+  ],
+  "related": [
+    "fieldframe:modules/block_breaker",
+    "fieldframe:modules/crop_tender",
+    "fieldframe:modules/world_fluid_pump",
+    "fieldframe_frameworks:grand_frame"
+  ]
+}

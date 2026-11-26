@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "category": "fieldframe:routing",
+  "title": "Lanes and Ports",
+  "icon": "fieldframe:item_port",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "Every chassis has three storages, **Orange**, **Green** and **Purple**, and a tank of each colour. Modules start out taking from Orange, putting results into Green and taking fuel and tools from Purple; change any of that on the machine screen. Ports connect one storage (or tank) to whatever block touches that side. **Fuel finds its engine:** coal (or any fuel an engine on the machine burns) that comes in through a port goes straight to the engine's storage, so one hopper can feed both ore and coal. A machine that can use the item itself, like a Pyrolyzer turning coal into coke, still gets it.\n\nAn **Item Port** in a **passive** mode lets the neighbour (a hopper, another mod's pipe, a neighbouring chassis' active port) insert or extract. In **import** or **export** mode the port itself moves one batch per tick."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": ["Port mode", "Who moves items", "Direction"],
+      "rows": [
+        ["passive in", "neighbour", "into lane"],
+        ["passive out", "neighbour", "out of lane"],
+        ["passive in/out", "neighbour", "both"],
+        ["import", "this port", "neighbour to lane"],
+        ["export", "this port", "lane to neighbour"]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Filters** list item ids or tags. Shift-click the filter button to clear it; click with an item in hand to add that item. An id entry ignores item data unless the filter stores it.\n\n**Budgets:** every port, panel and passive face shares the chassis' items-per-tick allowance. A Throughput Bay Upgrade raises it."
+    }
+  ],
+  "related": ["fieldframe:routing/adjacent_machines", "fieldframe:modules/item_port"]
+}

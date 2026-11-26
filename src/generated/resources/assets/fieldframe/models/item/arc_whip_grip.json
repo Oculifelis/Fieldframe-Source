@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "fieldframe:item/arc_whip_grip"
+  }
+}

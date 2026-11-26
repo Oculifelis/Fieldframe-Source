@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "category": "fieldframe_example:addon",
+  "title": "The Kiln (example addon)",
+  "icon": "fieldframe_example:kiln",
+  "pages": [
+    { "type": "fieldframe:text", "text": "The **Kiln** is contributed by a separate Java addon through Fieldframe's public API. It reuses the shared processing engine, so it has the same statuses, lanes and RF accounting as the [[fieldframe:modules/heater|Heater]]." },
+    { "type": "fieldframe_example:gauge", "label": "Firing efficiency vs. Heater", "value": 0.75 },
+    { "type": "fieldframe:module_spec", "module": "fieldframe_example:kiln" },
+    { "type": "fieldframe:recipes", "family": "fieldframe_example:firing" }
+  ]
+}

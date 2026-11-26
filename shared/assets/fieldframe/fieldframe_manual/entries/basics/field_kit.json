@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "category": "fieldframe:basics",
+  "title": "Field Kit",
+  "icon": "fieldframe:field_kit",
+  "sort": 45,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**A chassis in your pocket.** The Field Kit works anywhere in your inventory (or in a **belt** slot, with Curios): put modules in it and they run while you walk. Craft it from a **chassis**, **4 leather** and **2 iron ingots**.\n\nIt has **3 faces** to start with and opens **one more per tier kit** (6 at most). Its RF buffer is **64,000 RF**, four times a chassis, and every tier adds the same as it adds to a chassis. Its storages are small: 2 slots each."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Installing:** hold the kit in one hand and a **module**, **upgrade** or **tier kit** in the other, then use the kit. A module goes on the first free face that takes it.\n\n**Use** the kit to open its storages (put food in for a Food Engine, tools for the Tool Repairer). **J** (or sneak-use) opens the machine screen of the kit you carry, belt slot included, where **Remove** gives a module back and the **▦** button opens the storages too.\n\nThe bar under the kit's icon is its RF. **Charging:** besides its own generators, the kit takes RF like any RF item: put it in a chassis with an **Item Charger** and it fills up; the RF moves into the kit when you carry it again."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**What fits:** modules that need nothing next to them. **Solar Collector** (charges under open sky, from where your head is), **Food Engine**, **Hand Crank** (with one installed, *hold* use to turn it), **Item Charger**, **Tool Repairer** and **Armor Infuser**.\n\nWith an **Item Charger** in it, the kit also tops up the RF tools and armour you hold and wear.\n\nA kit never reaches the blocks around you: no neighbours, no redstone, no breaking or placing. Addons and scripts can let more modules in (FieldKits.allow)."
+    }
+  ],
+  "related": [
+    "fieldframe:basics/chassis",
+    "fieldframe:basics/configurator",
+    "fieldframe:power/rf"
+  ]
+}

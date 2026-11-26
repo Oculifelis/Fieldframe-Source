@@ -1,0 +1,874 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_centre"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_top"
+      },
+      "when": {
+        "up": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_bottom"
+      },
+      "when": {
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_left"
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_right"
+      },
+      "when": {
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_top_left"
+      },
+      "when": {
+        "up": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_top_left_side"
+      },
+      "when": {
+        "up": "true",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_top_left_end"
+      },
+      "when": {
+        "up": "false",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_top_right"
+      },
+      "when": {
+        "up": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_top_right_side"
+      },
+      "when": {
+        "up": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_top_right_end"
+      },
+      "when": {
+        "up": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_bottom_left"
+      },
+      "when": {
+        "down": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_bottom_left_side"
+      },
+      "when": {
+        "down": "true",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_bottom_left_end"
+      },
+      "when": {
+        "down": "false",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_bottom_right"
+      },
+      "when": {
+        "down": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_bottom_right_side"
+      },
+      "when": {
+        "down": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/north_bottom_right_end"
+      },
+      "when": {
+        "down": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_centre"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_top"
+      },
+      "when": {
+        "up": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_bottom"
+      },
+      "when": {
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_left"
+      },
+      "when": {
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_right"
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_top_left"
+      },
+      "when": {
+        "up": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_top_left_side"
+      },
+      "when": {
+        "up": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_top_left_end"
+      },
+      "when": {
+        "up": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_top_right"
+      },
+      "when": {
+        "up": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_top_right_side"
+      },
+      "when": {
+        "up": "true",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_top_right_end"
+      },
+      "when": {
+        "up": "false",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_bottom_left"
+      },
+      "when": {
+        "down": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_bottom_left_side"
+      },
+      "when": {
+        "down": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_bottom_left_end"
+      },
+      "when": {
+        "down": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_bottom_right"
+      },
+      "when": {
+        "down": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_bottom_right_side"
+      },
+      "when": {
+        "down": "true",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/south_bottom_right_end"
+      },
+      "when": {
+        "down": "false",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_centre"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_top"
+      },
+      "when": {
+        "up": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_bottom"
+      },
+      "when": {
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_left"
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_right"
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_top_left"
+      },
+      "when": {
+        "up": "false",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_top_left_side"
+      },
+      "when": {
+        "up": "true",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_top_left_end"
+      },
+      "when": {
+        "up": "false",
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_top_right"
+      },
+      "when": {
+        "up": "false",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_top_right_side"
+      },
+      "when": {
+        "up": "true",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_top_right_end"
+      },
+      "when": {
+        "up": "false",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_bottom_left"
+      },
+      "when": {
+        "down": "false",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_bottom_left_side"
+      },
+      "when": {
+        "down": "true",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_bottom_left_end"
+      },
+      "when": {
+        "down": "false",
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_bottom_right"
+      },
+      "when": {
+        "down": "false",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_bottom_right_side"
+      },
+      "when": {
+        "down": "true",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/west_bottom_right_end"
+      },
+      "when": {
+        "down": "false",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_centre"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_top"
+      },
+      "when": {
+        "up": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_bottom"
+      },
+      "when": {
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_left"
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_right"
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_top_left"
+      },
+      "when": {
+        "up": "false",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_top_left_side"
+      },
+      "when": {
+        "up": "true",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_top_left_end"
+      },
+      "when": {
+        "up": "false",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_top_right"
+      },
+      "when": {
+        "up": "false",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_top_right_side"
+      },
+      "when": {
+        "up": "true",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_top_right_end"
+      },
+      "when": {
+        "up": "false",
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_bottom_left"
+      },
+      "when": {
+        "down": "false",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_bottom_left_side"
+      },
+      "when": {
+        "down": "true",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_bottom_left_end"
+      },
+      "when": {
+        "down": "false",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_bottom_right"
+      },
+      "when": {
+        "down": "false",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_bottom_right_side"
+      },
+      "when": {
+        "down": "true",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/east_bottom_right_end"
+      },
+      "when": {
+        "down": "false",
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_centre"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_top"
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_bottom"
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_left"
+      },
+      "when": {
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_right"
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_top_left"
+      },
+      "when": {
+        "north": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_top_left_side"
+      },
+      "when": {
+        "north": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_top_left_end"
+      },
+      "when": {
+        "north": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_top_right"
+      },
+      "when": {
+        "north": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_top_right_side"
+      },
+      "when": {
+        "north": "true",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_top_right_end"
+      },
+      "when": {
+        "north": "false",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_bottom_left"
+      },
+      "when": {
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_bottom_left_side"
+      },
+      "when": {
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_bottom_left_end"
+      },
+      "when": {
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_bottom_right"
+      },
+      "when": {
+        "south": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_bottom_right_side"
+      },
+      "when": {
+        "south": "true",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/up_bottom_right_end"
+      },
+      "when": {
+        "south": "false",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_centre"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_top"
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_bottom"
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_left"
+      },
+      "when": {
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_right"
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_top_left"
+      },
+      "when": {
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_top_left_side"
+      },
+      "when": {
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_top_left_end"
+      },
+      "when": {
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_top_right"
+      },
+      "when": {
+        "south": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_top_right_side"
+      },
+      "when": {
+        "south": "true",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_top_right_end"
+      },
+      "when": {
+        "south": "false",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_bottom_left"
+      },
+      "when": {
+        "north": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_bottom_left_side"
+      },
+      "when": {
+        "north": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_bottom_left_end"
+      },
+      "when": {
+        "north": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_bottom_right"
+      },
+      "when": {
+        "north": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_bottom_right_side"
+      },
+      "when": {
+        "north": "true",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "fieldframe:block/ender_tank_glass/down_bottom_right_end"
+      },
+      "when": {
+        "north": "false",
+        "east": "true"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "category": "fieldframe:ender",
+  "title": "Charge and Health Pads",
+  "icon": "fieldframe:charge_pad_redstone",
+  "sort": 20,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "Pads face the way you look when you place them and work on the **2-block box in front of their face**. They take RF on every other side, so put a **Power Terminal** chassis or any RF source behind them. Using a pad with a charged RF item moves that item's energy into the pad."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "A **Charge Pad** charges RF items in the inventories and armor of players standing in front of it, and single RF items lying there. It splits its output evenly between them. A **Health Pad** heals hurt creatures by half a heart at a time. That costs **192,000 RF per half heart**, so plan your power."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Tier",
+        "RF stored",
+        "RF in",
+        "Charge out",
+        "Heal every"
+      ],
+      "rows": [
+        [
+          "Redstone",
+          "2,000,000",
+          "2,000/t",
+          "2,000/t",
+          "about 2 s"
+        ],
+        [
+          "Resonant",
+          "10,000,000",
+          "20,000/t",
+          "20,000/t",
+          "about 1 s"
+        ],
+        [
+          "Creative",
+          "infinite",
+          "-",
+          "10,000,000/t",
+          "0.5 s"
+        ]
+      ]
+    }
+  ],
+  "related": [
+    "fieldframe:power/rf"
+  ]
+}

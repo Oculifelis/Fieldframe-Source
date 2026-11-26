@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IRI",
+    "RBR",
+    "IDI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:redstone",
+    "B": "fieldframe:blank_module",
+    "D": "minecraft:dispenser"
+  },
+  "result": {
+    "id": "fieldframe:interaction_head"
+  }
+}

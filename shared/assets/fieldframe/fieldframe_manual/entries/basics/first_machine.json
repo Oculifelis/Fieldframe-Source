@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "category": "fieldframe:basics",
+  "title": "Your First Machine",
+  "icon": "fieldframe:heater",
+  "sort": 20,
+  "pages": [
+    {
+      "type": "fieldframe:tutorial",
+      "steps": [
+        {
+          "text": "Craft a **Chassis** (iron + copper) and a few **Blank Module Plates** (iron + copper).",
+          "advancement": "fieldframe:root"
+        },
+        "Craft a **Fuel Engine** (blank + furnace + copper), a **Heater** (blank + furnace) and an **Inventory Access Panel** (blank + barrel).",
+        {
+          "text": "Place the chassis. Hold each module and use it on a side: engine on the bottom, heater on top, panel on the front.",
+          "advancement": "fieldframe:first_module"
+        },
+        {
+          "text": "Right-click the panel with an empty hand. Put raw iron in **Orange** storage and coal in **Purple** storage.",
+          "advancement": "fieldframe:it_works"
+        },
+        "Iron ingots appear in **Green** storage. Take them out through the panel. That's it: no settings needed."
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "A step **turns green with a tick** once you have done it in your world."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Three storages, three jobs.** Every machine has an Orange, a Green and a Purple storage (and a tank of each colour). Modules start out the same way: they **take from Orange**, put **results into Green**, and take **fuel and tools from Purple**. So most machines work as soon as you put the modules on.\n\nEach module's side has a thin **coloured ring** near its edge showing which storages it uses, in the same colours (a paler shade for tanks). A module that uses two gets a ring in two sections, like a heater: orange (takes from) and green (results go to)."
+    },
+    {
+      "type": "fieldframe:face_map",
+      "faces": {
+        "top": "fieldframe:heater",
+        "bottom": "fieldframe:fuel_engine",
+        "front": "fieldframe:inventory_access_panel"
+      },
+      "text": "The finished layout. Click a side to read about its module."
+    },
+    {
+      "type": "fieldframe:test_bench",
+      "text": "**Try it here first.** This bench simulates the same machine with no world involved. Press play and watch the RF graph rise and fall as the heater works.",
+      "speed": 4,
+      "scenario": {
+        "modules": {
+          "top": {
+            "module": "fieldframe:heater"
+          },
+          "bottom": {
+            "module": "fieldframe:fuel_engine"
+          },
+          "front": {
+            "module": "fieldframe:inventory_access_panel"
+          }
+        },
+        "lanes": {
+          "A": [
+            [
+              "minecraft:raw_iron",
+              6
+            ]
+          ],
+          "C": [
+            [
+              "minecraft:coal",
+              1
+            ]
+          ]
+        },
+        "fuels": {
+          "minecraft:coal": 1600
+        },
+        "recipes": [
+          {
+            "family": "fieldframe:heating",
+            "input": "minecraft:raw_iron",
+            "output": "minecraft:iron_ingot",
+            "duration": 100,
+            "energy": 20
+          }
+        ]
+      }
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Why did it stop?** Right-click the chassis with an empty hand to open the **machine screen**, then click the side. It says what the module is doing and, if something is wrong, what to do about it, for example *Green storage is full. Take things out of Green storage.* See [[fieldframe:basics/configurator|the machine screen]]."
+    }
+  ],
+  "related": [
+    "fieldframe:basics/configurator",
+    "fieldframe:power/rf",
+    "fieldframe:routing/lanes_and_ports"
+  ]
+}

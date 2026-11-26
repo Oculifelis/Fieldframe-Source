@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:sanguinite",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:alduorite",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:etherium",
+    "amount": 288
+  }
+}

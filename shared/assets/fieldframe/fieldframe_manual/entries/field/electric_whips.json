@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "category": "fieldframe:field",
+  "title": "Electric Whips",
+  "icon": "fieldframe:arc_whip",
+  "sort": 60,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Whips that run on RF**. Left click swings the cord; its tip cracks for a crit.\n\nThe **Arc Whip** is crafted from **3 copper ingots**, **redstone** and a **Cell Upgrade** for the grip. It holds **40,000 RF** and each swing costs **250 RF**. A charged swing adds a shock to every hit, and a cracking tip staggers what it hits.\n\nAn **empty** whip still swings, but hits for half and never cracks for a crit. Charge it like any RF item: an **Item Charger** in a chassis or Field Kit, or a **charge pad**."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Tesla Whip:** an Arc Whip and a **Reinforced Upgrade Kit** in a crafting grid. It keeps its charge and enchantments. Longer and harder-hitting, it holds **100,000 RF** and costs **400 RF** a swing.\n\nA charged cracking tip **stuns** its target and **arcs** on to up to four more hostiles, each within six blocks of the last, for less each jump. Every arc costs **150 RF** more; the chain stops when the whip runs dry.\n\nThe bar under a whip's icon is its RF. While it has charge, the cord glows and sparks."
+    }
+  ],
+  "related": [
+    "fieldframe:basics/field_kit",
+    "fieldframe:field/graviton_hook"
+  ]
+}

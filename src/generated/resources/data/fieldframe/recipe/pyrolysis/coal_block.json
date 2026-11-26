@@ -1,0 +1,27 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:pyrolysis",
+  "inputs": [
+    {
+      "ingredient": "minecraft:coal_block",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:coal_coke",
+      "count": 9
+    },
+    {
+      "id": "metallurgy:sulfur_dust",
+      "count": 1,
+      "chance": 0.9
+    }
+  ],
+  "duration": 1600,
+  "energy": 20,
+  "fluid_result": {
+    "fluid": "fieldframe:creosote",
+    "amount": 2000
+  }
+}

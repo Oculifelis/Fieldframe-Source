@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:lutetium",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:osmium",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:krik",
+    "amount": 288
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "fieldframe_frameworks:block/gantry_rail",
+    "end": "fieldframe_frameworks:block/gantry_rail_top"
+  }
+}

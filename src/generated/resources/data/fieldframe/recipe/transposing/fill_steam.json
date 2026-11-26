@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:transposing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:bucket",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:steam_bucket",
+      "count": 1
+    }
+  ],
+  "duration": 20,
+  "energy": 10,
+  "fluid_input": {
+    "fluid": "fieldframe:steam",
+    "amount": 1000
+  }
+}

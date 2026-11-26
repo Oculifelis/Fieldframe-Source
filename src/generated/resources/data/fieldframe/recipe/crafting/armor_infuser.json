@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ITI",
+    "PBP",
+    "ITI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "T": "fieldframe:tank_upgrade",
+    "P": "fieldframe:fluid_port",
+    "B": "fieldframe:blank_module"
+  },
+  "result": {
+    "id": "fieldframe:armor_infuser"
+  }
+}

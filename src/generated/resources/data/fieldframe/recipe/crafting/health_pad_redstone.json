@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IEI",
+    "CFC",
+    "IAI"
+  ],
+  "key": {
+    "I": "minecraft:gold_ingot",
+    "E": "minecraft:ender_eye",
+    "C": "minecraft:golden_apple",
+    "F": "fieldframe:chassis",
+    "A": "fieldframe:cell_upgrade"
+  },
+  "result": {
+    "id": "fieldframe:health_pad_redstone"
+  }
+}

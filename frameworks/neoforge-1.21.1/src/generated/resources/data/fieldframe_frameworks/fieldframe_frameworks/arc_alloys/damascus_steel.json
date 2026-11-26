@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "item": "#c:ingots/iron",
+      "count": 2
+    },
+    {
+      "item": "#c:ingots/copper",
+      "count": 3
+    },
+    {
+      "item": "#c:ingots/tin",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "metallurgy:damascus_steel_ingot",
+    "count": 6
+  }
+}

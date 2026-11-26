@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "item": "#c:ingots/adamantine",
+      "count": 1
+    },
+    {
+      "item": "#c:ingots/atlarus",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "metallurgy:tartarite_ingot",
+    "count": 2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "item": "#forge:ingots/adamantine",
+      "count": 1
+    },
+    {
+      "item": "#forge:ingots/atlarus",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "metallurgy:tartarite_ingot",
+    "count": 2
+  }
+}

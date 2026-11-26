@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:item_port",
+    "fieldframe:fluid_port",
+    "fieldframe:power_terminal",
+    "minecraft:gold_ingot"
+  ],
+  "result": {
+    "id": "fieldframe:combined_service_port"
+  }
+}

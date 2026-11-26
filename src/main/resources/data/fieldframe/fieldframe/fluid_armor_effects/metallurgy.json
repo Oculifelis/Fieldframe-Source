@@ -1,0 +1,294 @@
+{
+  "requires_mod": "metallurgy",
+  "effects": [
+    {
+      "fluid": "metallurgy:adamantine",
+      "effect": "minecraft:resistance",
+      "mb_per_level": 32000,
+      "max_amplifier": 1
+    },
+    {
+      "fluid": "metallurgy:adamantine",
+      "effect": "minecraft:health_boost",
+      "min_mb": 16000
+    },
+    {
+      "fluid": "metallurgy:alduorite",
+      "effect": "minecraft:fire_resistance"
+    },
+    {
+      "fluid": "metallurgy:amordrine",
+      "effect": "minecraft:jump_boost",
+      "mb_per_level": 8000,
+      "max_amplifier": 2
+    },
+    {
+      "fluid": "metallurgy:angmallen",
+      "effect": "minecraft:luck"
+    },
+    {
+      "fluid": "metallurgy:astral_silver",
+      "effect": "minecraft:night_vision"
+    },
+    {
+      "fluid": "metallurgy:astral_silver",
+      "effect": "minecraft:speed",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "metallurgy:atlarus",
+      "effect": "minecraft:slow_falling"
+    },
+    {
+      "fluid": "metallurgy:black_steel",
+      "effect": "minecraft:resistance"
+    },
+    {
+      "fluid": "metallurgy:black_steel",
+      "effect": "minecraft:slowness"
+    },
+    {
+      "fluid": "metallurgy:brass",
+      "effect": "minecraft:haste"
+    },
+    {
+      "fluid": "metallurgy:bronze",
+      "effect": "minecraft:health_boost"
+    },
+    {
+      "fluid": "metallurgy:carmot",
+      "effect": "minecraft:haste",
+      "mb_per_level": 8000,
+      "max_amplifier": 2
+    },
+    {
+      "fluid": "metallurgy:celenegil",
+      "effect": "minecraft:regeneration",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "metallurgy:ceruclase",
+      "effect": "minecraft:fire_resistance"
+    },
+    {
+      "fluid": "metallurgy:copper",
+      "effect": "minecraft:haste"
+    },
+    {
+      "fluid": "metallurgy:damascus_steel",
+      "effect": "minecraft:strength"
+    },
+    {
+      "fluid": "metallurgy:deep_iron",
+      "effect": "minecraft:water_breathing"
+    },
+    {
+      "fluid": "metallurgy:deep_iron",
+      "effect": "minecraft:dolphins_grace",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "metallurgy:desichalkos",
+      "effect": "minecraft:absorption",
+      "mb_per_level": 8000,
+      "max_amplifier": 2
+    },
+    {
+      "fluid": "metallurgy:electrum",
+      "effect": "minecraft:speed"
+    },
+    {
+      "fluid": "metallurgy:etherium",
+      "effect": "minecraft:invisibility",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "metallurgy:eximite",
+      "effect": "minecraft:slow_falling"
+    },
+    {
+      "fluid": "metallurgy:haderoth",
+      "effect": "minecraft:fire_resistance"
+    },
+    {
+      "fluid": "metallurgy:haderoth",
+      "effect": "minecraft:resistance",
+      "min_mb": 16000
+    },
+    {
+      "fluid": "metallurgy:hepatizon",
+      "effect": "minecraft:invisibility",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "metallurgy:ignatius",
+      "effect": "minecraft:fire_resistance"
+    },
+    {
+      "fluid": "metallurgy:ignatius",
+      "effect": "minecraft:regeneration",
+      "min_mb": 16000
+    },
+    {
+      "fluid": "metallurgy:infuscolium",
+      "effect": "minecraft:strength"
+    },
+    {
+      "fluid": "metallurgy:inolashite",
+      "effect": "minecraft:speed",
+      "mb_per_level": 16000,
+      "max_amplifier": 1
+    },
+    {
+      "fluid": "metallurgy:kalendrite",
+      "effect": "minecraft:regeneration",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "metallurgy:krik",
+      "effect": "minecraft:slow_falling"
+    },
+    {
+      "fluid": "metallurgy:krik",
+      "effect": "minecraft:jump_boost",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "metallurgy:lemurite",
+      "effect": "minecraft:luck"
+    },
+    {
+      "fluid": "metallurgy:lutetium",
+      "effect": "minecraft:haste"
+    },
+    {
+      "fluid": "metallurgy:manganese",
+      "effect": "minecraft:resistance"
+    },
+    {
+      "fluid": "metallurgy:meutoite",
+      "effect": "minecraft:slow_falling"
+    },
+    {
+      "fluid": "metallurgy:midasium",
+      "effect": "minecraft:luck",
+      "mb_per_level": 8000,
+      "max_amplifier": 2
+    },
+    {
+      "fluid": "metallurgy:mithril",
+      "effect": "minecraft:speed"
+    },
+    {
+      "fluid": "metallurgy:orichalcum",
+      "effect": "minecraft:strength",
+      "mb_per_level": 16000,
+      "max_amplifier": 1
+    },
+    {
+      "fluid": "metallurgy:osmium",
+      "effect": "minecraft:resistance"
+    },
+    {
+      "fluid": "metallurgy:osmium",
+      "effect": "minecraft:slowness"
+    },
+    {
+      "fluid": "metallurgy:oureclase",
+      "effect": "minecraft:speed",
+      "mb_per_level": 16000,
+      "max_amplifier": 1
+    },
+    {
+      "fluid": "metallurgy:platinum",
+      "effect": "fieldframe:cleanse"
+    },
+    {
+      "fluid": "metallurgy:prometheum",
+      "effect": "minecraft:regeneration",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "metallurgy:quicksilver",
+      "effect": "minecraft:speed",
+      "mb_per_level": 8000,
+      "max_amplifier": 2
+    },
+    {
+      "fluid": "metallurgy:rubracium",
+      "effect": "minecraft:strength"
+    },
+    {
+      "fluid": "metallurgy:sanguinite",
+      "effect": "minecraft:health_boost",
+      "mb_per_level": 16000,
+      "max_amplifier": 1
+    },
+    {
+      "fluid": "metallurgy:shadow_iron",
+      "effect": "minecraft:night_vision"
+    },
+    {
+      "fluid": "metallurgy:shadow_steel",
+      "effect": "minecraft:night_vision"
+    },
+    {
+      "fluid": "metallurgy:shadow_steel",
+      "effect": "minecraft:speed",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "metallurgy:silver",
+      "effect": "minecraft:regeneration",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "metallurgy:steel",
+      "effect": "minecraft:resistance"
+    },
+    {
+      "fluid": "metallurgy:tartarite",
+      "effect": "minecraft:resistance",
+      "mb_per_level": 32000,
+      "max_amplifier": 1
+    },
+    {
+      "fluid": "metallurgy:tartarite",
+      "effect": "minecraft:strength",
+      "min_mb": 8000
+    },
+    {
+      "fluid": "metallurgy:tin",
+      "effect": "minecraft:water_breathing"
+    },
+    {
+      "fluid": "metallurgy:vulcanite",
+      "effect": "minecraft:fire_resistance"
+    },
+    {
+      "fluid": "metallurgy:vyroxeres",
+      "effect": "minecraft:absorption"
+    },
+    {
+      "fluid": "metallurgy:zinc",
+      "effect": "minecraft:health_boost"
+    },
+    {
+      "fluid": "metallurgy:molten_tar",
+      "effect": "minecraft:resistance"
+    },
+    {
+      "fluid": "metallurgy:molten_tar",
+      "effect": "minecraft:slowness"
+    },
+    {
+      "fluid": "metallurgy:molten_thermite",
+      "effect": "minecraft:fire_resistance"
+    },
+    {
+      "fluid": "metallurgy:molten_thermite",
+      "effect": "minecraft:strength",
+      "min_mb": 8000
+    }
+  ]
+}

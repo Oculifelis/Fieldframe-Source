@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RQR",
+    "IBI",
+    "RFR"
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "Q": "minecraft:comparator",
+    "I": "minecraft:iron_ingot",
+    "B": "fieldframe:blank_module",
+    "F": "fieldframe:fuel_engine"
+  },
+  "result": {
+    "id": "fieldframe:redstone_engine"
+  }
+}

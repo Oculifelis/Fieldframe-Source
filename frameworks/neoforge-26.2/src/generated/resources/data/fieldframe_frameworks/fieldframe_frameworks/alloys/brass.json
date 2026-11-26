@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:copper",
+      "amount": 432
+    },
+    {
+      "fluid": "metallurgy:zinc",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:brass",
+    "amount": 576
+  }
+}

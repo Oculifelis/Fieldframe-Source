@@ -1,0 +1,20 @@
+{
+  "schematic": "fieldframe:first_machine",
+  "title": "Your first machine",
+  "base_plate": [0, 0, 5],
+  "steps": [
+    { "show": "base", "wait": 10 },
+    { "show": "section", "from": [2, 1, 2], "dir": "down", "wait": 15 },
+    { "text": "A Chassis does nothing on its own: a machine is the modules on its six faces.", "at": [2, 1, 2], "face": "up", "outline": true, "for": 70 },
+    { "install": "fieldframe:fuel_engine", "at": [2, 1, 2], "face": "left", "wait": 10 },
+    { "text": "A Fuel Engine burns fuel from the Purple storage into RF for the whole machine. Any face will do.", "at": [2, 1, 2], "face": "west", "for": 80 },
+    { "install": "fieldframe:heater", "at": [2, 1, 2], "face": "top", "wait": 10 },
+    { "text": "A Heater smelts with that RF: it takes ore from the Orange storage and puts ingots in Green.", "at": [2, 1, 2], "face": "up", "for": 80 },
+    { "install": "fieldframe:inventory_access_panel", "at": [2, 1, 2], "face": "front", "wait": 10 },
+    { "text": "An Inventory Access Panel lets you reach the storages: right-click it with an empty hand.", "at": [2, 1, 2], "face": "north", "for": 80 },
+    { "working": "left", "at": [2, 1, 2] },
+    { "working": "top", "at": [2, 1, 2], "wait": 10 },
+    { "text": "Lit faceplates show which modules are working. No settings needed.", "at": [2, 1, 2], "face": "up", "for": 70 },
+    { "rotate": 90, "wait": 30 }
+  ]
+}

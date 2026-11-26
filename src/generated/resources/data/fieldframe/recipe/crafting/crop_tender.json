@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:iron_hoe",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "fieldframe:crop_tender"
+  }
+}
