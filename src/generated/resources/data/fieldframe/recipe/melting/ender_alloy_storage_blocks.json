@@ -1,0 +1,18 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "c:storage_blocks/ender_alloy"
+      },
+      "count": 1
+    }
+  ],
+  "fluid_result": {
+    "fluid": "fieldframe:molten_ender_alloy",
+    "amount": 1296
+  },
+  "duration": 1200,
+  "energy": 32
+}

@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "category": "fieldframe:basics",
+  "title": "The Chassis",
+  "icon": "fieldframe:chassis",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:face_map",
+      "faces": {},
+      "text": "A chassis has six faces named from its own point of view: **F**ront, Bac**K**, **L**eft, **R**ight, **T**op, **B**ottom. The front carries a copper chevron. Turning the chassis turns the whole machine: modules keep their local faces."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": ["Inside one chassis", "Default"],
+      "rows": [
+        ["Item lanes A, B, C", "4 slots each"],
+        ["Fluid reservoirs a, b, c", "4,000 mB each"],
+        ["RF buffer (one, shared)", "16,000 RF"],
+        ["Control channels 1-8", "values 0-15"],
+        ["Service bays", "3"],
+        ["Shared item budget", "16 items/tick"],
+        ["Shared fluid budget", "1,000 mB/tick"],
+        ["Shared RF in / out", "512 RF/tick each"]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**One face, one module.** Service bays only add capacity or throughput; they never add faces or functions. Every way in or out of a chassis draws from the same per-tick budgets, so six ports cannot each move the full amount.\n\nAn empty face exposes nothing to its neighbour, and nothing is exposed to side-less queries. Breaking a chassis drops its modules, upgrades and lane items once; **fluid and stored RF are lost**."
+    }
+  ],
+  "related": ["fieldframe:basics/first_machine", "fieldframe:routing/lanes_and_ports", "fieldframe:reference/upgrades"]
+}

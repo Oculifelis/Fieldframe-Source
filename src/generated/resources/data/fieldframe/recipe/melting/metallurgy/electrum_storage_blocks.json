@@ -1,0 +1,24 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "c:storage_blocks/electrum"
+      },
+      "count": 1
+    }
+  ],
+  "fluid_result": {
+    "fluid": "metallurgy:electrum",
+    "amount": 1296
+  },
+  "duration": 1200,
+  "energy": 32,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:electrum_ingot"
+    }
+  ]
+}

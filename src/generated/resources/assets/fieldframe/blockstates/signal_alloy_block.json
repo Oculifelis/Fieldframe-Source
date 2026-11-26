@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fieldframe:block/signal_alloy_block"
+    }
+  }
+}

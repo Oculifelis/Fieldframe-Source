@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OIO",
+    "IBI",
+    "OIO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    }
+  },
+  "result": {
+    "id": "fieldframe:blast_damper"
+  }
+}

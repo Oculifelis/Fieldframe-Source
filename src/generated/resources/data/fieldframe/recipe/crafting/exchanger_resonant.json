@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    "IXI",
+    " C "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "I": {
+      "item": "fieldframe:ender_alloy_ingot"
+    },
+    "X": {
+      "item": "fieldframe:exchanger_redstone"
+    },
+    "C": {
+      "item": "fieldframe:cell_upgrade"
+    }
+  },
+  "result": {
+    "id": "fieldframe:exchanger_resonant"
+  }
+}

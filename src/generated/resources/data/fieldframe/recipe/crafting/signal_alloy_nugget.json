@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:ingots/signal_alloy"
+    }
+  ],
+  "result": {
+    "id": "fieldframe:signal_alloy_nugget",
+    "count": 9
+  }
+}

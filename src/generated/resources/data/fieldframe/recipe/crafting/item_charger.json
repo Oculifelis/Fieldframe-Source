@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CRC",
+    "RBR",
+    "CAC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    },
+    "A": {
+      "item": "fieldframe:cell_upgrade"
+    }
+  },
+  "result": {
+    "id": "fieldframe:item_charger"
+  }
+}

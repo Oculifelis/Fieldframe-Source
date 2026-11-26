@@ -1,0 +1,24 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "c:ingots/oureclase"
+      },
+      "count": 1
+    }
+  ],
+  "fluid_result": {
+    "fluid": "metallurgy:oureclase",
+    "amount": 144
+  },
+  "duration": 160,
+  "energy": 32,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:oureclase_ingot"
+    }
+  ]
+}

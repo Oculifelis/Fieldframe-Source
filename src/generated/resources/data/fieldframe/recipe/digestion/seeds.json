@@ -1,0 +1,29 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:digestion",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "c:seeds"
+      },
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:compost",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "duration": 100,
+  "energy": 10,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  },
+  "fluid_result": {
+    "fluid": "fieldframe:biogas",
+    "amount": 100
+  }
+}

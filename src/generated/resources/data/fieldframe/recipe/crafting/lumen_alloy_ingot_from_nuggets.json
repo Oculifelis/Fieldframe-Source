@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/lumen_alloy"
+    }
+  },
+  "result": {
+    "id": "fieldframe:lumen_alloy_ingot"
+  }
+}

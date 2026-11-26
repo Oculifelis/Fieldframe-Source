@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#c:nuggets/ender_alloy",
+    "#c:nuggets/lumen_alloy",
+    "#c:nuggets/signal_alloy"
+  ]
+}

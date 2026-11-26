@@ -1,0 +1,31 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "fieldframe:ingot_cast"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "fluid_input": {
+    "fluid": "metallurgy:etherium",
+    "amount": 144
+  },
+  "results": [
+    {
+      "id": "metallurgy:etherium_ingot",
+      "count": 1
+    }
+  ],
+  "duration": 80,
+  "energy": 24,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:etherium_ingot"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "fieldframe:block/module/timer_counter_plate" }
+}

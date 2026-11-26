@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "category": "fieldframe:control",
+  "title": "Control Channels",
+  "icon": "fieldframe:logic_plate",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "Each chassis has eight internal **control channels** carrying 0-15, like redstone. Modules read channels through **signal-in** bindings (enable, set, count...) and drive them through **signal-out** bindings (done, active, out...).\n\n**Timing rule:** everything a module reads this tick was written last tick. When several modules drive one channel, the **highest** value wins, and a channel nobody drives reads 0. Loops therefore advance one step per tick and can never run away."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": ["Module", "What it does"],
+      "rows": [
+        ["Signal Terminal", "world redstone <-> channel"],
+        ["Logic Plate", "AND, OR, XOR, NAND, NOR, XNOR, NOT, BUFFER"],
+        ["Memory Plate", "latch: reset > set > toggle"],
+        ["Timer/Counter", "pulses every N ticks / counts edges"],
+        ["Resource Sensor", "threshold with hysteresis"],
+        ["Environment Sensor", "daylight, rain, open sky"],
+        ["Indicator Panel", "shows a channel"]
+      ]
+    },
+    {
+      "type": "fieldframe:test_bench",
+      "text": "**Hysteresis demo.** A Resource Sensor watches the RF buffer and enables the engine below 25% and stops it above 75%. Play it and watch the RF graph saw between the thresholds.",
+      "speed": 10,
+      "scenario": {
+        "energy": 0,
+        "modules": {
+          "front": {"module": "fieldframe:resource_sensor"},
+          "bottom": {"module": "fieldframe:fuel_engine", "bindings": {"enable": 4}},
+          "top": {"module": "fieldframe:heater"}
+        },
+        "lanes": {"A": [["minecraft:coal", 8], ["minecraft:raw_iron", 64]]},
+        "fuels": {"minecraft:coal": 1600},
+        "recipes": [{"family": "fieldframe:heating", "input": "minecraft:raw_iron", "output": "minecraft:iron_ingot", "duration": 100, "energy": 20}]
+      }
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "Logic modules use no RF, so a sensor can always switch on the generator that powers its own machine."
+    }
+  ],
+  "related": ["fieldframe:modules/logic_plate", "fieldframe:modules/resource_sensor", "fieldframe:modules/memory_plate", "fieldframe:modules/timer_counter_plate"]
+}

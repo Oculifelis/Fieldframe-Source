@@ -1,0 +1,19 @@
+{
+  "type": "fieldframe:pressing",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:clay_ball"
+      },
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:clay",
+      "count": 1
+    }
+  ],
+  "duration": 40,
+  "energy": 16
+}

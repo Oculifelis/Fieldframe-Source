@@ -1,0 +1,49 @@
+{
+  "mobs": [
+    {
+      "entity": "minecraft:chicken",
+      "food": "minecraft:wheat_seeds",
+      "rf_per_tick": 2
+    },
+    {
+      "entity": "minecraft:pig",
+      "food": "minecraft:carrot",
+      "rf_per_tick": 4
+    },
+    {
+      "entity": "minecraft:sheep",
+      "food": "minecraft:wheat",
+      "rf_per_tick": 5
+    },
+    {
+      "entity": "minecraft:cow",
+      "food": "minecraft:wheat",
+      "rf_per_tick": 6
+    },
+    {
+      "entity": "minecraft:mooshroom",
+      "food": "minecraft:wheat",
+      "rf_per_tick": 6
+    },
+    {
+      "entity": "minecraft:goat",
+      "food": "minecraft:wheat",
+      "rf_per_tick": 7
+    },
+    {
+      "entity": "minecraft:camel",
+      "food": "minecraft:cactus",
+      "rf_per_tick": 8
+    },
+    {
+      "entity": "minecraft:horse",
+      "food": "minecraft:wheat",
+      "rf_per_speed": 40
+    },
+    {
+      "entity": "minecraft:donkey",
+      "food": "minecraft:wheat",
+      "rf_per_speed": 40
+    }
+  ]
+}

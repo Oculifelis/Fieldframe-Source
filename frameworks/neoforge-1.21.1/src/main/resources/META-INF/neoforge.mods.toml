@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="LGPL-3.0-or-later"
+
+[[mods]]
+modId="fieldframe_frameworks"
+version="0.1.6"
+displayName="Fieldframe Frameworks"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/fieldframe-frameworks"
+authors="Oculifelis"
+logoFile="fieldframe_frameworks_logo.png"
+description='''
+Multiblock frames for Fieldframe: the Grand Frame (a hollow box of casings whose walls take modules, with storage,
+tank and battery blocks inside), and frames built on it. Uses only Fieldframe's public API.
+'''
+
+[[dependencies.fieldframe_frameworks]]
+    modId="fieldframe"
+    type="required"
+    versionRange="[0.1,)"
+    ordering="AFTER"
+    side="BOTH"

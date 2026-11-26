@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RPR",
+    "PGP",
+    "RPR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "tag": "c:plates/steel"
+    },
+    "G": {
+      "tag": "c:gears/bronze"
+    }
+  },
+  "result": {
+    "id": "fieldframe:hardened_upgrade_kit"
+  }
+}

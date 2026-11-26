@@ -1,0 +1,43 @@
+// Shared, loader-independent Fieldframe domain model and public logical API.
+// Compiled to the Java 17 baseline so the same sources can be added to every loader build.
+plugins {
+    id 'java-library'
+}
+
+group = 'dev.fieldframe'
+version = '0.1.0'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Gson ships with every targeted Minecraft version; the loader builds use the game's copy.
+    compileOnly 'com.google.code.gson:gson:2.10.1'
+    testImplementation 'com.google.code.gson:gson:2.10.1'
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+    options.compilerArgs << '-parameters'
+}
+
+test {
+    useJUnitPlatform { excludeTags 'benchmark' }
+    testLogging { events 'failed'; exceptionFormat 'full' }
+}
+
+// Domain-only throughput numbers for docs/performance.md (not part of `check`).
+tasks.register('benchmark', Test) {
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    useJUnitPlatform { includeTags 'benchmark' }
+    testLogging { showStandardStreams = true }
+    outputs.upToDateWhen { false }
+}

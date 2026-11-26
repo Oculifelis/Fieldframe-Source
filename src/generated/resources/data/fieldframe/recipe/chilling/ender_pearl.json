@@ -1,0 +1,17 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [],
+  "results": [
+    {
+      "id": "minecraft:ender_pearl",
+      "count": 2
+    }
+  ],
+  "duration": 100,
+  "energy": 30,
+  "fluid_input": {
+    "fluid": "fieldframe:resonant_ender",
+    "amount": 1000
+  }
+}

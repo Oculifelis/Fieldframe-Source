@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    "ICI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "C": {
+      "item": "fieldframe:tank_upgrade"
+    }
+  },
+  "result": {
+    "id": "fieldframe:copper_fluid_chestplate"
+  }
+}

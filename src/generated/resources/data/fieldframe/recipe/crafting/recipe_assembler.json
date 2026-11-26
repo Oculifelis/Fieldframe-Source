@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fieldframe:blank_module"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "id": "fieldframe:recipe_assembler"
+  }
+}

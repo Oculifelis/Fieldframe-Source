@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "category": "fieldframe:machine_shop",
+  "title": "Processing Machines",
+  "icon": "fieldframe:sawmill",
+  "sort": 20,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "These modules use the same processing engine as the Crusher and Mixer: inputs from the **input** lane (and a reservoir when the recipe needs a fluid), RF every tick, all products delivered at once. Every recipe is datapack JSON (type *fieldframe:process* with a *family*), so packs can add, change or remove any of them."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Module",
+        "Does",
+        "Fluid"
+      ],
+      "rows": [
+        [
+          "Sawmill",
+          "logs to planks + sawdust",
+          "-"
+        ],
+        [
+          "Insolator",
+          "grows crops and saplings from a catalyst seed",
+          "water in"
+        ],
+        [
+          "Centrifuge",
+          "splits items, sap and latex",
+          "optional"
+        ],
+        [
+          "Magma Crucible",
+          "melts items into fluids",
+          "out"
+        ],
+        [
+          "Fluid Transposer",
+          "fills and empties containers",
+          "in or out"
+        ],
+        [
+          "Blast Chiller",
+          "freezes fluids into solids",
+          "in"
+        ],
+        [
+          "Refinery",
+          "fluid to a better fluid + byproduct",
+          "in and out"
+        ],
+        [
+          "Pyrolyzer",
+          "coal and logs to coke, charcoal + creosote",
+          "optional out"
+        ],
+        [
+          "Alloy Smelter",
+          "melts metals into alloys",
+          "-"
+        ],
+        [
+          "Glacial Precipitator",
+          "water to snow and ice",
+          "in"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:sawing"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:growing"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:separating"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:melting"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:transposing"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:chilling"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:refining"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:pyrolysis"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:precipitating"
+    }
+  ],
+  "related": [
+    "fieldframe:modules/sawmill",
+    "fieldframe:modules/insolator",
+    "fieldframe:modules/centrifuge",
+    "fieldframe:modules/magma_crucible",
+    "fieldframe:modules/fluid_transposer",
+    "fieldframe:modules/blast_chiller",
+    "fieldframe:modules/refinery",
+    "fieldframe:modules/pyrolyzer",
+    "fieldframe:modules/alloy_smelter",
+    "fieldframe:modules/glacial_precipitator"
+  ]
+}

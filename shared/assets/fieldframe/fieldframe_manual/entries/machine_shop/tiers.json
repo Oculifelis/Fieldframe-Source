@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "category": "fieldframe:machine_shop",
+  "title": "Chassis Tiers",
+  "icon": "fieldframe:hardened_upgrade_kit",
+  "sort": 45,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "A chassis starts **Basic**. Use an **upgrade kit** on it to raise it one tier: Hardened, then Reinforced, Signalum and Resonant. A kit only works on the tier just below it. Breaking the chassis gives every kit back."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Tier",
+        "Speed",
+        "Adds"
+      ],
+      "rows": [
+        [
+          "Basic",
+          "1x",
+          "-"
+        ],
+        [
+          "Hardened",
+          "1.5x",
+          "1 bay, 1 stack per lane, 2,000 mB, 32,000 RF"
+        ],
+        [
+          "Reinforced",
+          "2x",
+          "2 bays, 2 stacks, 4,000 mB, 96,000 RF"
+        ],
+        [
+          "Signalum",
+          "3x",
+          "3 bays, 3 stacks, 8,000 mB, 224,000 RF"
+        ],
+        [
+          "Resonant",
+          "4x",
+          "3 bays, 5 stacks, 12,000 mB, 480,000 RF"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Speed** makes every processor finish sooner and every engine burn faster. The RF per job and the RF per fuel stay the same, so a faster tier needs power delivered faster too. The bays take service-bay upgrades as usual."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "Kits are made from plates and a gear: Hardened from steel plates and a bronze gear, Reinforced from electrum and steel, Signalum from signal alloy and electrum, Resonant from ender alloy and signal alloy."
+    }
+  ],
+  "related": [
+    "fieldframe:machine_shop/materials",
+    "fieldframe:modules/press"
+  ]
+}

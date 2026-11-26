@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "MPM",
+    " T "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "fieldframe:copper_fluid_helmet"
+    },
+    "T": {
+      "item": "fieldframe:tank_upgrade"
+    }
+  },
+  "result": {
+    "id": "fieldframe:iron_fluid_helmet"
+  }
+}

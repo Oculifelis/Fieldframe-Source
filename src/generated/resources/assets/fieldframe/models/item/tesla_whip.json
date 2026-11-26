@@ -1,0 +1,29 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "parent": "minecraft:item/handheld",
+  "base": {
+    "parent": "fieldframe:item/tesla_whip_held"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "fieldframe:item/tesla_whip_coiled"
+    },
+    "ground": {
+      "parent": "fieldframe:item/tesla_whip_coiled"
+    },
+    "fixed": {
+      "parent": "fieldframe:item/tesla_whip_coiled"
+    }
+  },
+  "textures": {
+    "particle": "fieldframe:item/tesla_whip"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "fundamentum:whip_flat_handles": 1
+      },
+      "model": "fieldframe:item/tesla_whip_flat"
+    }
+  ]
+}

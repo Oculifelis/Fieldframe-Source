@@ -1,0 +1,29 @@
+{
+  "type": "fieldframe:mixing",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      },
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:ender_alloy_ingot",
+      "count": 1
+    }
+  ],
+  "duration": 120,
+  "energy": 40,
+  "fluid_input": {
+    "fluid": "minecraft:lava",
+    "amount": 250
+  }
+}

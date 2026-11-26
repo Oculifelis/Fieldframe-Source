@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fieldframe:blank_module"
+    },
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "item": "minecraft:cauldron"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "id": "fieldframe:boiler"
+  }
+}

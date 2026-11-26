@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:deep_iron",
+      "amount": 432
+    },
+    {
+      "fluid": "metallurgy:infuscolium",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:black_steel",
+    "amount": 576
+  }
+}

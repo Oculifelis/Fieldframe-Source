@@ -1,0 +1,26 @@
+{
+  "type": "fieldframe:pressing",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "c:ingots/ender_alloy"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "fieldframe:plate_die"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:ender_alloy_plate",
+      "count": 1
+    }
+  ],
+  "duration": 60,
+  "energy": 24
+}

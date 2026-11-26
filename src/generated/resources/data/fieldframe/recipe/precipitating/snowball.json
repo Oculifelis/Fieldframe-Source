@@ -1,0 +1,17 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:precipitating",
+  "inputs": [],
+  "results": [
+    {
+      "id": "minecraft:snowball",
+      "count": 1
+    }
+  ],
+  "duration": 40,
+  "energy": 16,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 125
+  }
+}

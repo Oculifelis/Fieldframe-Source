@@ -1,0 +1,19 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:magma_block"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "duration": 120,
+  "energy": 40,
+  "fluid_result": {
+    "fluid": "minecraft:lava",
+    "amount": 1000
+  }
+}

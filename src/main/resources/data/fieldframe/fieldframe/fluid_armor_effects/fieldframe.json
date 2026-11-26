@@ -1,0 +1,65 @@
+{
+  "effects": [
+    {
+      "fluid": "fieldframe:tree_sap",
+      "effect": "minecraft:regeneration",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "fieldframe:latex",
+      "effect": "minecraft:jump_boost",
+      "mb_per_level": 16000,
+      "max_amplifier": 1
+    },
+    {
+      "fluid": "fieldframe:creosote",
+      "effect": "minecraft:resistance"
+    },
+    {
+      "fluid": "fieldframe:creosote",
+      "effect": "minecraft:hunger"
+    },
+    {
+      "fluid": "fieldframe:refined_oil",
+      "effect": "minecraft:speed",
+      "mb_per_level": 16000,
+      "max_amplifier": 2
+    },
+    {
+      "fluid": "fieldframe:liquid_experience",
+      "effect": "minecraft:luck",
+      "mb_per_level": 8000,
+      "max_amplifier": 2
+    },
+    {
+      "fluid": "fieldframe:liquid_experience",
+      "effect": "minecraft:haste",
+      "min_mb": 8000
+    },
+    {
+      "fluid": "fieldframe:molten_signal_alloy",
+      "effect": "minecraft:haste",
+      "mb_per_level": 16000,
+      "max_amplifier": 1
+    },
+    {
+      "fluid": "fieldframe:molten_lumen_alloy",
+      "effect": "minecraft:night_vision"
+    },
+    {
+      "fluid": "fieldframe:molten_ender_alloy",
+      "effect": "minecraft:absorption",
+      "mb_per_level": 32000,
+      "max_amplifier": 2
+    },
+    {
+      "fluid": "fieldframe:steam",
+      "effect": "minecraft:invisibility",
+      "min_mb": 4000
+    },
+    {
+      "fluid": "fieldframe:biogas",
+      "effect": "minecraft:slow_falling"
+    }
+  ]
+}

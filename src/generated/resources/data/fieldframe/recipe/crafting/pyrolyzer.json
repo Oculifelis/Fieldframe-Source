@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "BMB",
+    "BFB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "M": {
+      "item": "fieldframe:blank_module"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "id": "fieldframe:pyrolyzer"
+  }
+}

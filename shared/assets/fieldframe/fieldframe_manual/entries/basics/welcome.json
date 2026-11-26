@@ -1,0 +1,22 @@
+{
+  "format": 1,
+  "category": "fieldframe:basics",
+  "title": "Welcome, Engineer",
+  "icon": "fieldframe:field_manual",
+  "sort": 0,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Build machines from components.** A Fieldframe machine is a **chassis** with up to six **modules** mounted on its faces. Modules share the chassis' internal item lanes, fluid reservoirs, RF buffer and control channels, so the arrangement of parts decides what the machine does.\n\nStart with [[fieldframe:basics/chassis|the chassis]], then build [[fieldframe:basics/first_machine|your first machine]]. Use the [[fieldframe:basics/configurator|configurator]] to see exactly what every part is doing and why it might be blocked."
+    },
+    {
+      "type": "fieldframe:warning",
+      "text": "Fieldframe has **no pipes, cables or wireless links**. Machines exchange items, fluids and RF only with blocks they touch, through ports you mount on purpose. Other mods' pipes can connect to those ports normally."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Keys:** press the Field Manual key (default **U**) while looking at a chassis face to jump straight to that module's page. In the manual: **/** search, **Backspace** back, **B** bookmark, **N** private note."
+    }
+  ],
+  "related": ["fieldframe:basics/chassis", "fieldframe:basics/first_machine", "fieldframe:reference/status_codes"]
+}

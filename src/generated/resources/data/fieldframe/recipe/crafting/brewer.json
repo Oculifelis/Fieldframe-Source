@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fieldframe:blank_module"
+    },
+    {
+      "item": "minecraft:brewing_stand"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "fieldframe:brewer"
+  }
+}

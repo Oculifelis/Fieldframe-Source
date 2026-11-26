@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "fieldframe:block/health_pad_redstone"
+    },
+    "facing=down": {
+      "model": "fieldframe:block/health_pad_redstone",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "fieldframe:block/health_pad_redstone",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "fieldframe:block/health_pad_redstone",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fieldframe:block/health_pad_redstone",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "fieldframe:block/health_pad_redstone",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

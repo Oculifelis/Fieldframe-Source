@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fieldframe:block/chassis"
+    },
+    "facing=east": {
+      "model": "fieldframe:block/chassis",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fieldframe:block/chassis",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fieldframe:block/chassis",
+      "y": 270
+    }
+  }
+}

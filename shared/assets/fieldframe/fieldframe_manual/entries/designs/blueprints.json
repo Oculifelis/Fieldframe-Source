@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "category": "fieldframe:designs",
+  "title": "Blueprint Sheets",
+  "icon": "fieldframe:blueprint_sheet",
+  "sort": 0,
+  "pages": [
+    {
+      "type": "fieldframe:tutorial",
+      "steps": [
+        "Craft a **Blueprint Sheet** (two paper and lapis lazuli).",
+        "**Sneak-use** it on a chassis. It records that chassis and every chassis touching it (up to 16): their direction, modules, bindings, settings and upgrades.",
+        "**Use** it on another chassis to copy settings onto matching modules. It lists what differs and never installs or removes hardware.",
+        "**Use** it on the ground to build the design one chassis per click, facing the way you face. It takes the chassis, modules and upgrades from your inventory and skips occupied or protected spots."
+      ]
+    },
+    {
+      "type": "fieldframe:warning",
+      "text": "A blueprint never contains items, fluids, RF, running operations, notes or ownership. Copying one cannot duplicate anything: every part must come from your inventory."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Blueprint library.** Every design page in this chapter can be copied straight onto a sheet: hold a Blueprint Sheet and click the copy line under the design. Then use the sheet on the ground to build it from your inventory. Designs: Starter Smelter, Ore Line, Steam Power Block."
+    }
+  ],
+  "related": [
+    "fieldframe:designs/starter_smelter",
+    "fieldframe:designs/ore_line",
+    "fieldframe:designs/steam_power_block"
+  ]
+}

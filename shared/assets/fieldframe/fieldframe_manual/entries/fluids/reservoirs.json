@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "category": "fieldframe:fluids",
+  "title": "Reservoirs",
+  "icon": "fieldframe:fluid_port",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "A chassis has three tanks, **Orange**, **Green** and **Purple**, of 4,000 mB each. A tank holds one fluid at a time and never mixes: offering a different fluid simply fails.\n\nA **Fluid Port** connects one tank to the touching tank or machine, in the same passive/import/export modes as an Item Port. Machines take fluid from the **Orange** tank and put fluid into the **Green** tank unless you choose otherwise; fluid engines burn from the **Purple** tank."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "If a machine says it has the wrong fluid, empty that tank (export it, or choose a different tank on the machine screen) and fill it with the fluid named in the message."
+    }
+  ],
+  "related": ["fieldframe:modules/fluid_port", "fieldframe:processing/chain"]
+}

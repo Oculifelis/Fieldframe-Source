@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LDL",
+    "OBO",
+    "LTL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    },
+    "T": {
+      "item": "fieldframe:tank_upgrade"
+    }
+  },
+  "result": {
+    "id": "fieldframe:enchanter"
+  }
+}

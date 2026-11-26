@@ -1,0 +1,30 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:growing",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:mangrove_propagule"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:mangrove_log",
+      "count": 4
+    },
+    {
+      "id": "minecraft:mangrove_leaves",
+      "count": 2,
+      "chance": 0.5
+    }
+  ],
+  "duration": 300,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 500
+  }
+}

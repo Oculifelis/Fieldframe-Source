@@ -1,0 +1,30 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:separating",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "fieldframe:slag"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:sand",
+      "count": 1
+    },
+    {
+      "id": "minecraft:iron_nugget",
+      "count": 1,
+      "chance": 0.25
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 1,
+      "chance": 0.05
+    }
+  ],
+  "duration": 80,
+  "energy": 20
+}

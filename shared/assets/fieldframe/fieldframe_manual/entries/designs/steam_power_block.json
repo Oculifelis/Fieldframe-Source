@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "category": "fieldframe:designs",
+  "title": "Steam Power Block (one chassis)",
+  "icon": "fieldframe:steam_turbine",
+  "sort": 20,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "A **Boiler** underneath boils water from the **Orange tank** into steam in the **Green tank**, burning coal from **Purple storage**. A **Steam Turbine** on top turns the steam into RF, and a **Condenser** on the left side returns most of the water to the Orange tank. A **Tank Access Panel** in front lets you pour water in with a bucket, an **Inventory Access Panel** at the back takes coal, and a **Power Terminal** on the right provides RF to whatever touches it."
+    },
+    {
+      "type": "fieldframe:blueprint",
+      "blueprint": {
+        "format": 1,
+        "name": "Steam Power Block",
+        "chassis": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "front": "north",
+            "faces": {
+              "bottom": {
+                "module": "fieldframe:boiler",
+                "config": {},
+                "bindings": {
+                  "water": 0,
+                  "steam": 1,
+                  "fuel": 2
+                }
+              },
+              "top": {
+                "module": "fieldframe:steam_turbine",
+                "config": {},
+                "bindings": {
+                  "steam": 1,
+                  "water_out": 0
+                }
+              },
+              "left": {
+                "module": "fieldframe:condenser",
+                "config": {},
+                "bindings": {}
+              },
+              "front": {
+                "module": "fieldframe:tank_access_panel",
+                "config": {},
+                "bindings": {}
+              },
+              "back": {
+                "module": "fieldframe:inventory_access_panel",
+                "config": {},
+                "bindings": {}
+              },
+              "right": {
+                "module": "fieldframe:power_terminal",
+                "config": {
+                  "mode": "provide"
+                },
+                "bindings": {}
+              }
+            },
+            "upgrades": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "At full speed one Boiler gives 80 RF/t, twice what a Fuel Engine gets from the same coal; the turbine needs about 15 seconds to spin up. The Condenser returns 90% of the water with water against it, half in open air, so place the machine next to a water source and it barely needs topping up."
+    }
+  ],
+  "related": [
+    "fieldframe:power/heat_and_wind",
+    "fieldframe:designs/blueprints"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:growing",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:kelp"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:kelp",
+      "count": 3
+    }
+  ],
+  "duration": 300,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 500
+  }
+}

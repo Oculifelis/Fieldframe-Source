@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GEG",
+    "IBI",
+    "GFG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    },
+    "F": {
+      "item": "fieldframe:fuel_engine"
+    }
+  },
+  "result": {
+    "id": "fieldframe:gem_engine"
+  }
+}

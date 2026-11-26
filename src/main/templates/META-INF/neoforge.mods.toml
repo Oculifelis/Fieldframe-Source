@@ -1,0 +1,67 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/fieldframe"
+authors="Oculifelis"
+credits="Inspired by Emasher's Engineer's Toolbox (no endorsement implied). Original code and art; third-party art is credited in CREDITS.md."
+description='''
+Build machines from components: mount functional modules on the six faces of a chassis, bind them to visible internal lanes and control channels, and compose small contraptions. RF-compatible. No pipes.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_min_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# Required: common metals, ores, dusts and alloys come from Metallurgy 4: Reforged.
+[[dependencies.${mod_id}]]
+    modId="metallurgy"
+    type="required"
+    versionRange="[${metallurgy_version},)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional viewers: JEI recipe categories and Jade tooltips when present.
+[[dependencies.${mod_id}]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="jade"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="CLIENT"
+
+# Optional: loads after KubeJS when present so startup scripts can register modules.
+[[dependencies.${mod_id}]]
+    modId="kubejs"
+    type="optional"
+    versionRange="[2101.7,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Required: Arc Whip, Tesla Whip and Graviton Hook use Fundamentum.
+[[dependencies.${mod_id}]]
+    modId="fundamentum"
+    type="required"
+    versionRange="[1.30.0,)"
+    ordering="AFTER"
+    side="BOTH"

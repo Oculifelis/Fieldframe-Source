@@ -1,0 +1,200 @@
+{
+  "pairs": [
+    {
+      "fluids": [
+        "fieldframe:liquid_coal",
+        "fieldframe:liquid_coal"
+      ],
+      "effect": "fireball"
+    },
+    {
+      "fluids": [
+        "fieldframe:liquid_coal",
+        "fieldframe:blazing_fluid"
+      ],
+      "effect": "explode_burning"
+    },
+    {
+      "fluids": [
+        "fieldframe:liquid_coal",
+        "fieldframe:gelid_fluid"
+      ],
+      "effect": "mining_speed"
+    },
+    {
+      "fluids": [
+        "fieldframe:liquid_coal",
+        "fieldframe:arcane_fluid"
+      ],
+      "effect": "pacify"
+    },
+    {
+      "fluids": [
+        "fieldframe:liquid_coal",
+        "fieldframe:resonant_ender"
+      ],
+      "effect": "teleport_attacker"
+    },
+    {
+      "fluids": [
+        "fieldframe:liquid_coal",
+        "fieldframe:liquid_redstone"
+      ],
+      "effect": "damage_pulse"
+    },
+    {
+      "fluids": [
+        "fieldframe:liquid_coal",
+        "fieldframe:liquid_glowstone"
+      ],
+      "effect": "ignite_enemies"
+    },
+    {
+      "fluids": [
+        "fieldframe:blazing_fluid",
+        "fieldframe:blazing_fluid"
+      ],
+      "effect": "fall_damage_up"
+    },
+    {
+      "fluids": [
+        "fieldframe:blazing_fluid",
+        "fieldframe:gelid_fluid"
+      ],
+      "effect": "slowness"
+    },
+    {
+      "fluids": [
+        "fieldframe:blazing_fluid",
+        "fieldframe:arcane_fluid"
+      ],
+      "effect": "speed"
+    },
+    {
+      "fluids": [
+        "fieldframe:blazing_fluid",
+        "fieldframe:resonant_ender"
+      ],
+      "effect": "fall_damage_down"
+    },
+    {
+      "fluids": [
+        "fieldframe:blazing_fluid",
+        "fieldframe:liquid_redstone"
+      ],
+      "effect": "ignite_pulse"
+    },
+    {
+      "fluids": [
+        "fieldframe:blazing_fluid",
+        "fieldframe:liquid_glowstone"
+      ],
+      "effect": "fire_protection"
+    },
+    {
+      "fluids": [
+        "fieldframe:gelid_fluid",
+        "fieldframe:gelid_fluid"
+      ],
+      "effect": "water_breathing"
+    },
+    {
+      "fluids": [
+        "fieldframe:gelid_fluid",
+        "fieldframe:arcane_fluid"
+      ],
+      "effect": "hunger_loss"
+    },
+    {
+      "fluids": [
+        "fieldframe:gelid_fluid",
+        "fieldframe:resonant_ender"
+      ],
+      "effect": "escape_teleport"
+    },
+    {
+      "fluids": [
+        "fieldframe:gelid_fluid",
+        "fieldframe:liquid_redstone"
+      ],
+      "effect": "slowness_pulse"
+    },
+    {
+      "fluids": [
+        "fieldframe:gelid_fluid",
+        "fieldframe:liquid_glowstone"
+      ],
+      "effect": "cold_damage"
+    },
+    {
+      "fluids": [
+        "fieldframe:arcane_fluid",
+        "fieldframe:arcane_fluid"
+      ],
+      "effect": "antidote"
+    },
+    {
+      "fluids": [
+        "fieldframe:arcane_fluid",
+        "fieldframe:resonant_ender"
+      ],
+      "effect": "long_jump"
+    },
+    {
+      "fluids": [
+        "fieldframe:arcane_fluid",
+        "fieldframe:liquid_redstone"
+      ],
+      "effect": "antidote_pulse"
+    },
+    {
+      "fluids": [
+        "fieldframe:arcane_fluid",
+        "fieldframe:liquid_glowstone"
+      ],
+      "effect": "hunger_gain"
+    },
+    {
+      "fluids": [
+        "fieldframe:resonant_ender",
+        "fieldframe:resonant_ender"
+      ],
+      "effect": "blink"
+    },
+    {
+      "fluids": [
+        "fieldframe:resonant_ender",
+        "fieldframe:liquid_redstone"
+      ],
+      "effect": "teleport_pulse"
+    },
+    {
+      "fluids": [
+        "fieldframe:resonant_ender",
+        "fieldframe:liquid_glowstone"
+      ],
+      "effect": "sink"
+    },
+    {
+      "fluids": [
+        "fieldframe:liquid_redstone",
+        "fieldframe:liquid_redstone"
+      ],
+      "effect": "max_health_flux"
+    },
+    {
+      "fluids": [
+        "fieldframe:liquid_redstone",
+        "fieldframe:liquid_glowstone"
+      ],
+      "effect": "self_combustion"
+    },
+    {
+      "fluids": [
+        "fieldframe:liquid_glowstone",
+        "fieldframe:liquid_glowstone"
+      ],
+      "effect": "night_vision"
+    }
+  ]
+}

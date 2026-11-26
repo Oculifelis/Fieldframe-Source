@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:shadow_iron",
+      "amount": 288
+    },
+    {
+      "fluid": "metallurgy:lemurite",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:shadow_steel",
+    "amount": 432
+  }
+}

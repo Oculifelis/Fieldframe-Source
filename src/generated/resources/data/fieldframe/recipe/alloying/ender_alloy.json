@@ -1,0 +1,26 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:alloying",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      },
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:ender_alloy_ingot",
+      "count": 1
+    }
+  ],
+  "duration": 200,
+  "energy": 48
+}

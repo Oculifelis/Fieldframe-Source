@@ -1,0 +1,6 @@
+{
+  "parent": "neoforge:item/bucket",
+  "loader": "neoforge:fluid_container",
+  "fluid": "fieldframe:molten_lumen_alloy",
+  "apply_fluid_luminosity": false
+}

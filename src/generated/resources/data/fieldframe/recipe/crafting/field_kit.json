@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LIL",
+    "LCL",
+    " I "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "fieldframe:chassis"
+    }
+  },
+  "result": {
+    "id": "fieldframe:field_kit"
+  }
+}

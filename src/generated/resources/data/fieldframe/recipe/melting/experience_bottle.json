@@ -1,0 +1,19 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:experience_bottle"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "duration": 120,
+  "energy": 40,
+  "fluid_result": {
+    "fluid": "fieldframe:liquid_experience",
+    "amount": 140
+  }
+}

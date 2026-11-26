@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "category": "fieldframe:basics",
+  "title": "Machine Screen",
+  "icon": "fieldframe:configurator",
+  "sort": 30,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Right-click a chassis with an empty hand** (on any side without an access panel), or use the **Configurator** on it, to open the machine screen. Anyone can look; only the owner can change things.\n\n**Left:** the six sides and their modules (a coloured dot shows how each is doing: green working, blue idle, yellow blocked, red fault), then what is in the **Orange**, **Green** and **Purple** storage and the three tanks. Point at a storage to see everything in it and which modules use it.\n\nIn the world, each module's side has a thin coloured ring near its edge, one section per storage it uses (paler for tanks), so you can read a machine without opening it."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Right:** the side you clicked. It says what the module does and how it is doing, in words, with what to do if something is wrong.\n\n**Connections** show where the module takes from and puts into, like *Takes from: Orange storage — Raw Iron ×12*. Click one to pick another storage or tank; the list shows what each one holds. **How it works** opens this manual at that module. **Remove** takes the module off and gives it back to you."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Advanced** holds what you rarely need: signal wiring (on/off switches and signals 1-8), speed and power numbers, service bays and a log of recent activity.\n\n**Keys:** 1-6 pick a side, Tab the next side, **H** this manual, **A** Advanced, **P** pauses the machine.\n\n**The Configurator** also does two things in the world: **sneak-use** on a module removes it (its settings travel with the item), and sneak-use on an empty side rotates the chassis."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Working modules light up.** A module that is working glows, puffs smoke, steam or sparks, and makes a sound now and then. The **♪** button at the top of the machine screen mutes that machine (fitting and removing modules still make a sound).\n\n**Comparators:** put one next to the machine to read how full **Green storage** is, from 0 to 15, like a chest. Under **Advanced › Whole machine** you can make it read another storage, a tank or the RF buffer instead.\n\n**Advancements:** the Fieldframe tab takes you from your first chassis to a Resonant machine. Each step names the manual page that explains it."
+    }
+  ],
+  "related": [
+    "fieldframe:basics/first_machine",
+    "fieldframe:reference/status_codes",
+    "fieldframe:control/channels"
+  ]
+}

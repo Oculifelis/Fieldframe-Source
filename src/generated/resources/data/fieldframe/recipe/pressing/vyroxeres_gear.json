@@ -1,0 +1,26 @@
+{
+  "type": "fieldframe:pressing",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "c:ingots/vyroxeres"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "fieldframe:gear_die"
+      },
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:vyroxeres_gear",
+      "count": 1
+    }
+  ],
+  "duration": 120,
+  "energy": 32
+}

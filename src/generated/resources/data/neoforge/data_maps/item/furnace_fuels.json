@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": {
+    "fieldframe:coal_coke": {
+      "burn_time": 3200
+    }
+  }
+}

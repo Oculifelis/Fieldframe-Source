@@ -1,0 +1,24 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "c:ingots/tin"
+      },
+      "count": 1
+    }
+  ],
+  "fluid_result": {
+    "fluid": "metallurgy:tin",
+    "amount": 144
+  },
+  "duration": 160,
+  "energy": 32,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tin_ingot"
+    }
+  ]
+}

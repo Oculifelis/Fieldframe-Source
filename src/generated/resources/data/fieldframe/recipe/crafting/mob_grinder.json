@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "IBI",
+    "IRI"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:iron_sword"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    }
+  },
+  "result": {
+    "id": "fieldframe:mob_grinder"
+  }
+}

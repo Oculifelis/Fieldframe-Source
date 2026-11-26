@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:mixing",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:coal"
+      },
+      "count": 2
+    }
+  ],
+  "results": [],
+  "duration": 60,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "minecraft:lava",
+    "amount": 250
+  },
+  "fluid_result": {
+    "fluid": "fieldframe:liquid_coal",
+    "amount": 500
+  }
+}

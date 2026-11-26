@@ -1,0 +1,26 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:alloying",
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:netherite_ingot",
+      "count": 1
+    }
+  ],
+  "duration": 400,
+  "energy": 64
+}

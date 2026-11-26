@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IGI",
+    "GUG",
+    "IGI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "G": "minecraft:glass",
+    "U": "fieldframe:tank_upgrade"
+  },
+  "result": {
+    "id": "fieldframe_frameworks:frame_tank"
+  }
+}

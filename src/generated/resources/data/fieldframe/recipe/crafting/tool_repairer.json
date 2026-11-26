@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IAI",
+    "EBE",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:anvil"
+    },
+    "E": {
+      "item": "minecraft:experience_bottle"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    }
+  },
+  "result": {
+    "id": "fieldframe:tool_repairer"
+  }
+}

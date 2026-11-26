@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#c:ingots/lumen_alloy",
+    "#c:ingots/signal_alloy"
+  ]
+}

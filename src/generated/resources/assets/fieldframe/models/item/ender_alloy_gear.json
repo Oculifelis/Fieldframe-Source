@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fieldframe:item/ender_alloy_gear"
+  }
+}

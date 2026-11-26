@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fieldframe:blank_module"
+    },
+    {
+      "item": "minecraft:daylight_detector"
+    },
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "result": {
+    "id": "fieldframe:solar_collector"
+  }
+}
