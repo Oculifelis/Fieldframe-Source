@@ -1,0 +1,82 @@
+{
+  "textures": {
+    "glass": "fieldframe:block/ender_tank_glass",
+    "particle": "fieldframe:block/ender_tank_glass"
+  },
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        3,
+        0,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            3,
+            0,
+            6,
+            3
+          ],
+          "texture": "#glass",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        -1,
+        -0.01,
+        13
+      ],
+      "to": [
+        0,
+        -0.01,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12,
+            0,
+            13,
+            3
+          ],
+          "texture": "#glass",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        -2,
+        -0.01,
+        13
+      ],
+      "to": [
+        -1,
+        -0.01,
+        15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            11,
+            1,
+            12,
+            3
+          ],
+          "texture": "#glass",
+          "cullface": "down"
+        }
+      }
+    }
+  ]
+}

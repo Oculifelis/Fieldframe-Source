@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "fieldframe:fuel_engine"
+    },
+    "title": {
+      "translate": "advancements.fieldframe.it_works.title"
+    },
+    "description": {
+      "translate": "advancements.fieldframe.it_works.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fieldframe:first_module"
+}

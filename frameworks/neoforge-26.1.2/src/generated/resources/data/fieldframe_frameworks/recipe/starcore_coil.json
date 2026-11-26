@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CEC",
+    "EFE",
+    "CEC"
+  ],
+  "key": {
+    "C": "minecraft:copper_block",
+    "E": "fieldframe:ender_alloy_ingot",
+    "F": "fieldframe_frameworks:frame_casing"
+  },
+  "result": {
+    "id": "fieldframe_frameworks:starcore_coil"
+  }
+}

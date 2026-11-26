@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "category": "fieldframe:field",
+  "title": "Working the World",
+  "icon": "fieldframe:block_breaker",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "World modules reach **out of** the chassis: they break, place, use, harvest, pump, collect, eject and push. They only ever touch a small, fixed area in front of their own face, and only in loaded chunks. Nothing travels further than that: there are still no pipes, cables or wireless links."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Who is acting?** Every action is done in the name of the chassis owner, the player who placed it. Claim and protection mods see that player, and spawn protection and the world border apply. If an action is refused, the module shows **PROTECTED** and changes nothing. Only the owner or an operator can change an owned chassis."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Module",
+        "What it does"
+      ],
+      "rows": [
+        [
+          "Block Breaker",
+          "breaks the block in front with the first fitting tool from its tool lane"
+        ],
+        [
+          "Block Placer",
+          "places blocks from a lane into an empty space in front"
+        ],
+        [
+          "Interaction Head",
+          "right-clicks the block in front with the held stack (bone meal, buckets, levers)"
+        ],
+        [
+          "Crop Tender",
+          "harvests ripe crops in a small horizontal patch and replants them"
+        ],
+        [
+          "Entity Mover",
+          "pushes or pulls creatures; players only if allowed"
+        ],
+        [
+          "World Fluid Pump",
+          "takes source blocks into a reservoir, or puts them back"
+        ],
+        [
+          "Drop Collector / Item Ejector",
+          "pick up and drop item entities in front of the face"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Drops are never lost.** A breaker only breaks a block that its tool can harvest (status **WRONG_TOOL** otherwise). When the output lane is full, results wait as **OUTPUT_PENDING** and no new block is broken until there is room. Block entities such as chests are left alone. **Crops need light:** a Crop Tender works best at the edge of a field, facing the crops at their own height."
+    }
+  ],
+  "related": [
+    "fieldframe:modules/block_breaker",
+    "fieldframe:modules/crop_tender",
+    "fieldframe:field/excavator"
+  ]
+}

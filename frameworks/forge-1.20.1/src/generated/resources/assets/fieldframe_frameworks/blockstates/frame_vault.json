@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fieldframe_frameworks:block/frame_vault"
+    }
+  }
+}

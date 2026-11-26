@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "category": "fieldframe:processing",
+  "title": "Crush, Wash, Heat",
+  "icon": "fieldframe:crusher",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "All processors share one engine: take inputs from the **input** lane, spend RF every tick, and deliver every product to the **output** lane in one step. A processor only starts when all possible products would fit, so a full output lane stops it cleanly (**OUTPUT_FULL**) instead of losing items.\n\nChance products are decided when an operation starts and remembered, so waiting or reloading never re-rolls them."
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:crushing"
+    },
+    {
+      "type": "fieldframe:recipes",
+      "family": "fieldframe:washing"
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Why crush ore?** Crushing raw ore gives two Metallurgy dusts; heating a dust gives one ingot, so each raw ore makes two ingots. Washing gravel and sand separates flint, clay and small nugget byproducts. Ingots never turn back into ore, so the chain cannot loop."
+    },
+    {
+      "type": "fieldframe:test_bench",
+      "text": "**Backpressure demo.** The output lane is already nearly full of cobblestone, so the crusher stops with OUTPUT_FULL and keeps its inputs safe.",
+      "speed": 4,
+      "scenario": {
+        "energy": 16000,
+        "modules": {"top": {"module": "fieldframe:crusher"}},
+        "lanes": {"A": [["minecraft:cobblestone", 16]], "B": [["minecraft:stone", 64], ["minecraft:stone", 64], ["minecraft:stone", 64], ["minecraft:gravel", 63]]},
+        "recipes": [{"family": "fieldframe:crushing", "input": "minecraft:cobblestone", "output": "minecraft:gravel", "duration": 30, "energy": 16}]
+      }
+    }
+  ],
+  "related": ["fieldframe:modules/crusher", "fieldframe:modules/washer", "fieldframe:modules/heater", "fieldframe:modules/press", "fieldframe:modules/mixer"]
+}

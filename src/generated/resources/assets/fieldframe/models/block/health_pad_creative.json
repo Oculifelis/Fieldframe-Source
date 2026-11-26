@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "fieldframe:block/pad_side_creative",
+    "up": "fieldframe:block/health_pad_creative",
+    "down": "fieldframe:block/pad_side_creative",
+    "north": "fieldframe:block/pad_side_creative",
+    "south": "fieldframe:block/pad_side_creative",
+    "east": "fieldframe:block/pad_side_creative",
+    "west": "fieldframe:block/pad_side_creative"
+  }
+}

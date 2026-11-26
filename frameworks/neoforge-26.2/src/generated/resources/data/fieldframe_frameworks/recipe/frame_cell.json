@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IRI",
+    "RUR",
+    "IRI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:redstone_block",
+    "U": "fieldframe:cell_upgrade"
+  },
+  "result": {
+    "id": "fieldframe_frameworks:frame_cell"
+  }
+}

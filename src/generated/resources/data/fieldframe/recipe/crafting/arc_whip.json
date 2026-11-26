@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " WW",
+    " RW",
+    "C  "
+  ],
+  "key": {
+    "W": "minecraft:copper_ingot",
+    "R": "minecraft:redstone",
+    "C": "fieldframe:cell_upgrade"
+  },
+  "result": {
+    "id": "fieldframe:arc_whip"
+  }
+}

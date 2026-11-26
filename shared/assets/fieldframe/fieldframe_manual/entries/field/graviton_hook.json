@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "category": "fieldframe:field",
+  "title": "Graviton Hook",
+  "icon": "fieldframe:graviton_hook",
+  "sort": 61,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**A grappling hook that turns gravity off**. Wear it in the **hook** slot and press the hook key to fire; up to **three** hooks hold at once, out to **30 blocks**.\n\nWhile a hook holds and the Graviton Hook has charge, you **float**: move where you look, **sneak** to sink, and drift anywhere within **10 blocks** of the hooks instead of being pulled to them. **Jump** lets go."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "The field costs **400 RF a second** while it holds you up; the hook stores **60,000 RF**. Out of charge it pulls you in and holds you like a plain hook.\n\nCraft it from **2 Ender Alloy ingots**, a **tripwire hook**, a **Cell Upgrade** and an **iron chain**. Charge it like any RF item: an **Item Charger** or a **charge pad**."
+    }
+  ],
+  "related": [
+    "fieldframe:field/electric_whips",
+    "fieldframe:basics/field_kit"
+  ]
+}

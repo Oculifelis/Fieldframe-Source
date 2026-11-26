@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:orichalcum",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:platinum",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:celenegil",
+    "amount": 288
+  }
+}

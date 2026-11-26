@@ -1,0 +1,198 @@
+{
+  "_doc": "Fieldframe's own materials: the one table read by registration (Java, at startup) and by the generators. Common metals, ores, dusts and alloys come from Metallurgy 4: Reforged (required dependency); Fieldframe keeps only its own alloys (signal, lumen, ender), non-metal byproducts and fluids. Plates and gears (\"parts\") exist for every metal in metallurgy_metals.json plus parts.metals, made in the Press with dies. See docs/materials.md.",
+  "metals": [
+    {
+      "name": "signal_alloy",
+      "color": "E0532F",
+      "forms": [
+        "ingot",
+        "nugget",
+        "dust",
+        "block"
+      ]
+    },
+    {
+      "name": "lumen_alloy",
+      "color": "F2E7A8",
+      "forms": [
+        "ingot",
+        "nugget",
+        "dust",
+        "block"
+      ]
+    },
+    {
+      "name": "ender_alloy",
+      "color": "1F7A6E",
+      "existing_ingot": "fieldframe:ender_alloy_ingot",
+      "forms": [
+        "nugget",
+        "dust",
+        "block"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "sawdust",
+      "color": "C9A66B",
+      "tag": "dusts/wood"
+    },
+    {
+      "name": "coal_coke",
+      "color": "3A3A40",
+      "tag": "coal_coke",
+      "burn_ticks": 3200
+    },
+    {
+      "name": "slag",
+      "color": "6E6658",
+      "tag": "slag"
+    },
+    {
+      "name": "rosin",
+      "color": "C5822B",
+      "tag": "rosin"
+    },
+    {
+      "name": "rubber",
+      "color": "2E2A26",
+      "tag": "rubber"
+    },
+    {
+      "name": "plate_die",
+      "color": "8A9198"
+    },
+    {
+      "name": "gear_die",
+      "color": "8A9198"
+    },
+    {
+      "name": "ingot_cast",
+      "color": "A0583A"
+    },
+    {
+      "name": "nugget_cast",
+      "color": "A0583A"
+    },
+    {
+      "name": "block_cast",
+      "color": "A0583A"
+    },
+    {
+      "name": "compost",
+      "color": "5A4A2E",
+      "tag": "fertilizers"
+    }
+  ],
+  "fluids": [
+    {
+      "name": "tree_sap",
+      "color": "C08A3E",
+      "temperature": 300,
+      "density": 1200,
+      "light": 0
+    },
+    {
+      "name": "latex",
+      "color": "EDE8DA",
+      "temperature": 300,
+      "density": 1100,
+      "light": 0
+    },
+    {
+      "name": "creosote",
+      "color": "4A3B1C",
+      "temperature": 300,
+      "density": 1100,
+      "light": 0
+    },
+    {
+      "name": "refined_oil",
+      "color": "D9A93A",
+      "temperature": 300,
+      "density": 850,
+      "light": 0
+    },
+    {
+      "name": "liquid_experience",
+      "color": "7EDC3A",
+      "temperature": 300,
+      "density": 800,
+      "light": 10
+    },
+    {
+      "name": "molten_signal_alloy",
+      "color": "E0532F",
+      "temperature": 1300,
+      "density": 3000,
+      "light": 12
+    },
+    {
+      "name": "molten_lumen_alloy",
+      "color": "F2E7A8",
+      "temperature": 1300,
+      "density": 3000,
+      "light": 15
+    },
+    {
+      "name": "molten_ender_alloy",
+      "color": "1F7A6E",
+      "temperature": 1300,
+      "density": 3000,
+      "light": 8
+    },
+    {
+      "name": "steam",
+      "color": "E4ECF0",
+      "temperature": 400,
+      "density": -500,
+      "light": 0
+    },
+    {
+      "name": "biogas",
+      "color": "8FA35A",
+      "temperature": 300,
+      "density": -300,
+      "light": 0
+    }
+  ],
+  "parts": {
+    "forms": [
+      "plate",
+      "gear"
+    ],
+    "metals": [
+      {
+        "name": "iron",
+        "color": "D8D8D8",
+        "ingot_tag": "ingots/iron"
+      },
+      {
+        "name": "gold",
+        "color": "F5D44A",
+        "ingot_tag": "ingots/gold"
+      },
+      {
+        "name": "netherite",
+        "color": "4A4042",
+        "ingot_tag": "ingots/netherite"
+      },
+      {
+        "name": "signal_alloy",
+        "color": "E0532F",
+        "ingot_tag": "ingots/signal_alloy"
+      },
+      {
+        "name": "lumen_alloy",
+        "color": "F2E7A8",
+        "ingot_tag": "ingots/lumen_alloy"
+      },
+      {
+        "name": "ender_alloy",
+        "color": "1F7A6E",
+        "ingot_tag": "ingots/ender_alloy"
+      }
+    ]
+  }
+}

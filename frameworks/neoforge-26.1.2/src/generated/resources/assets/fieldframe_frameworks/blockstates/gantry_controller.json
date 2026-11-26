@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fieldframe_frameworks:block/gantry_controller"
+    },
+    "facing=east": {
+      "model": "fieldframe_frameworks:block/gantry_controller"
+    },
+    "facing=south": {
+      "model": "fieldframe_frameworks:block/gantry_controller"
+    },
+    "facing=west": {
+      "model": "fieldframe_frameworks:block/gantry_controller"
+    }
+  }
+}

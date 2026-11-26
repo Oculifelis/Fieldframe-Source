@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "fieldframe:chassis"
+    },
+    "title": {
+      "translate": "advancements.fieldframe.root.title"
+    },
+    "description": {
+      "translate": "advancements.fieldframe.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "background": "fieldframe:block/chassis"
+  },
+  "criteria": {
+    "chassis": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "fieldframe:chassis"
+          }
+        ]
+      }
+    }
+  }
+}

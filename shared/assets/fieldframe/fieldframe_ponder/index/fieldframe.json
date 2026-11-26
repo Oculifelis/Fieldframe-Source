@@ -1,0 +1,8 @@
+{
+  "scenes": {
+    "fieldframe:chassis": ["fieldframe:first_machine"],
+    "fieldframe:fuel_engine": ["fieldframe:first_machine"],
+    "fieldframe:heater": ["fieldframe:first_machine"],
+    "fieldframe:inventory_access_panel": ["fieldframe:first_machine"]
+  }
+}

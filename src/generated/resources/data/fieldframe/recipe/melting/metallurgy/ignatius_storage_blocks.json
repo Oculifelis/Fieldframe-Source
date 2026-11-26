@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": "#c:storage_blocks/ignatius",
+      "count": 1
+    }
+  ],
+  "fluid_result": {
+    "fluid": "metallurgy:ignatius",
+    "amount": 1296
+  },
+  "duration": 1200,
+  "energy": 32,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ignatius_ingot"
+    }
+  ]
+}

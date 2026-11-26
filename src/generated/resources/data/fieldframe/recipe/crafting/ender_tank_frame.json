@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IEI",
+    "EAE",
+    "IEI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "E": "minecraft:ender_pearl",
+    "A": "fieldframe:ender_alloy_ingot"
+  },
+  "result": {
+    "id": "fieldframe:ender_tank_frame",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "module.fieldframe_example.kiln": "Kiln",
+  "module.fieldframe_example.kiln.desc": "Fires clay goods. Added by the example addon with its own recipe family.",
+  "module.fieldframe_example.weather_vane": "Weather Vane",
+  "module.fieldframe_example.weather_vane.desc": "Signals rain, thunder or clear skies.",
+  "fieldframe.config.trigger": "Trigger",
+  "fieldframe.option.thunder": "thunder",
+  "fieldframe.option.clear": "clear",
+  "item.fieldframe_example.tempered_upgrade_kit": "Tempered Upgrade Kit",
+  "tier.fieldframe_example.tempered": "Tempered"
+}

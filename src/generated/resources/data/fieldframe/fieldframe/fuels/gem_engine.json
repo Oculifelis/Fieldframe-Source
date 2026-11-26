@@ -1,0 +1,34 @@
+{
+  "fuels": [
+    {
+      "engine": "fieldframe:gem_engine",
+      "item": "minecraft:diamond",
+      "rf": 400000
+    },
+    {
+      "engine": "fieldframe:gem_engine",
+      "item": "minecraft:emerald",
+      "rf": 48000
+    },
+    {
+      "engine": "fieldframe:gem_engine",
+      "item": "minecraft:lapis_lazuli",
+      "rf": 40000
+    },
+    {
+      "engine": "fieldframe:gem_engine",
+      "item": "minecraft:amethyst_shard",
+      "rf": 6000
+    },
+    {
+      "engine": "fieldframe:gem_engine",
+      "item": "minecraft:quartz",
+      "rf": 24000
+    },
+    {
+      "engine": "fieldframe:gem_engine",
+      "item": "minecraft:prismarine_crystals",
+      "rf": 20000
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "fieldframe:pressing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:snowball",
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:snow_block",
+      "count": 1
+    }
+  ],
+  "duration": 40,
+  "energy": 8
+}

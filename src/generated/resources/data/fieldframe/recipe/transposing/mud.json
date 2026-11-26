@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:transposing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:dirt",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:mud",
+      "count": 1
+    }
+  ],
+  "duration": 20,
+  "energy": 4,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  }
+}

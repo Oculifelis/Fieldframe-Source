@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KKK",
+    "KIK",
+    "KKK"
+  ],
+  "key": {
+    "K": "minecraft:brick",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "fieldframe:block_cast"
+  }
+}

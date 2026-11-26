@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": "#c:nuggets/celenegil",
+      "count": 1
+    }
+  ],
+  "fluid_result": {
+    "fluid": "metallurgy:celenegil",
+    "amount": 16
+  },
+  "duration": 40,
+  "energy": 32,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:celenegil_ingot"
+    }
+  ]
+}

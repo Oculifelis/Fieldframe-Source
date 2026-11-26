@@ -1,0 +1,6 @@
+{
+  "parent": "neoforge:item/bucket",
+  "loader": "neoforge:fluid_container",
+  "fluid": "fieldframe_frameworks:deuterium",
+  "apply_fluid_luminosity": false
+}

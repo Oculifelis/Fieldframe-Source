@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "category": "fieldframe:reference",
+  "title": "Status Codes",
+  "icon": "fieldframe:indicator_panel",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "Every module always reports one status code with a short argument, such as **OUTPUT_FULL: Green storage**. Codes never change between versions; the explanation and the suggested fix are translated."
+    },
+    {
+      "type": "fieldframe:status_codes"
+    }
+  ]
+}

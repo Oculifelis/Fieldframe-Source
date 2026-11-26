@@ -1,0 +1,14 @@
+{
+  "format": 1,
+  "category": "fieldframe:reference",
+  "title": "For Pack Authors",
+  "icon": "minecraft:writable_book",
+  "sort": 90,
+  "advanced": true,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Datapacks** can add, change or remove any Fieldframe recipe (types fieldframe:crushing, washing, pressing, mixing, heating) and tune module values in data/<namespace>/fieldframe/tuning/*.json, for example a Fuel Engine's rf_per_tick. Values are clamped to safe ranges and a bad file rejects the whole batch, keeping the previous values.\n\n**Resource packs** can override or add manual pages in assets/<namespace>/fieldframe_manual/.\n\n**KubeJS** scripts can register new modules at startup, tune and disable modules, cancel operations under pack rules, and add manual chapters. See the project's docs/kubejs folder for the exact API per Minecraft version."
+    }
+  ]
+}

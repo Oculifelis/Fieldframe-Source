@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:pressing",
+  "inputs": [
+    {
+      "ingredient": "#c:ingots/kalendrite",
+      "count": 1
+    },
+    {
+      "ingredient": "fieldframe:plate_die",
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:kalendrite_plate",
+      "count": 1
+    }
+  ],
+  "duration": 60,
+  "energy": 24
+}

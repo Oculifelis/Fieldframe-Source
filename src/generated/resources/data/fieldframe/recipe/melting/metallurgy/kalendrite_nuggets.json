@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:melting",
+  "inputs": [
+    {
+      "ingredient": "#c:nuggets/kalendrite",
+      "count": 1
+    }
+  ],
+  "fluid_result": {
+    "fluid": "metallurgy:kalendrite",
+    "amount": 16
+  },
+  "duration": 40,
+  "energy": 32,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:kalendrite_ingot"
+    }
+  ]
+}

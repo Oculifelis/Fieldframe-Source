@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:adamantine",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:atlarus",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:tartarite",
+    "amount": 144
+  }
+}

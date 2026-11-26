@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:crushing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:blaze_rod",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:blaze_powder",
+      "count": 4
+    },
+    {
+      "id": "metallurgy:sulfur_dust",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "duration": 80,
+  "energy": 16
+}

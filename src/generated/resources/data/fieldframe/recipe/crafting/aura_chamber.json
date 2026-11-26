@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GAG",
+    "AMA",
+    "GAG"
+  ],
+  "key": {
+    "G": "minecraft:glass",
+    "A": "minecraft:amethyst_shard",
+    "M": "fieldframe:blank_module"
+  },
+  "result": {
+    "id": "fieldframe:aura_chamber"
+  }
+}

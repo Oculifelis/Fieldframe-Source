@@ -1,0 +1,77 @@
+// Example external addon for Fieldframe (Forge 1.20.1). Builds against the published Fieldframe artifact and
+// uses only the public API packages (dev.fieldframe.api.*, dev.fieldframe.forge.api.*). The 'checkApiOnly'
+// task fails the build if any internal Fieldframe package is imported.
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev.legacyforge' version '2.0.148'
+}
+
+version = '0.1.0'
+group = 'dev.fieldframe_example'
+base { archivesName = 'fieldframe-example-addon' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+repositories {
+    // Run `./gradlew publish` in ../../forge-1.20.1 first.
+    maven { url = file('../../repo') }
+    flatDir { dirs project.property('metallurgy_dir') }
+}
+
+legacyForge {
+    version = '1.20.1-47.4.28'
+    parchment {
+        minecraftVersion = '1.20.1'
+        mappingsVersion = '2023.09.03'
+    }
+    runs {
+        configureEach {
+            // Metallurgy's mixins carry production-name refmaps; remap them to dev names (as Fieldframe's own build does).
+            systemProperty 'mixin.env.remapRefMap', 'true'
+            systemProperty 'mixin.env.refMapRemappingFile', file('build/moddev/artifacts/intermediateToNamed.srg').absolutePath
+        }
+        client {
+            client()
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+            systemProperty 'forge.enabledGameTestNamespaces', 'fieldframe_example'
+        }
+    }
+    mods {
+        fieldframe_example {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    modImplementation "dev.fieldframe:fieldframe-forge-1.20.1:${fieldframe_version}"
+    // Fieldframe requires Metallurgy 4: Reforged; dev runs need its jar.
+    modRuntimeOnly "local.metallurgy:Metallurgy-Reforged-MC-1.20.1-forge:${metallurgy_version}"
+}
+
+tasks.register('checkApiOnly') {
+    def src = fileTree('src/main/java')
+    inputs.files(src)
+    doLast {
+        def bad = []
+        src.each { f ->
+            f.eachLine { line ->
+                def m = line =~ /^import\s+(static\s+)?(dev\.fieldframe\.[\w.]+)/
+                if (m && !(m[0][2].startsWith('dev.fieldframe.api.') || m[0][2].startsWith('dev.fieldframe.forge.api.'))) {
+                    bad << "${f.name}: ${m[0][2]}"
+                }
+            }
+        }
+        if (bad) {
+            throw new GradleException("Addon imports internal Fieldframe packages:\n" + bad.join('\n'))
+        }
+        println "checkApiOnly: only public Fieldframe API packages are imported"
+    }
+}
+compileJava.dependsOn 'checkApiOnly'
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs << '-Xlint:-removal'
+}

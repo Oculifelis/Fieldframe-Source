@@ -1,0 +1,29 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:chilling",
+  "inputs": [
+    {
+      "ingredient": "fieldframe:ingot_cast",
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "fluid_input": {
+    "fluid": "metallurgy:vyroxeres",
+    "amount": 144
+  },
+  "results": [
+    {
+      "id": "metallurgy:vyroxeres_ingot",
+      "count": 1
+    }
+  ],
+  "duration": 80,
+  "energy": 24,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:vyroxeres_ingot"
+    }
+  ]
+}

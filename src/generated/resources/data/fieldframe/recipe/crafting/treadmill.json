@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LLL",
+    "IBI",
+    "SSS"
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "I": "minecraft:iron_ingot",
+    "S": "#minecraft:wooden_slabs",
+    "B": "fieldframe:blank_module"
+  },
+  "result": {
+    "id": "fieldframe:treadmill"
+  }
+}

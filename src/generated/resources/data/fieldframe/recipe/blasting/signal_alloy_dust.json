@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": "fieldframe:signal_alloy_dust",
+  "experience": 0.5,
+  "cookingtime": 100,
+  "result": {
+    "id": "fieldframe:signal_alloy_ingot"
+  }
+}

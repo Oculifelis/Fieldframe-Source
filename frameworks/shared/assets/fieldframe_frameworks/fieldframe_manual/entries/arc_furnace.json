@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "category": "fieldframe_frameworks:frameworks",
+  "title": "Arc Furnace",
+  "icon": "fieldframe_frameworks:arc_electrode",
+  "sort": 27,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**A Grand Frame with Arc Electrodes inside is an Arc Furnace.** Once a second, if the frame's RF buffer holds 40,000 RF for every electrode, an arc fires: it takes that RF and each electrode works up to 16 items from the frame's **Orange storage** into its **Green storage**. Four electrodes handle 64 items an arc for 160,000 RF.\n\nIt does two jobs. First the **arc alloys** below, whenever their inputs are there; then **bulk smelting** of anything a furnace smelts (raw ores, sand, food). An arc that finds no work takes no RF."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Arc alloys** are made only here:\n- **Steel**: 2 iron ingots and 1 coal or charcoal make 2 steel, no manganese needed.\n- **Damascus Steel**: 2 iron, 3 copper and 1 tin ingot make 6, skipping the bronze step.\n- **Hepatizon**: 1 infuscolium, 1 iron and 1 coal make 2, skipping the steel step.\n- **Tartarite**: 1 adamantine and 1 atlarus make 2 (an Alloyer makes 1).\n\nIf an output does not fit in Green storage its inputs stay in Orange storage: nothing is lost."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Power from storms.** Put a **Storm Coil** under a Lightning Rod on a socket in the frame's roof. It shares the frame's RF buffer like every module on the frame, so each strike (200,000 RF) pays for an arc of up to five electrodes. The frame alone holds only 16,000 RF, so build **Frame Cells** (1,000,000 RF each) to bank strikes, or to run it in big bursts from any generator when the sky is clear.\n\n**For pack makers.** Arc alloys are data: `data/<ns>/fieldframe_frameworks/arc_alloys/*.json` with up to four `inputs` (an `item` id or `#tag`, and a `count`) and a `result` item; a file with the same id replaces one, `{\"remove\": true}` removes it. The numbers are tuning keys under `arc_furnace`."
+    }
+  ],
+  "related": [
+    "fieldframe_frameworks:grand_frame",
+    "fieldframe:modules/storm_coil",
+    "fieldframe:power/bursts_and_cells"
+  ]
+}

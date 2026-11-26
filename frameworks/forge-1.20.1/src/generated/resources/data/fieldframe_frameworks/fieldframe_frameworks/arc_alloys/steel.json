@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "item": "#forge:ingots/iron",
+      "count": 2
+    },
+    {
+      "item": "#minecraft:coals",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "metallurgy:steel_ingot",
+    "count": 2
+  }
+}

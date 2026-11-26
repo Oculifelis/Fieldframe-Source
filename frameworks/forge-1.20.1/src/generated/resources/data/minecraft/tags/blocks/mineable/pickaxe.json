@@ -1,0 +1,15 @@
+{
+  "values": [
+    "fieldframe_frameworks:frame_casing",
+    "fieldframe_frameworks:frame_core",
+    "fieldframe_frameworks:frame_cell",
+    "fieldframe_frameworks:frame_tank",
+    "fieldframe_frameworks:frame_vault",
+    "fieldframe_frameworks:frame_crucible",
+    "fieldframe_frameworks:cooling_fin",
+    "fieldframe_frameworks:arc_electrode",
+    "fieldframe_frameworks:starcore_coil",
+    "fieldframe_frameworks:gantry_controller",
+    "fieldframe_frameworks:gantry_rail"
+  ]
+}

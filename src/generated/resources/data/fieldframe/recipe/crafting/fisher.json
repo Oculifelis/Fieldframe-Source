@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:fishing_rod",
+    "minecraft:hopper"
+  ],
+  "result": {
+    "id": "fieldframe:fisher"
+  }
+}

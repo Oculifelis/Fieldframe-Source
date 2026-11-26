@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ICI",
+    "PBP",
+    "ICI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "C": "minecraft:copper_ingot",
+    "P": "minecraft:piston",
+    "B": "fieldframe:blank_module"
+  },
+  "result": {
+    "id": "fieldframe:steam_turbine"
+  }
+}

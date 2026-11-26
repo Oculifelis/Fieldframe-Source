@@ -1,0 +1,8 @@
+{
+  "item": "fieldframe:graviton_hook",
+  "range": 30,
+  "shoot_speed": 2.4,
+  "pull_speed": 1.1,
+  "count": 3,
+  "texture": "fieldframe:textures/entity/hook/graviton_hook.png"
+}

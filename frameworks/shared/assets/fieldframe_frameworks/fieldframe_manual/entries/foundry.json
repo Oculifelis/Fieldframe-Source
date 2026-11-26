@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "category": "fieldframe_frameworks:frameworks",
+  "title": "Foundry",
+  "icon": "fieldframe_frameworks:frame_crucible",
+  "sort": 20,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**A Grand Frame with Frame Crucibles inside is a Foundry.** It melts what you put into the frame's **Orange storage** into one molten pool that holds several metals at once (8,000 mB per crucible), and pours finished metal into the frame's **Orange tank**. Put a **Blast Chiller** with a cast on the frame to turn it into ingots, nuggets or blocks.\n\nIt needs power: 40 RF a tick per crucible keeps it heating, up to 2,000 K. A metal melts only once the pool is as hot as that metal. Ores melt to two ingots' worth."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Alloys form in the pool.** When the pool holds metals in an alloy's ratio they combine: copper 3 to tin 1 makes bronze, copper 3 to zinc 1 brass, silver and gold electrum, and every other Metallurgy alloy made of metals. Fieldframe's Signal and Lumen alloys form from molten copper or tin, silver, and liquid redstone or glowstone.\n\nA metal **waits** in the pool while an alloy it belongs to has all its other metals in the pool or still in the Orange storage, so feed the right amounts and the alloy comes out instead (nothing waits once the pool is full). Right-click the core to see the pool."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**For pack makers.** Liquid alloys are data: `data/<ns>/fieldframe_frameworks/alloys/*.json` with `inputs` (fluid and amount) and a `result`; a file with the same id replaces one, `{\"remove\": true}` removes it. Melting uses Fieldframe's melting recipes, so anything a Magma Crucible melts, the Foundry melts."
+    }
+  ],
+  "related": [
+    "fieldframe_frameworks:grand_frame",
+    "fieldframe:modules/blast_chiller",
+    "fieldframe:modules/magma_crucible"
+  ]
+}

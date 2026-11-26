@@ -1,0 +1,282 @@
+{
+  "format": 1,
+  "category": "fieldframe:flora",
+  "title": "Fluid Effects",
+  "icon": "fieldframe:gold_fluid_chestplate",
+  "sort": 11,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "Besides the seven FLORA fluids, fluid armor takes **any fluid with an armor effect**: water, lava, Fieldframe's own fluids and every molten Metallurgy metal. Fill it in an **Armor Infuser** like the others. Each fluid gives its effects on its own once the four worn pieces together hold enough of it (summed, usually 1,000 mB); some grow a level per extra amount. All fluids share the piece's capacity, so mixing trades strength for variety. **Cleanse** removes harmful effects every few seconds. The armor's tooltip shows what is active."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**This list is data.** Each file in data/<pack>/fieldframe/fluid_armor_effects/ lists entries such as fluid minecraft:lava, effect minecraft:fire_resistance, with optional amplifier, min_mb, mb_per_level and max_amplifier. A fluid may be a #tag; any mob effect id works. KubeJS: FieldframeEvents.fluidArmor. JEI lists every entry under **Fluid Armor**."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Fluid",
+        "Effects"
+      ],
+      "rows": [
+        [
+          "Water",
+          "Water Breathing I from 1,000 mB; Dolphin's Grace I from 4,000 mB"
+        ],
+        [
+          "Lava",
+          "Fire Resistance I from 1,000 mB; Strength I from 16,000 mB"
+        ],
+        [
+          "Milk (when a mod enables it)",
+          "Cleanse from 1,000 mB"
+        ],
+        [
+          "Tree Sap",
+          "Regeneration I from 4,000 mB"
+        ],
+        [
+          "Latex",
+          "Jump Boost I–II (+1 per 16,000 mB) from 1,000 mB"
+        ],
+        [
+          "Creosote",
+          "Resistance I from 1,000 mB; Hunger I from 1,000 mB"
+        ],
+        [
+          "Refined Oil",
+          "Speed I–III (+1 per 16,000 mB) from 1,000 mB"
+        ],
+        [
+          "Liquid Experience",
+          "Luck I–III (+1 per 8,000 mB) from 1,000 mB; Haste I from 8,000 mB"
+        ],
+        [
+          "Molten Signal Alloy",
+          "Haste I–II (+1 per 16,000 mB) from 1,000 mB"
+        ],
+        [
+          "Molten Lumen Alloy",
+          "Night Vision I from 1,000 mB"
+        ],
+        [
+          "Molten Ender Alloy",
+          "Absorption I–III (+1 per 32,000 mB) from 1,000 mB"
+        ],
+        [
+          "Steam",
+          "Invisibility I from 4,000 mB"
+        ],
+        [
+          "Biogas",
+          "Slow Falling I from 1,000 mB"
+        ],
+        [
+          "Molten Adamantine",
+          "Resistance I–II (+1 per 32,000 mB) from 1,000 mB; Health Boost I from 16,000 mB"
+        ],
+        [
+          "Molten Alduorite",
+          "Fire Resistance I from 1,000 mB"
+        ],
+        [
+          "Molten Amordrine",
+          "Jump Boost I–III (+1 per 8,000 mB) from 1,000 mB"
+        ],
+        [
+          "Molten Angmallen",
+          "Luck I from 1,000 mB"
+        ],
+        [
+          "Molten Astral Silver",
+          "Night Vision I from 1,000 mB; Speed I from 4,000 mB"
+        ],
+        [
+          "Molten Atlarus",
+          "Slow Falling I from 1,000 mB"
+        ],
+        [
+          "Molten Black Steel",
+          "Resistance I from 1,000 mB; Slowness I from 1,000 mB"
+        ],
+        [
+          "Molten Brass",
+          "Haste I from 1,000 mB"
+        ],
+        [
+          "Molten Bronze",
+          "Health Boost I from 1,000 mB"
+        ],
+        [
+          "Molten Carmot",
+          "Haste I–III (+1 per 8,000 mB) from 1,000 mB"
+        ],
+        [
+          "Molten Celenegil",
+          "Regeneration I from 4,000 mB"
+        ],
+        [
+          "Molten Ceruclase",
+          "Fire Resistance I from 1,000 mB"
+        ],
+        [
+          "Molten Copper",
+          "Haste I from 1,000 mB"
+        ],
+        [
+          "Molten Damascus Steel",
+          "Strength I from 1,000 mB"
+        ],
+        [
+          "Molten Deep Iron",
+          "Water Breathing I from 1,000 mB; Dolphin's Grace I from 4,000 mB"
+        ],
+        [
+          "Molten Desichalkos",
+          "Absorption I–III (+1 per 8,000 mB) from 1,000 mB"
+        ],
+        [
+          "Molten Electrum",
+          "Speed I from 1,000 mB"
+        ],
+        [
+          "Molten Etherium",
+          "Invisibility I from 4,000 mB"
+        ],
+        [
+          "Molten Eximite",
+          "Slow Falling I from 1,000 mB"
+        ],
+        [
+          "Molten Haderoth",
+          "Fire Resistance I from 1,000 mB; Resistance I from 16,000 mB"
+        ],
+        [
+          "Molten Hepatizon",
+          "Invisibility I from 4,000 mB"
+        ],
+        [
+          "Molten Ignatius",
+          "Fire Resistance I from 1,000 mB; Regeneration I from 16,000 mB"
+        ],
+        [
+          "Molten Infuscolium",
+          "Strength I from 1,000 mB"
+        ],
+        [
+          "Molten Inolashite",
+          "Speed I–II (+1 per 16,000 mB) from 1,000 mB"
+        ],
+        [
+          "Molten Kalendrite",
+          "Regeneration I from 4,000 mB"
+        ],
+        [
+          "Molten Krik",
+          "Slow Falling I from 1,000 mB; Jump Boost I from 4,000 mB"
+        ],
+        [
+          "Molten Lemurite",
+          "Luck I from 1,000 mB"
+        ],
+        [
+          "Molten Lutetium",
+          "Haste I from 1,000 mB"
+        ],
+        [
+          "Molten Manganese",
+          "Resistance I from 1,000 mB"
+        ],
+        [
+          "Molten Meutoite",
+          "Slow Falling I from 1,000 mB"
+        ],
+        [
+          "Molten Midasium",
+          "Luck I–III (+1 per 8,000 mB) from 1,000 mB"
+        ],
+        [
+          "Molten Mithril",
+          "Speed I from 1,000 mB"
+        ],
+        [
+          "Molten Orichalcum",
+          "Strength I–II (+1 per 16,000 mB) from 1,000 mB"
+        ],
+        [
+          "Molten Osmium",
+          "Resistance I from 1,000 mB; Slowness I from 1,000 mB"
+        ],
+        [
+          "Molten Oureclase",
+          "Speed I–II (+1 per 16,000 mB) from 1,000 mB"
+        ],
+        [
+          "Molten Platinum",
+          "Cleanse from 1,000 mB"
+        ],
+        [
+          "Molten Prometheum",
+          "Regeneration I from 4,000 mB"
+        ],
+        [
+          "Molten Quicksilver",
+          "Speed I–III (+1 per 8,000 mB) from 1,000 mB"
+        ],
+        [
+          "Molten Rubracium",
+          "Strength I from 1,000 mB"
+        ],
+        [
+          "Molten Sanguinite",
+          "Health Boost I–II (+1 per 16,000 mB) from 1,000 mB"
+        ],
+        [
+          "Molten Shadow Iron",
+          "Night Vision I from 1,000 mB"
+        ],
+        [
+          "Molten Shadow Steel",
+          "Night Vision I from 1,000 mB; Speed I from 4,000 mB"
+        ],
+        [
+          "Molten Silver",
+          "Regeneration I from 4,000 mB"
+        ],
+        [
+          "Molten Steel",
+          "Resistance I from 1,000 mB"
+        ],
+        [
+          "Molten Tartarite",
+          "Resistance I–II (+1 per 32,000 mB) from 1,000 mB; Strength I from 8,000 mB"
+        ],
+        [
+          "Molten Tin",
+          "Water Breathing I from 1,000 mB"
+        ],
+        [
+          "Molten Vulcanite",
+          "Fire Resistance I from 1,000 mB"
+        ],
+        [
+          "Molten Vyroxeres",
+          "Absorption I from 1,000 mB"
+        ],
+        [
+          "Molten Zinc",
+          "Health Boost I from 1,000 mB"
+        ],
+        [
+          "Molten Tar",
+          "Resistance I from 1,000 mB; Slowness I from 1,000 mB"
+        ],
+        [
+          "Molten Thermite",
+          "Fire Resistance I from 1,000 mB; Strength I from 8,000 mB"
+        ]
+      ]
+    }
+  ]
+}

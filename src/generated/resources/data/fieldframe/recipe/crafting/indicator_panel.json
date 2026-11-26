@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fieldframe:blank_module",
+    "minecraft:redstone",
+    "minecraft:glass_pane"
+  ],
+  "result": {
+    "id": "fieldframe:indicator_panel"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "fieldframe:block/pad_side_resonant",
+    "up": "fieldframe:block/charge_pad_resonant",
+    "down": "fieldframe:block/pad_side_resonant",
+    "north": "fieldframe:block/pad_side_resonant",
+    "south": "fieldframe:block/pad_side_resonant",
+    "east": "fieldframe:block/pad_side_resonant",
+    "west": "fieldframe:block/pad_side_resonant"
+  }
+}

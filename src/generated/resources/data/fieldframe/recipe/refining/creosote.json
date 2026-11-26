@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:refining",
+  "inputs": [],
+  "results": [
+    {
+      "id": "metallurgy:bitumen",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "duration": 100,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "fieldframe:creosote",
+    "amount": 200
+  },
+  "fluid_result": {
+    "fluid": "fieldframe:refined_oil",
+    "amount": 50
+  }
+}

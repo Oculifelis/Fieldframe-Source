@@ -1,0 +1,10 @@
+Fieldframe
+Copyright (c) 2026 Oculifelis.
+
+From the first versions after those of 2026-11-09 (see CREDITS.md), the code is licensed under the GNU Lesser General
+Public License, version 3 or (at your option) any later version (LGPL-3.0-or-later); see LICENSE and COPYING. Art
+licence: the mod's own art is LGPL-3.0-or-later, the same as the code. Third-party and derived art keeps its own terms (CREDITS.md,
+docs/provenance.md). Earlier versions were All Rights Reserved.
+
+Fieldframe is not affiliated with Mojang, Microsoft, Emasher, or the Engineer's Toolbox project.
+Optional integrations (KubeJS, Rhino, Architectury) are separate works under their own licenses and are not bundled.

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EGE",
+    "PBP",
+    "EGE"
+  ],
+  "key": {
+    "E": {
+      "item": "fieldframe:ender_alloy_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "B": {
+      "item": "fieldframe:blank_module"
+    }
+  },
+  "result": {
+    "id": "fieldframe_frameworks:plasma_injector"
+  }
+}

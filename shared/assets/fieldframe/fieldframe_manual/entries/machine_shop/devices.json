@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "category": "fieldframe:machine_shop",
+  "title": "Devices",
+  "icon": "fieldframe:fisher",
+  "sort": 40,
+  "pages": [
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Module",
+        "Needs",
+        "Gives"
+      ],
+      "rows": [
+        [
+          "Item Charger",
+          "RF, chargeable items in Orange storage",
+          "charged items in Green storage"
+        ],
+        [
+          "Brewer",
+          "base potions + one ingredient, RF",
+          "up to three potions"
+        ],
+        [
+          "Enchanter",
+          "an item, liquid experience (100 mB per level), RF",
+          "an enchanted item (level 30 by default)"
+        ],
+        [
+          "Stone Extruder",
+          "1,000 mB lava and water (kept)",
+          "cobblestone or stone; obsidian uses 1,000 mB lava"
+        ],
+        [
+          "Nullifier",
+          "Armed on, a filter",
+          "deletes matching items (and a bound fluid)"
+        ],
+        [
+          "Water Collector",
+          "2+ water sources in front",
+          "25 mB per source per second"
+        ],
+        [
+          "Fisher",
+          "6+ water sources in front, optional bait",
+          "fishing loot"
+        ],
+        [
+          "Tree Tapper",
+          "a log in front",
+          "tree sap (latex from #fieldframe:latex_logs)"
+        ],
+        [
+          "Experience Collector",
+          "orbs in front",
+          "20 mB liquid experience per point"
+        ],
+        [
+          "Aura Chamber",
+          "a batch of blocks in Orange storage (3 Metallurgy metal blocks), RF",
+          "an effect for players within 6 blocks"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Aura Chamber.** Runs Metallurgy's chamber recipes: three adamantine blocks give Health Boost, ignatius Fire Resistance, and so on, for the recipe's time while it has RF. Like the original it uses level I of the effect; set *use_amplifier* to 1 to use the recipe's level. Packs add more in *data/<pack>/fieldframe/aura/*: ingredient (an id or #tag), count, effect, duration in ticks, amplifier."
+    },
+    {
+      "type": "fieldframe:warning",
+      "text": "The Nullifier deletes for good. It does nothing until its Armed setting is on."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "World devices act as the chassis owner: claim mods and a pack's world-action rules (FieldframeEvents.worldAction, actions *fish*, *collect_experience* and *apply_effect*) can stop them, and they then report PROTECTED."
+    }
+  ],
+  "related": [
+    "fieldframe:modules/item_charger",
+    "fieldframe:modules/brewer",
+    "fieldframe:modules/enchanter",
+    "fieldframe:modules/stone_extruder",
+    "fieldframe:modules/nullifier",
+    "fieldframe:modules/water_collector",
+    "fieldframe:modules/fisher",
+    "fieldframe:modules/tree_tapper",
+    "fieldframe:modules/xp_collector",
+    "fieldframe:modules/aura_chamber"
+  ]
+}

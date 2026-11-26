@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IEI",
+    "CFC",
+    "IAI"
+  ],
+  "key": {
+    "I": "minecraft:gold_ingot",
+    "E": "minecraft:ender_eye",
+    "C": "minecraft:copper_block",
+    "F": "fieldframe:chassis",
+    "A": "fieldframe:cell_upgrade"
+  },
+  "result": {
+    "id": "fieldframe:charge_pad_redstone"
+  }
+}

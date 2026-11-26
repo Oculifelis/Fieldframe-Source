@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "category": "fieldframe:flora",
+  "title": "Fluid Armor",
+  "icon": "fieldframe:iron_fluid_chestplate",
+  "sort": 10,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Fluid armor** carries effect fluids. Every **pair** of fluids you wear, including a fluid with itself, grants one effect. Strength grows with the amount: `10 × √(buckets A × buckets B)`. Three fluids give six effects. Some effects are harmful, so choose your mix."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Tier",
+        "Fluid per piece",
+        "Defense (helmet/chest/legs/boots)"
+      ],
+      "rows": [
+        [
+          "Copper",
+          "250 mB",
+          "2/4/3/1"
+        ],
+        [
+          "Iron",
+          "2,500 mB",
+          "3/5/4/2"
+        ],
+        [
+          "Gold",
+          "25,000 mB",
+          "4/6/5/3"
+        ],
+        [
+          "Ender Alloy",
+          "250,000 mB",
+          "5/7/6/4"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "Fill armor with an **Armor Infuser** module. Bind its lane to the armor and its reservoir to an effect fluid; it uses 2 RF per mB. Effect fluids are made in a **Mixer**:\n- Liquid Coal: coal + lava.\n- Blazing Resin: blaze powder + lava.\n- Gelid Cryotheum: snowballs + water.\n- Arcane Mix: lapis + water.\n- Resonant Ender: an ender pearl + water.\n- Redstone Flux: redstone + water.\n- Energized Glowstone: glowstone dust + water."
+    },
+    {
+      "type": "fieldframe:table",
+      "headers": [
+        "Fluids",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "Coal + Coal",
+          "Shoot fireballs (K)"
+        ],
+        [
+          "Coal + Blazing",
+          "Explode burning enemies"
+        ],
+        [
+          "Coal + Gelid",
+          "Mining speed"
+        ],
+        [
+          "Coal + Arcane",
+          "Pacify mobs"
+        ],
+        [
+          "Coal + Ender",
+          "Teleport attacking mobs"
+        ],
+        [
+          "Coal + Redstone",
+          "Damaging pulse"
+        ],
+        [
+          "Coal + Glowstone",
+          "Ignite enemies"
+        ],
+        [
+          "Blazing + Blazing",
+          "More fall damage (bad)"
+        ],
+        [
+          "Blazing + Gelid",
+          "Slowness (bad)"
+        ],
+        [
+          "Blazing + Arcane",
+          "Speed"
+        ],
+        [
+          "Blazing + Ender",
+          "Less fall damage"
+        ],
+        [
+          "Blazing + Redstone",
+          "Igniting pulse"
+        ],
+        [
+          "Blazing + Glowstone",
+          "Fire protection"
+        ],
+        [
+          "Gelid + Gelid",
+          "Underwater breath"
+        ],
+        [
+          "Gelid + Arcane",
+          "Hunger loss (bad)"
+        ],
+        [
+          "Gelid + Ender",
+          "Escape teleport when badly hurt"
+        ],
+        [
+          "Gelid + Redstone",
+          "Slowness pulse"
+        ],
+        [
+          "Gelid + Glowstone",
+          "Hurts in cold places (bad)"
+        ],
+        [
+          "Arcane + Arcane",
+          "Antidote"
+        ],
+        [
+          "Arcane + Ender",
+          "Long jump"
+        ],
+        [
+          "Arcane + Redstone",
+          "Antidote pulse"
+        ],
+        [
+          "Arcane + Glowstone",
+          "Hunger gain"
+        ],
+        [
+          "Ender + Ender",
+          "Blink (I)"
+        ],
+        [
+          "Ender + Redstone",
+          "Teleport pulse"
+        ],
+        [
+          "Ender + Glowstone",
+          "Sink through floor (sneak + I)"
+        ],
+        [
+          "Redstone + Redstone",
+          "Fluctuating max health (bad)"
+        ],
+        [
+          "Redstone + Glowstone",
+          "Self-combustion, no block damage (bad)"
+        ],
+        [
+          "Glowstone + Glowstone",
+          "Night vision"
+        ]
+      ]
+    },
+    {
+      "type": "fieldframe:module_spec",
+      "module": "fieldframe:armor_infuser"
+    }
+  ],
+  "related": [
+    "fieldframe:ender/ender_alloy"
+  ]
+}

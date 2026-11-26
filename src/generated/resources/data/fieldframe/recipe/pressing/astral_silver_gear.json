@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:pressing",
+  "inputs": [
+    {
+      "ingredient": "#c:ingots/astral_silver",
+      "count": 4
+    },
+    {
+      "ingredient": "fieldframe:gear_die",
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:astral_silver_gear",
+      "count": 1
+    }
+  ],
+  "duration": 120,
+  "energy": 32
+}

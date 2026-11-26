@@ -1,0 +1,33 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:growing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:oak_sapling",
+      "count": 1,
+      "catalyst": true
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:oak_log",
+      "count": 4
+    },
+    {
+      "id": "minecraft:oak_leaves",
+      "count": 2,
+      "chance": 0.5
+    },
+    {
+      "id": "minecraft:apple",
+      "count": 1,
+      "chance": 0.1
+    }
+  ],
+  "duration": 300,
+  "energy": 20,
+  "fluid_input": {
+    "fluid": "minecraft:water",
+    "amount": 500
+  }
+}

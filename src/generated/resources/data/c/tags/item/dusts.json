@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#c:dusts/ender_alloy",
+    "#c:dusts/lumen_alloy",
+    "#c:dusts/signal_alloy"
+  ]
+}

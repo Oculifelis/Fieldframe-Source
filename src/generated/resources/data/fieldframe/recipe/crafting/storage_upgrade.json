@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CIC",
+    "IHI",
+    "CIC"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "I": "minecraft:iron_ingot",
+    "H": "minecraft:chest"
+  },
+  "result": {
+    "id": "fieldframe:storage_upgrade"
+  }
+}

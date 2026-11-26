@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "fluid": "metallurgy:eximite",
+      "amount": 144
+    },
+    {
+      "fluid": "metallurgy:meutoite",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "metallurgy:desichalkos",
+    "amount": 288
+  }
+}

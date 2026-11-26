@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "category": "fieldframe_frameworks:frameworks",
+  "title": "Starcore",
+  "icon": "fieldframe_frameworks:starcore_coil",
+  "sort": 40,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**Fusion in a Grand Frame.** Put **Containment Coils** inside a Grand Frame and it is a Starcore. Feed it **deuterium** (the Centrifuge makes 100 mB from 1,000 mB of water) and a little **Ender Alloy dust**, hold it with **Field Magnets**, and it makes about 20,000 RF a tick.\n\nOn the walls: Field Magnets (each one holds 2 field per signal level; a coil holds at most 60), a **Plasma Injector** with deuterium in its tank and dust in Purple storage, and a **Plasma Probe** to watch it."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Lighting it.** With 20 mB of fuel gathered and the magnets on, the Starcore lights from the frame's RF buffer: 5,000,000 RF. The magnets need about 300,000 RF more before the plasma pays for itself, so build at least six Frame Cells.\n\n**It will not hold itself.** More fuel than the plasma burns makes it hotter, and hotter plasma burns harder: with the injector at a fixed rate it either cools and goes out or heats until its pressure passes the field. Then the plasma **escapes**: the core goes out and the coils wear. Every third escape breaks a coil."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**Hold it with a control circuit.** The probe puts the pressure (0 to 15, as a share of the field) on signal 1 and the temperature on signal 2. Bind the injector's rate to a signal and drive it from a **Controller Plate**:\n\n`when ch 1 > 11 then set ch 3 = 0`\n`when ch 1 < 8 then set ch 3 = 15`\n\nThat cuts the fuel near the field and opens it again when the pressure falls. Higher limits make more power and leave less margin; more coils and magnets let it run at a higher pressure. Explosions on escape are a server setting, off by default."
+    }
+  ],
+  "related": [
+    "fieldframe_frameworks:grand_frame",
+    "fieldframe:modules/controller_plate",
+    "fieldframe:modules/centrifuge"
+  ]
+}

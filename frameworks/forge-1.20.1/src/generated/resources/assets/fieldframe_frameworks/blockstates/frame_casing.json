@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fieldframe_frameworks:block/frame_casing"
+    },
+    "facing=east": {
+      "model": "fieldframe_frameworks:block/frame_casing"
+    },
+    "facing=south": {
+      "model": "fieldframe_frameworks:block/frame_casing"
+    },
+    "facing=west": {
+      "model": "fieldframe_frameworks:block/frame_casing"
+    }
+  }
+}

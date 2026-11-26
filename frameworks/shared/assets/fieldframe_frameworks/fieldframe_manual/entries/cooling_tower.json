@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "category": "fieldframe_frameworks:frameworks",
+  "title": "Cooling Tower",
+  "icon": "fieldframe_frameworks:cooling_fin",
+  "sort": 25,
+  "pages": [
+    {
+      "type": "fieldframe:text",
+      "text": "**A Grand Frame with Cooling Fins inside is a Cooling Tower.** Each fin turns 40 mB of steam a tick from any of the frame's tanks back into water in the frame's **Orange tank**: all of it, where a Condenser on a chassis returns at most 90%.\n\nPut a **Boiler** and **Steam Turbines** on the frame's walls (they share the frame's tanks): the Boiler takes water from the Orange tank and fills the Green tank with steam, the turbines burn the steam, and the fins send it back. Fill the Orange tank once and the loop never needs water again; it only burns fuel."
+    },
+    {
+      "type": "fieldframe:text",
+      "text": "**How many fins.** One Boiler makes 20 mB of steam a tick, so one fin keeps up with two Boilers. Fins only work while the frame is whole, and they never make water from nothing: every mB of water was a mB of steam."
+    }
+  ],
+  "related": [
+    "fieldframe_frameworks:grand_frame",
+    "fieldframe:power/heat_and_wind"
+  ]
+}

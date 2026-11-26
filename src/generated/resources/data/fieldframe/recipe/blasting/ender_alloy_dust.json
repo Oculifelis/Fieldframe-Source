@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": "fieldframe:ender_alloy_dust",
+  "experience": 0.5,
+  "cookingtime": 100,
+  "result": {
+    "id": "fieldframe:ender_alloy_ingot"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "fieldframe:process",
+  "family": "fieldframe:transposing",
+  "inputs": [
+    {
+      "ingredient": "fieldframe:resonant_ender_bucket",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:bucket",
+      "count": 1
+    }
+  ],
+  "duration": 20,
+  "energy": 10,
+  "fluid_result": {
+    "fluid": "fieldframe:resonant_ender",
+    "amount": 1000
+  }
+}

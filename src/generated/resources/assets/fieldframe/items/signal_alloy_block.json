@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "fieldframe:item/signal_alloy_block"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "fieldframe:crushing",
+  "inputs": [
+    {
+      "ingredient": "#c:ingots/ender_alloy",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "fieldframe:ender_alloy_dust",
+      "count": 1
+    }
+  ],
+  "duration": 80,
+  "energy": 16
+}
